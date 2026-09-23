@@ -14,7 +14,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260923_v6_reader"></script>
+  <script src="nou_courses_catalog.js?v=20260923_v7_autovideo"></script>
   
   <style>
     :root {
@@ -1507,6 +1507,8 @@
         ? course.first_video_idx 
         : course.lectures.findIndex(l => l.url);
       if (targetIdx < 0) targetIdx = 0;
+      // Auto-scroll to top so video player is immediately in view on iPhone / mobile
+      window.scrollTo({ top: 0, behavior: 'smooth' });
       playLecture(targetIdx);
     }
 
@@ -1628,6 +1630,7 @@
           return;
         }
         videoCard.style.display = 'flex';
+        if (video) video.style.display = 'block';
         readerCard.style.display = 'none';
         tabModeVideo.classList.add('active');
         tabModeReader.classList.remove('active');
@@ -2155,11 +2158,8 @@
         streamInput.value = url;
         loadHlsStream(url);
 
-        if (currentViewMode === 'reader') {
-          setViewMode('reader');
-        } else {
-          setViewMode('video');
-        }
+        // Auto switch to video theater mode when loading a playable video!
+        setViewMode('video');
       }
 
       // Apple iOS Lock Screen & Dynamic Island Media Session
