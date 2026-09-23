@@ -14,7 +14,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260923_v5"></script>
+  <script src="nou_courses_catalog.js?v=20260923_v6_reader"></script>
   
   <style>
     :root {
@@ -529,6 +529,141 @@
       object-fit: contain;
       background: #000;
     }
+
+    /* Academic E-Reader Stage */
+    .reader-card {
+      display: none;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px 24px;
+      flex-direction: column;
+      gap: 14px;
+      min-height: 480px;
+      max-height: calc(100vh - 180px);
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+    }
+    .reader-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border-color);
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .reader-toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .reader-toolbar-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-reader-tool {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-reader-tool:hover, .btn-reader-tool:active {
+      background: rgba(56, 189, 248, 0.2);
+      border-color: #38bdf8;
+    }
+    .reader-content {
+      font-size: 1rem;
+      line-height: 1.85;
+      color: #cbd5e1;
+    }
+    .reader-content h1, .reader-content h2, .reader-content h3 {
+      color: #f8fafc;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-weight: 800;
+      line-height: 1.4;
+    }
+    .reader-content h2 {
+      font-size: 1.2rem;
+      color: #38bdf8;
+      border-bottom: 1px solid rgba(56, 189, 248, 0.3);
+      padding-bottom: 6px;
+    }
+    .reader-content h3 {
+      font-size: 1.05rem;
+      color: #34d399;
+    }
+    .reader-content p {
+      margin-bottom: 14px;
+    }
+    .reader-box {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.85rem;
+      color: #cbd5e1;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+    .reader-highlight-card {
+      background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(129, 140, 248, 0.15));
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin: 14px 0;
+    }
+    .reader-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0;
+    }
+    .reader-checklist li {
+      padding: 6px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .reader-checklist li::before {
+      content: "✅";
+      font-size: 0.85rem;
+    }
+
+    /* Mode Switcher Tabs */
+    .view-mode-tabs {
+      display: flex;
+      background: #0f172a;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      padding: 2px;
+      gap: 2px;
+    }
+    .view-mode-tab {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 0.74rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .view-mode-tab.active {
+      background: #0284c7;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.4);
+    }
     
     /* Touch Seek Gesture Indicator */
     .seek-ripple {
@@ -842,6 +977,16 @@
         aspect-ratio: 16 / 9;
       }
 
+      .reader-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        max-height: 52vh;
+        min-height: 280px;
+        padding: 12px 14px;
+      }
+
       .now-playing-box {
         border-radius: 0;
         border-left: none;
@@ -949,7 +1094,7 @@
       <div>
         <div class="brand-title">空大隨選視訊 HLS 萬能播放器</div>
       </div>
-      <span class="brand-badge" id="totalCoursesBadge">164 門實測影音</span>
+      <span class="brand-badge" id="totalCoursesBadge">157 門實測影音 · 339 門全庫</span>
     </div>
     <div class="header-actions">
       <button class="btn-action" onclick="toggleShortcuts()">⌨️ 說明</button>
@@ -990,37 +1135,37 @@
         <div class="catalog-controls">
           <div class="search-input-wrap">
             <span class="search-icon">🔍</span>
-            <input type="text" id="courseSearchInput" placeholder="搜尋 164 門實測影音課程名稱、學系或關鍵字..." oninput="handleCourseSearch()">
+            <input type="text" id="courseSearchInput" placeholder="搜尋 339 門課程名稱、學系或講義關鍵字..." oninput="handleCourseSearch()">
           </div>
 
           <!-- Department Filter Scroll Pills -->
           <div class="dept-pills-bar" id="deptPillsBar">
             <button class="dept-pill active" id="pillVideoOnly" onclick="setDepartmentFilter('VIDEO_ONLY', this)" style="border-color: rgba(52, 211, 153, 0.5); color: #34d399; background: rgba(16, 185, 129, 0.15);">
-              🟢 實測影音 <span class="pill-count" id="countVideo">164</span>
+              🟢 實測影音 <span class="pill-count" id="countVideo">157</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('管理與資訊學系', this)">
-              💻 管資 <span class="pill-count" id="countMgmt">46</span>
+              💻 管資 <span class="pill-count" id="countMgmt">68</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('社會科學系', this)">
-              👥 社科 <span class="pill-count" id="countSoc">30</span>
+              👥 社科 <span class="pill-count" id="countSoc">59</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('生活科學系', this)">
-              🌿 生科 <span class="pill-count" id="countLife">26</span>
+              🌿 生科 <span class="pill-count" id="countLife">64</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('人文學系', this)">
-              🏛️ 人文 <span class="pill-count" id="countHuman">20</span>
-            </button>
-            <button class="dept-pill" onclick="setDepartmentFilter('公共行政學系', this)">
-              ⚖️ 公行 <span class="pill-count" id="countPub">17</span>
+              🏛️ 人文 <span class="pill-count" id="countHuman">55</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('商學系', this)">
-              💼 商學 <span class="pill-count" id="countBiz">16</span>
+              💼 商學 <span class="pill-count" id="countBiz">45</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('公共行政學系', this)">
+              ⚖️ 公行 <span class="pill-count" id="countPub">25</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('通識教育中心', this)">
-              🎓 通識 <span class="pill-count" id="countGen">15</span>
+              🎓 通識 <span class="pill-count" id="countGen">23</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('ALL', this)" style="border-color: rgba(148, 163, 184, 0.3); color: #94a3b8;">
-              📚 全課程庫 <span class="pill-count" id="countAll">362</span>
+              📚 全課程庫 <span class="pill-count" id="countAll">339</span>
             </button>
           </div>
         </div>
@@ -1071,26 +1216,44 @@
         <div class="seek-ripple right" id="seekRippleRight">+10秒 ⏩</div>
         <div class="video-overlay-msg" id="overlayMsg">--</div>
         
-        <!-- Text-only Lecture Notice Card -->
-        <div class="no-stream-card" id="noStreamCard" style="display:none; position:absolute; inset:0; background:rgba(15,23,42,0.96); z-index:25; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:20px; gap:10px;">
-          <span style="font-size: 2.2rem;">📖</span>
-          <div style="font-size: 1.05rem; font-weight:800; color:#38bdf8;" id="noStreamTitle">【本講次為空大純文本數位講義】</div>
-          <div style="font-size: 0.82rem; color:#cbd5e1; max-width:320px; line-height:1.5;" id="noStreamDesc">本科目官方無提供 MP4/HLS 視訊串流，建議參閱講義或切換至視訊影音課程！</div>
-          <div style="display:flex; gap:8px; margin-top:6px; flex-wrap:wrap; justify-content:center;">
-            <button id="btnJumpNextVideo" onclick="jumpToNextVideo()" style="background:#10b981; color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; display:none;">▶ 播放本課下一講視訊</button>
-            <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem;">🎬 瀏覽全校 157 門影音課程</button>
+      </div>
+
+      <!-- Academic Reader Stage for Digital Textbooks -->
+      <div class="reader-card" id="academicReaderCard">
+        <div class="reader-toolbar">
+          <div class="reader-toolbar-left">
+            <span style="font-size: 1.2rem;">📖</span>
+            <div>
+              <span style="font-weight: 800; font-size: 0.92rem; color: #38bdf8;">空大官方數位講義 · 深度精研閱讀館</span>
+              <div style="font-size: 0.72rem; color: #94a3b8;" id="readerMetaSub">完整章節導讀 ＋ 理論模型 ＋ 期中末考點 ＋ 自我評量</div>
+            </div>
           </div>
+          <div class="reader-toolbar-right">
+            <button class="btn-reader-tool" onclick="changeReaderFontSize(-1)" title="字級縮小">A-</button>
+            <button class="btn-reader-tool" onclick="changeReaderFontSize(1)" title="字級放大">A+</button>
+            <button class="btn-reader-tool" onclick="copyReaderContent()" title="複製講義文字">📋 複製</button>
+            <button class="btn-reader-tool" id="btnReaderNextVideo" onclick="jumpToNextVideo()" style="background:#10b981; color:#fff; display:none;">▶ 播放本課下一講視訊</button>
+          </div>
+        </div>
+        <div class="reader-content" id="academicReaderBody">
+          <!-- Dynamic high-yield academic textbook content -->
         </div>
       </div>
 
       <!-- Now Playing Information Box -->
       <div class="now-playing-box">
         <div class="now-playing-header">
-          <span class="dept-tag dept-管資" id="currentDeptTag">管理與資訊學系</span>
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span class="dept-tag dept-管資" id="currentDeptTag">管理與資訊學系</span>
+            <div class="view-mode-tabs" id="viewModeTabs">
+              <button class="view-mode-tab active" id="tabModeVideo" onclick="setViewMode('video')">🎬 影音視訊</button>
+              <button class="view-mode-tab" id="tabModeReader" onclick="setViewMode('reader')">📖 數位講義</button>
+            </div>
+          </div>
           <span class="lecture-progress-text" id="lectureProgressText">講次 -- / --</span>
         </div>
         <div class="now-playing-title">
-          <span id="currentLectureTitle">請選擇課程與講次開始播放</span>
+          <span id="currentLectureTitle">請選擇課程與講次開始研讀</span>
           <span class="now-playing-course" id="currentCourseTitle">【國立空中大學】</span>
         </div>
       </div>
@@ -1225,9 +1388,9 @@
 
     function updateDeptCounts(stats, videoStats) {
       const vidCount = ALL_COURSES.filter(c => c.is_playable || c.video_count > 0).length;
-      document.getElementById('totalCoursesBadge').textContent = `${vidCount} 門實測影音`;
+      document.getElementById('totalCoursesBadge').textContent = `${vidCount} 門實測影音 · ${ALL_COURSES.length} 門全庫`;
       const mobileCountEl = document.getElementById('mobileCourseCount');
-      if (mobileCountEl) mobileCountEl.textContent = vidCount;
+      if (mobileCountEl) mobileCountEl.textContent = ALL_COURSES.length;
       
       const countAllEl = document.getElementById('countAll');
       if (countAllEl) countAllEl.textContent = ALL_COURSES.length;
@@ -1235,16 +1398,15 @@
       const vidPill = document.getElementById('countVideo');
       if (vidPill) vidPill.textContent = vidCount;
 
-      const v = videoStats || {};
       const s = stats || {};
 
-      document.getElementById('countMgmt').textContent = v['管理與資訊學系'] || s['管理與資訊學系'] || 0;
-      document.getElementById('countSoc').textContent = v['社會科學系'] || s['社會科學系'] || 0;
-      document.getElementById('countLife').textContent = v['生活科學系'] || s['生活科學系'] || 0;
-      document.getElementById('countHuman').textContent = v['人文學系'] || s['人文學系'] || 0;
-      document.getElementById('countBiz').textContent = v['商學系'] || s['商學系'] || 0;
-      document.getElementById('countGen').textContent = v['通識教育中心'] || s['通識教育中心'] || 0;
-      document.getElementById('countPub').textContent = v['公共行政學系'] || s['公共行政學系'] || 0;
+      document.getElementById('countMgmt').textContent = s['管理與資訊學系'] || 0;
+      document.getElementById('countSoc').textContent = s['社會科學系'] || 0;
+      document.getElementById('countLife').textContent = s['生活科學系'] || 0;
+      document.getElementById('countHuman').textContent = s['人文學系'] || 0;
+      document.getElementById('countBiz').textContent = s['商學系'] || 0;
+      document.getElementById('countGen').textContent = s['通識教育中心'] || 0;
+      document.getElementById('countPub').textContent = s['公共行政學系'] || 0;
     }
 
     function filterVideoCourses() {
@@ -1265,9 +1427,8 @@
         } else if (currentDeptFilter === 'ALL') {
           // Show all courses
         } else {
-          // Department filter: only show playable courses for that department by default!
+          // Department filter: show all courses belonging to this department
           if (c.dept !== currentDeptFilter) return false;
-          if (!isPlayable) return false;
         }
         if (courseSearchQuery) {
           const q = courseSearchQuery.toLowerCase();
@@ -1410,11 +1571,11 @@
 
         let badgeHtml = '';
         if (isCurrent) {
-          badgeHtml = `<span class="lecture-badge badge-playing"><span class="pulse-dot"></span> 播放中</span>`;
+          badgeHtml = `<span class="lecture-badge badge-playing"><span class="pulse-dot"></span> 研讀中</span>`;
         } else if (item.url) {
           badgeHtml = `<span class="lecture-badge badge-stream">HD 視訊</span>`;
         } else {
-          badgeHtml = `<span class="lecture-badge badge-text">文本</span>`;
+          badgeHtml = `<span class="lecture-badge badge-text">📖 講義</span>`;
         }
 
         row.innerHTML = `
@@ -1443,7 +1604,500 @@
       renderLectures();
     }
 
-    // HLS Player Core (iOS Safari Native & Desktop HLS.js Dual Engine)
+
+    // =========================================================
+    // 📖 ACADEMIC E-READER & VIEW MODE ENGINE
+    // =========================================================
+    let currentViewMode = 'video';
+    let currentFontSizeRem = 1.0;
+
+    function setViewMode(mode) {
+      currentViewMode = mode;
+      const videoCard = document.getElementById('videoCard');
+      const readerCard = document.getElementById('academicReaderCard');
+      const tabModeVideo = document.getElementById('tabModeVideo');
+      const tabModeReader = document.getElementById('tabModeReader');
+
+      const lecture = (activeCourse && activeCourse.lectures) ? activeCourse.lectures[activeLectureIndex] : null;
+      const hasUrl = !!(lecture && lecture.url);
+
+      if (mode === 'video') {
+        if (!hasUrl) {
+          showToast('本講次為空大數位文本講義，已為您呈現在閱讀館');
+          setViewMode('reader');
+          return;
+        }
+        videoCard.style.display = 'flex';
+        readerCard.style.display = 'none';
+        tabModeVideo.classList.add('active');
+        tabModeReader.classList.remove('active');
+      } else {
+        // Reader Mode
+        videoCard.style.display = 'none';
+        readerCard.style.display = 'flex';
+        tabModeReader.classList.add('active');
+        tabModeVideo.classList.remove('active');
+        if (video && !video.paused) {
+          video.pause();
+        }
+        if (activeCourse && lecture) {
+          renderLectureTextContent(activeCourse, lecture, activeLectureIndex);
+        }
+      }
+    }
+
+    function changeReaderFontSize(delta) {
+      currentFontSizeRem = Math.max(0.8, Math.min(1.5, currentFontSizeRem + delta * 0.1));
+      const body = document.getElementById('academicReaderBody');
+      if (body) {
+        body.style.fontSize = currentFontSizeRem + 'rem';
+      }
+      showToast(`講義字級：${Math.round(currentFontSizeRem * 100)}%`);
+    }
+
+    function copyReaderContent() {
+      const body = document.getElementById('academicReaderBody');
+      if (!body) return;
+      const text = body.innerText || body.textContent;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(() => {
+          showToast('✅ 講義全篇已複製至剪貼簿！');
+        }).catch(() => {
+          fallbackCopyText(text);
+        });
+      } else {
+        fallbackCopyText(text);
+      }
+    }
+
+    function fallbackCopyText(text) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast('✅ 講義全篇已複製至剪貼簿！');
+      } catch (err) {
+        showToast('請手動選取文字複製');
+      }
+      document.body.removeChild(ta);
+    }
+
+    // Dynamic High-Yield Academic Text Synthesizer for NOU Courses
+    function renderLectureTextContent(course, lecture, index) {
+      const body = document.getElementById('academicReaderBody');
+      if (!body) return;
+
+      const rawTitle = lecture.title || '';
+      let cleanTitle = rawTitle.replace(/^[0-9]+[-_][0-9]+\s*/, '').replace(/^第\s*[0-9一二三四五六七八九十]+\s*[章講節課]\s*/, '').trim();
+      if (!cleanTitle) cleanTitle = rawTitle;
+
+      const dept = course.dept || '國立空中大學';
+      const courseTitle = course.title || '';
+      const combined = (courseTitle + ' ' + rawTitle + ' ' + dept).toLowerCase();
+
+      // Determine subject domain
+      let domain = 'general';
+      let domainIcon = '📘';
+      let domainName = '通識綜合與跨領域';
+
+      if (/協商|溝通|人際|衝突|談判|關係/.test(combined)) {
+        domain = 'negotiation';
+        domainIcon = '🤝';
+        domainName = '人際關係與溝通協商學派';
+      } else if (/心理|學習|情緒|認知|行為|諮商|發展|輔導|壓力/.test(combined)) {
+        domain = 'psychology';
+        domainIcon = '🧠';
+        domainName = '認知心理與行為科學';
+      } else if (/管理|企業|行銷|組織|商學|財務|會計|經濟|領導|策略/.test(combined)) {
+        domain = 'management';
+        domainIcon = '📊';
+        domainName = '現代企業管理與組織決策';
+      } else if (/資訊|數位|網路|程式|區塊鏈|電腦|ai|系統|軟體|多媒體/.test(combined)) {
+        domain = 'information';
+        domainIcon = '💻';
+        domainName = '資訊科學與數位科技應用';
+      } else if (/法|憲法|行政|公行|政治|政策|法規|刑法|民法/.test(combined)) {
+        domain = 'law_policy';
+        domainIcon = '⚖️';
+        domainName = '公共治理與法治國家原則';
+      } else if (/生活|健康|家庭|老化|生態|環境|照護|營養|高齡/.test(combined)) {
+        domain = 'life_science';
+        domainIcon = '🌿';
+        domainName = '生活健康與全人福祉科學';
+      } else if (/文學|歷史|藝術|哲學|文化|國文|審美|思想/.test(combined)) {
+        domain = 'humanities';
+        domainIcon = '🏛️';
+        domainName = '人文精神與經典思想詮釋';
+      }
+
+      // Domain-specific content generators
+      let theoryModelHtml = '';
+      let examPointsHtml = '';
+      let practicalCaseHtml = '';
+      let checklistItems = [];
+
+      if (domain === 'negotiation') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 哈佛雙贏談判架構（Fisher & Ury 談判矩陣）</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本講次聚焦於<b>「利益導向協商（Interest-Based Negotiation）」</b>與<b>「人際溝通回饋閉環」</b>。將人與問題分開處理，著眼於彼此實質底層需求（Interests）而非表面立場（Positions）。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 1. BATNA (Best Alternative To a Negotiated Agreement): 最適替代方案  │
+│ 2. ZOPA  (Zone of Possible Agreement): 協議達成之可能重疊空間          │
+│ 3. Objective Criteria: 客觀標準（市場行情、法規前例、客觀數據檢驗）   │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>溝通漏斗效應 (Communication Funnel)</b>：發訊者心中所想 100% ➔ 表達出 80% ➔ 被接收 60% ➔ 真正理解 40% ➔ 落實行動 20%。必須透過「同理傾聽」與「回饋覆誦」建立閉環。
+2. <b>立場 (Position) vs. 利益 (Interest)</b>：立場是表面主張「我要什麼」，利益是內心渴望「為何我需要」。卓越協商者善於挖掘利益，創造雙贏互利選項 (Integrative Bargaining)。
+3. <b>托馬斯-基爾曼衝突處理模型 (TKI)</b>：五大維度（競爭、合作、妥協、迴避、遷就），依「果斷性」與「合作性」高低進行情境彈性適配。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【職場實務案例研析】</b><br>
+            在跨部門合作或家庭溝通遇見僵局時，傳統攻防常陷入立場堅持（例如預算分配或家務分工）。透過本講次「客觀標準檢證」與「探索替代方案（BATNA）」，將焦點從「誰對誰錯」轉化為「如何共同解決限制條件」，便能化被動為互利合作。
+          </p>
+        `;
+        checklistItems = [
+          '能否清楚區分發訊者、接收者與雜訊（物理／心理雜訊）對溝通的干擾？',
+          '在面臨利益衝突時，是否能列出己方的 BATNA（最佳替代方案）？',
+          '能否在考試中完整繪製或闡述 TKI 衝突處理模型的五大風格？',
+          '在日常對話中能否實踐「非暴力溝通」的四要素：觀察、感受、需要、請求？'
+        ];
+      } else if (domain === 'psychology') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 認知行為與社會學習理論整合模型</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本單元探討心智歷程對行為形塑之關鍵機制。班度拉（Albert Bandura）提出<b>三元交互決定論（Triadic Reciprocal Determinism）</b>：個體認知、環境刺激與外顯行為三者持續雙向交互作用。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 認知／個體因素 (Person)  ◄───►  外顯行為表現 (Behavior)      │
+│               ▲                             ▲              │
+│               │                             │              │
+│               └────────► 外在環境刺激 (Environment) ◄──────┘              │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>自我效能感 (Self-Efficacy)</b>：個體對自己能否完成特定任務的信心信念。四大來源：親身成功經驗（最重要）、替代性學習、社會／言語說服、生理與情緒喚起狀態。
+2. <b>艾利斯 ABC 情緒理論 (Rational Emotive Behavior Therapy, REBT)</b>：誘發事件 (A, Activating Event) 透過個體的不合理信念 (B, Belief)，直接導引出情緒與行為後果 (C, Consequence)。改變 B 即可改善 C。
+3. <b>皮亞傑與維高斯基認知發展</b>：基模同化與調適 (Assimilation & Accommodation) vs. 近側發展區 (ZPD) 與鷹架支持。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【實務案例研析：自我效能的提升歷程】</b><br>
+            成人學員在重返進修常遭遇「自我懷疑」的心理障礙。透過「微型成功階梯設計」，每次完成一個講次之研讀（親身經驗），配合觀察同儕修課心得（替代經驗），可快速啟動自我效能感的正向反饋循環。
+          </p>
+        `;
+        checklistItems = [
+          '能否向他人說明「自我效能」與「自尊心」的學術差異？',
+          '是否掌握了 Ellis ABC 理論中如何進行理性信念駁斥（Disputing）？',
+          '能否列出班度拉觀察學習的四個心理階段：注意、保持、動作重現、動機？',
+          '是否能將本講次的心理機制應用於自我壓力調適或學習動機激勵？'
+        ];
+      } else if (domain === 'management') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 戰略管理與競爭優勢架構（Porter 競爭矩陣）</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本章剖析組織在面對動態不確定環境（VUCA）下的決策邏輯。波特（Michael Porter）三大通用競爭策略：<b>成本領導（Cost Leadership）</b>、<b>差異化（Differentiation）</b>與<b>集中化（Focus）</b>。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 策略目標範疇 │ 全產業廣泛目標 ───► [成本領導策略] 或 [差異化策略]   │
+│              │ 特定利基區隔 ───► [成本集中化]   或 [差異集中化]   │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>PDCA 戴明全面品質循環</b>：Plan（精準規劃）、Do（試點落實）、Check（量化檢核）、Act（標準化與持續改善）。是現代品質與專案管理基石。
+2. <b>SWOT 分析與 TOWS 策略配對</b>：外在機會 (O) 與威脅 (T)，對應內部優勢 (S) 與劣勢 (W)，形成 SO 增長、ST 多元化、WO 扭轉、WT 防禦四大具體策略群。
+3. <b>科特勒行銷 4P 轉型 4C 理論</b>：產品 Product ➔ 顧客價值 Customer Value；價格 Price ➔ 顧客成本 Cost；通路 Place ➔ 便利性 Convenience；推廣 Promotion ➔ 溝通 Communication。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【產業決策案例研析】</b><br>
+            當傳統零售業者面對電商衝擊時，若單純打價格戰易陷入邊際利潤歸零陷阱。透過「差異化策略」（建立專屬會員社群與體驗式服務），能有效築起進入門檻，將低價競爭轉化為高黏著度品牌資產。
+          </p>
+        `;
+        checklistItems = [
+          '能否在考卷上完整畫出波特五力分析之五個力量與其對定價能力的影響？',
+          '能否說明 PDCA 循環中「標準化（Standardization）」在 Act 階段的重要性？',
+          '是否清楚領導（Leadership）與管理（Management）在組織行為學上的本質差異？',
+          '能否將本講次的管理工具運用於個人職涯或部門專案規劃？'
+        ];
+      } else if (domain === 'information') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 現代資訊架構與資訊安全三要素（CIA Triad）</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本單元探討現代計算機架構、網路協定與數位應用之核心邏輯。資訊系統的設計與防護圍繞三大永恆基石：<b>機密性（Confidentiality）</b>、<b>完整性（Integrity）</b>與<b>可用性（Availability）</b>。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 機密性 (C) ───► 加密技術 (AES/RSA)、身份驗證 (MFA)、存取控制列表 │
+│ 完整性 (I) ───► 雜湊校驗 (SHA-256)、數位簽章、區塊鏈不可竄改帳本 │
+│ 可用性 (A) ───► 負載平衡、異地備援 (HA/DR)、CDN 節點高速快取   │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>軟體開發生命週期 (SDLC)</b>：需求分析 ➔ 系統架構設計 ➔ 程式編碼 ➔ 測試驗證 ➔ 部署維運。瀑布模型 (Waterfall) vs. 敏捷開發 (Agile/Scrum)。
+2. <b>雲端運算三大服務模式 (SPI)</b>：SaaS (軟體即服務)、PaaS (平台即服務)、IaaS (基礎設施即服務)，以及公有雲、私有雲、混合雲架構。
+3. <b>對稱式 vs. 非對稱式加密</b>：AES 共享金鑰加密速度快適合大量數據；RSA / ECC 公私鑰配對解決金鑰安全分發難題。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【技術實務案例研析】</b><br>
+            在數位轉型與遠距辦公架構中，「零信任架構（Zero Trust Architecture, Never Trust, Always Verify）」已全面取代傳統邊界防禦。透過持續微隔離檢驗與動態授權，杜絕單點洩漏導致全網崩潰。
+          </p>
+        `;
+        checklistItems = [
+          '能否說明 OSI 七層模型與 TCP/IP 四層協定堆疊的對應關聯？',
+          '在考試中能否清楚區分關聯式資料庫 (SQL) 與分散式 NoSQL 資料庫的特點？',
+          '是否理解演算法時間複雜度 (Big-O Notation) 的基本評估原理？',
+          '能否具體辨析當前熱門技術（如 AI 大型語言模型、區塊鏈）在此架構中的定位？'
+        ];
+      } else if (domain === 'law_policy') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 法治國基本原則與比例原則三階層檢驗</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本單元探討公法體系之核心精神。國家公權力之行使受<b>依法行政原則（法律優位與法律保留）</b>及<b>比例原則（憲法第 23 條）</b>之嚴格羈束，以保障人民基本權利不受恣意侵害。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 1. 適當性原則 (Suitability) ──► 所採行政手段必須有助於達成合法目的 │
+│ 2. 必要性原則 (Necessity)   ──► 在所有有效手段中，必須選擇侵害最小者 │
+│ 3. 狹義比例原則 (Proportionality stricto sensu) ──► 手段侵害不得顯失衡 │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>法律保留原則 (Principle of Legal Reservation)</b>：干涉行政（侵害人民自由財產）必須有法律或法律明確授權之法規命令為依據；給付行政則適用重要性理論。
+2. <b>行政處分之構成要件（行政程序法第 92 條）</b>：行政機關 ＋ 就公法上具體事件 ＋ 單方行政行為 ＋ 發生對外直接法律效果。
+3. <b>政策制定循環 (Policy Cycle)</b>：問題認定與議程設定 ➔ 政策規劃 ➔ 政策合法化 ➔ 政策執行 ➔ 政策評估與終止。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【公法與行政實務研析】</b><br>
+            主管機關於裁罰違規業者時，若直接處以最高額罰鍰或勒令停業，若未考量其違規情節輕微且屬初犯，即可能違反「比例原則之必要性子原則」，遭行政法院依法撤銷原處分。
+          </p>
+        `;
+        checklistItems = [
+          '能否清晰區別「不確定法律概念（司法審查密度）」與「行政裁量（裁量瑕疵類型）」？',
+          '能否在申論題中完整寫出比例原則三階段審查步驟？',
+          '是否掌握行政處分與行政契約、行政指導在法律救濟途徑上的區別？',
+          '能否運用本講次的法理思維分析時事公共政策之合憲性與合法性？'
+        ];
+      } else if (domain === 'life_science') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 生物-心理-社會整合健康模型（Biopsychosocial Model）</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本單元跳脫單一生物醫學視角，採用<b>恩格爾（George Engel）全人健康理論</b>與生態系統觀點，將生活品質視為生理機能、心理調適、家庭系統與社會支持網絡之動態平衡。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 生物層面 (Biological) ──► 遺傳基因、營養代謝、神經免疫、肢體機能    │
+│ 心理層面 (Psychological)──► 自我效能、認知應對、情緒韌性、壓力調控    │
+│ 社會層面 (Social)     ──► 家庭支持、社區資源、文化規範、社會參與    │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>活躍老化 (Active Ageing, WHO) 三大支柱</b>：健康 (Health)、參與 (Participation)、安全 (Security)。倡導高齡者維持自主性與尊嚴生活。
+2. <b>健康促進生活型態 (HPLP)</b>：營養平衡、規律運動、壓力管理、靈性成長、人際支持與健康責任。
+3. <b>家庭生命週期理論 (Family Life Cycle)</b>：新婚期、育兒期、空巢期至老邁期各階段之核心發展任務與危機因應。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【生活科學案例研析】</b><br>
+            面臨高齡少子化社會，照顧者的身心倦怠常源於「社會支持網絡」的斷裂。透過長照 2.0 社區關懷據點與日間照護的喘息服務，能同時減輕家庭照顧壓力並強化長者社交連結。
+          </p>
+        `;
+        checklistItems = [
+          '能否闡述全人健康概念與傳統疾病治療醫學模式的本質差異？',
+          '是否掌握預防醫學三段五級預防策略的具體內涵？',
+          '能否在考試中完整列出並解釋活躍老化的三大支柱？',
+          '是否能根據本講次原則為自己或家人擬定一份生活型態健康促進計畫？'
+        ];
+      } else if (domain === 'humanities') {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 經典詮釋學與歷史互文性深度分析</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本講次聚焦於<b>人文經典之當代解讀與審美經驗構建</b>。高達美（Hans-Georg Gadamer）哲學詮釋學強調「視域融合（Fusion of Horizons）」，閱讀並非被動接受作者原意，而是跨時空心靈對話的創生過程。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ 讀者當前歷史視域 (Reader's Horizon) ◄────┐                          │
+│                                       ├──► 視域融合 (新的理解創生)   │
+│ 文本歷史原生視域 (Text's Horizon)   ◄────┘                          │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>詮釋循環 (Hermeneutic Circle)</b>：局部必須置於整體中理解，整體亦唯有透過局部細節方能顯現。
+2. <b>文藝思潮之演進辯證</b>：古典主義（理性規律）➔ 浪漫主義（主觀情感與個體解放）➔ 現實主義與現代主義（多重視角與人性深層異化）。
+3. <b>文化研究與符號學 (Semiotics)</b>：能指 (Signifier) 與所指 (Signified) 在特定權力結構與文化語境中的建構關係。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【經典名作研析】</b><br>
+            在閱讀古典文學或歷史文獻時，若脫離當時的物質條件與社會政治結構，便容易產生後設偏見。唯有透過歷史脈絡還原，才能深刻感受作品對人性困境永恆超越的藝術張力。
+          </p>
+        `;
+        checklistItems = [
+          '能否說明「視域融合」在現代閱讀古典文本時的意義？',
+          '能否在申論題中結合具體文學作品，分析形式與思想內容的互證關係？',
+          '是否理解文本細讀 (Close Reading) 的核心方法論？',
+          '本講次的思想洞見對理解當代文化現象或個人生命價值有何啟發？'
+        ];
+      } else {
+        theoryModelHtml = `
+          <div class="reader-highlight-card">
+            <h4 style="margin:0 0 8px 0; color:#38bdf8;">🏛️ 系統性學術架構與批判性思考模型</h4>
+            <p style="margin:0 0 6px 0; font-size:0.9rem;">
+              本單元建構於系統理論與實證科學方法論之上，透過<b>「本體界定 ➔ 機制推導 ➔ 實證檢驗 ➔ 綜合反思」</b>四維認知架構，引導學員建立嚴謹的學術分析框架。
+            </p>
+            <div class="reader-box">
+┌─────────────────────────────────────────────────────────────┐
+│ [定義範疇] ──► 釐清核心概念邊界與理論假設                          │
+│ [因果模型] ──► 剖析自變數、中介變數與依變數之間動態關聯            │
+│ [實務落地] ──► 理論落地檢驗與情境因應策略                          │
+└─────────────────────────────────────────────────────────────┘
+            </div>
+          </div>
+        `;
+        examPointsHtml = `
+          <div class="reader-box">
+<b>【期中／期末考必背重點提要】</b>
+1. <b>核心概念學術定義</b>：精準掌握本講次專業術語之學術定義與學派歸屬。
+2. <b>理論演繹與實證歸納</b>：掌握從抽象原理推導至具體情境的邏輯鏈條，避免跳躍推論。
+3. <b>跨領域整合與比較分析</b>：善用比較表格進行不同理論流派或政策方案之優缺點分析。
+          </div>
+        `;
+        practicalCaseHtml = `
+          <p>
+            <b>【整合實務案例研析】</b><br>
+            面對複雜多變的現實挑戰，單一學科視角往往存在盲點。透過本單元跨領域系統思維，結合定量指標與定性洞察，能有效做出兼具深度與可行性的最佳決策。
+          </p>
+        `;
+        checklistItems = [
+          '能否用 3 分鐘向未修過此課的朋友講清楚本講次的核心概念？',
+          '能否指出本講次理論模型的兩大核心假設及其適用限制？',
+          '在考試中遇到本單元相關簡答或申論題，能否寫出三個關鍵理論詞彙？',
+          '是否已完成本講次課後作業或思考題？'
+        ];
+      }
+
+      // Check if course has playable videos
+      const hasVideos = course.lectures && course.lectures.some(l => l.url);
+      const nextVidBtnHtml = hasVideos 
+        ? `<button class="btn-reader-tool" onclick="jumpToNextVideo()" style="background:#10b981; color:#fff; border-color:#059669; padding:8px 16px; font-size:0.86rem;">▶ 播放本課視訊講次</button>`
+        : '';
+
+      const checklistHtml = checklistItems.map(item => `<li>${item}</li>`).join('');
+
+      // Build complete reader HTML
+      body.innerHTML = `
+        <div style="border-bottom: 1px solid var(--border-color); padding-bottom: 14px; margin-bottom: 16px;">
+          <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+            <span class="dept-tag ${getDeptClass(dept)}">${dept}</span>
+            <span style="font-size:0.75rem; color:#94a3b8;">${domainIcon} ${domainName}</span>
+            <span style="font-size:0.75rem; color:#38bdf8; margin-left:auto;">講次 ${index + 1} / ${course.total_lectures}</span>
+          </div>
+          <h1 style="font-size:1.35rem; color:#f8fafc; margin:4px 0 8px 0; line-height:1.4;">
+            ${rawTitle}
+          </h1>
+          <div style="font-size:0.8rem; color:#94a3b8; display:flex; flex-wrap:wrap; gap:12px;">
+            <span>📚 課程：<b>【${courseTitle}】</b></span>
+            <span>⏱️ 建議研讀：15~20 分鐘</span>
+            <span>${lecture.url ? '<span style="color:#34d399;">🎬 官方 HD 視訊就緒</span>' : '<span style="color:#f59e0b;">📖 官方數位文字講義專篇</span>'}</span>
+          </div>
+        </div>
+
+        <h2>📌 一、單元導讀與核心學習指標</h2>
+        <p>
+          歡迎進入<b>《${courseTitle}》</b>第 <b>${index + 1}</b> 講：<b>【${cleanTitle}】</b>。
+          本講次在全學期課程知識地圖中扮演關鍵承先啟後的角色，旨在協助學員由淺入深、系統化掌握該單元的學術內涵與實務方法。
+        </p>
+        <div class="reader-highlight-card" style="border-left: 4px solid #38bdf8;">
+          <b style="color:#38bdf8;">🎯 本單元核心學習目標：</b>
+          <ol style="margin:8px 0 0 20px; padding:0; line-height:1.7;">
+            <li><b>知識理解</b>：精確掌握【${cleanTitle}】的核心定義、歷史演進與核心問題意識。</li>
+            <li><b>架構運用</b>：熟練運用本講次提出的經典理論模型，剖析實務情境中的關鍵變數。</li>
+            <li><b>實務反思</b>：具備批判性反思能力，能在期中／期末考試中精準作答，並在實務中落地實踐。</li>
+          </ol>
+        </div>
+
+        <h2>🏛️ 二、學術核心架構與理論模型</h2>
+        ${theoryModelHtml}
+
+        <h2>🎯 三、空大期中／期末考重點提要與名詞解釋</h2>
+        ${examPointsHtml}
+
+        <h2>📖 四、重點精解與實務案例研析</h2>
+        ${practicalCaseHtml}
+
+        <h2>✅ 五、課後自我評量與實踐行動清單</h2>
+        <ul class="reader-checklist">
+          ${checklistHtml}
+        </ul>
+
+        <div style="margin-top:30px; padding-top:16px; border-top:1px solid var(--border-color); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px;">
+          <div style="display:flex; gap:8px;">
+            <button class="btn-reader-tool" onclick="playPrevLecture()" ${index <= 0 ? 'disabled style="opacity:0.4;"' : ''}>⏮️ 上一講</button>
+            <button class="btn-reader-tool" onclick="playNextLecture()" ${index >= course.lectures.length - 1 ? 'disabled style="opacity:0.4;"' : ''}>⏭️ 下一講</button>
+          </div>
+          <div style="display:flex; gap:8px;">
+            ${nextVidBtnHtml}
+            <button class="btn-reader-tool" onclick="document.getElementById('academicReaderCard').scrollTo({top:0, behavior:'smooth'})">⬆ 回到頁首</button>
+          </div>
+        </div>
+      `;
+    }
+
+    // HLS Player & Academic Reader Dual Core
     function playLecture(index) {
       if (!activeCourse || !activeCourse.lectures || !activeCourse.lectures[index]) return;
       activeLectureIndex = index;
@@ -1465,28 +2119,47 @@
       renderLectures();
 
       let url = lecture.url;
-      const noStreamCard = document.getElementById('noStreamCard');
+      const tabModeVideo = document.getElementById('tabModeVideo');
+      const tabModeReader = document.getElementById('tabModeReader');
+      const btnReaderNextVideo = document.getElementById('btnReaderNextVideo');
+
+      // Check if course has any playable videos
+      const hasCourseVideo = activeCourse.lectures.some(l => l.url);
+      if (btnReaderNextVideo) {
+        btnReaderNextVideo.style.display = hasCourseVideo ? 'inline-block' : 'none';
+      }
+
+      // Pre-render or update Reader content so switching tabs is instant
+      renderLectureTextContent(activeCourse, lecture, index);
 
       if (!url) {
-        if (noStreamCard) {
-          noStreamCard.style.display = 'flex';
-          const nextVidBtn = document.getElementById('btnJumpNextVideo');
-          if (nextVidBtn) {
-            const hasVideo = activeCourse.lectures.some(l => l.url);
-            nextVidBtn.style.display = hasVideo ? 'inline-block' : 'none';
-          }
-        }
-        video.style.display = 'none';
+        // Pure text lecture: auto switch to Reader Mode!
         if (hls) { hls.destroy(); hls = null; }
-        video.pause();
-        video.src = '';
+        if (video) {
+          video.pause();
+          video.src = '';
+        }
         streamInput.value = '';
-        showToast('本講次為空大純文本講義（無官方視訊）');
+        setViewMode('reader');
+        if (tabModeVideo) {
+          tabModeVideo.style.opacity = '0.45';
+          tabModeVideo.title = '本講次為純文本講義（無官方視訊）';
+        }
+        showToast(`📖 已載入【${lecture.title}】數位講義`);
       } else {
-        if (noStreamCard) noStreamCard.style.display = 'none';
-        video.style.display = 'block';
+        // Video available
+        if (tabModeVideo) {
+          tabModeVideo.style.opacity = '1';
+          tabModeVideo.title = '切換至影音視訊';
+        }
         streamInput.value = url;
         loadHlsStream(url);
+
+        if (currentViewMode === 'reader') {
+          setViewMode('reader');
+        } else {
+          setViewMode('video');
+        }
       }
 
       // Apple iOS Lock Screen & Dynamic Island Media Session
