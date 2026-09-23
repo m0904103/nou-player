@@ -1466,6 +1466,16 @@
 
     function loadHlsStream(url) {
       if (!url) return;
+
+      // Auto-heal legacy or misconfigured URL domains & IDs
+      if (url.includes('codm.nou.edu.tw')) {
+        url = url.replace('codm.nou.edu.tw', 'lodm.nou.edu.tw');
+      }
+      if (url.includes('100849')) {
+        url = url.replace('100849', '760077');
+      }
+      streamInput.value = url;
+
       showToast(`正在播放：${activeCourse ? activeCourse.title : ''} (第 ${activeLectureIndex + 1} 講)`);
 
       // Detect iOS Safari native HLS vs desktop Hls.js
@@ -1520,6 +1530,25 @@
       if (!url) return;
       loadHlsStream(url);
     }
+
+    video.onerror = function () {
+      console.warn('Video load error on:', video.src);
+      if (video.src && video.src.includes('codm.nou.edu.tw')) {
+        const fallback = video.src.replace('codm.nou.edu.tw', 'lodm.nou.edu.tw');
+        console.log('Trying lodm fallback:', fallback);
+        video.src = fallback;
+        video.load();
+        video.play().catch(e => {});
+      } else if (video.src && video.src.includes('100849')) {
+        const fallback = video.src.replace('100849', '760077');
+        console.log('Trying 760077 fallback:', fallback);
+        video.src = fallback;
+        video.load();
+        video.play().catch(e => {});
+      } else {
+        showToast('⚠️ 該講次視訊串流異常，請切換至其他講次');
+      }
+    };
 
     // Apple Media Session API (iOS Lock Screen, Dynamic Island, Apple Watch, AirPods)
     function updateMediaSession(title, course, dept) {
