@@ -821,6 +821,7 @@
 
       /* Sticky Video Stage (Always in view at top) */
       .player-stage {
+        order: -1 !important;
         position: sticky;
         top: 0;
         z-index: 100;
@@ -879,6 +880,7 @@
 
       /* Catalog & Episodes Stage Below Video */
       .catalog-stage {
+        order: 2 !important;
         border-radius: 0;
         border: none;
         background: transparent;
@@ -993,6 +995,9 @@
             <button class="dept-pill active" onclick="setDepartmentFilter('ALL', this)">
               🌟 全部 <span class="pill-count" id="countAll">380</span>
             </button>
+            <button class="dept-pill" id="pillVideoOnly" onclick="setDepartmentFilter('VIDEO_ONLY', this)" style="border-color: rgba(52, 211, 153, 0.4); color: #34d399;">
+              🎬 視訊課 <span class="pill-count" id="countVideo">242</span>
+            </button>
             <button class="dept-pill" onclick="setDepartmentFilter('管理與資訊學系', this)">
               💻 管資 <span class="pill-count" id="countMgmt">72</span>
             </button>
@@ -1062,6 +1067,14 @@
         <div class="seek-ripple left" id="seekRippleLeft">⏪ -10秒</div>
         <div class="seek-ripple right" id="seekRippleRight">+10秒 ⏩</div>
         <div class="video-overlay-msg" id="overlayMsg">--</div>
+        
+        <!-- Text-only Lecture Notice Card -->
+        <div class="no-stream-card" id="noStreamCard" style="display:none; position:absolute; inset:0; background:rgba(15,23,42,0.96); z-index:25; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:20px; gap:10px;">
+          <span style="font-size: 2.2rem;">📖</span>
+          <div style="font-size: 1.05rem; font-weight:800; color:#38bdf8;">本講次為空大純文本數位講義</div>
+          <div style="font-size: 0.82rem; color:#94a3b8; max-width:300px; line-height:1.5;">本科目官方無提供 MP4/HLS 視訊串流，建議參閱講義或切換至視訊影音課程！</div>
+          <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 16px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; margin-top:4px;">🎬 瀏覽全校 242 門影音課程</button>
+        </div>
       </div>
 
       <!-- Now Playing Information Box -->
@@ -1208,6 +1221,9 @@
       if (!stats) return;
       document.getElementById('totalCoursesBadge').textContent = `${ALL_COURSES.length} 門課`;
       document.getElementById('countAll').textContent = ALL_COURSES.length;
+      const vidCount = ALL_COURSES.filter(c => c.video_count > 0).length;
+      const vidPill = document.getElementById('countVideo');
+      if (vidPill) vidPill.textContent = vidCount;
       document.getElementById('countMgmt').textContent = stats['管理與資訊學系'] || 0;
       document.getElementById('countSoc').textContent = stats['社會科學系'] || 0;
       document.getElementById('countLife').textContent = stats['生活科學系'] || 0;
@@ -1217,13 +1233,21 @@
       document.getElementById('countPub').textContent = stats['公共行政學系'] || 0;
     }
 
+    function filterVideoCourses() {
+      backToCatalog();
+      const pill = document.getElementById('pillVideoOnly');
+      if (pill) setDepartmentFilter('VIDEO_ONLY', pill);
+    }
+
     // Render Courses in View A
     function renderCourses() {
       const grid = document.getElementById('coursesGrid');
       grid.innerHTML = '';
 
       const filtered = ALL_COURSES.filter(c => {
-        if (currentDeptFilter !== 'ALL' && c.dept !== currentDeptFilter) {
+        if (currentDeptFilter === 'VIDEO_ONLY') {
+          if (c.video_count <= 0) return false;
+        } else if (currentDeptFilter !== 'ALL' && c.dept !== currentDeptFilter) {
           return false;
         }
         if (courseSearchQuery) {
@@ -1320,7 +1344,8 @@
             document.getElementById('catalogView').style.display = 'none';
             document.getElementById('lectureView').style.display = 'flex';
           } else if (ALL_COURSES.length > 0) {
-            openCourseDrawer(ALL_COURSES[0]);
+            const defCourse = ALL_COURSES.find(c => c.video_count > 0) || ALL_COURSES[0];
+            openCourseDrawer(defCourse);
           }
         }
       } else {
@@ -1416,12 +1441,22 @@
       renderLectures();
 
       let url = lecture.url;
-      if (!url) {
-        url = `https://lodm.nou.edu.tw/vod/_definst_/${activeCourse.id}/${index + 1}.mp4/playlist.m3u8`;
-      }
+      const noStreamCard = document.getElementById('noStreamCard');
 
-      streamInput.value = url;
-      loadHlsStream(url);
+      if (!url) {
+        if (noStreamCard) noStreamCard.style.display = 'flex';
+        video.style.display = 'none';
+        if (hls) { hls.destroy(); hls = null; }
+        video.pause();
+        video.src = '';
+        streamInput.value = '';
+        showToast('本講次為空大純文本講義（無官方視訊）');
+      } else {
+        if (noStreamCard) noStreamCard.style.display = 'none';
+        video.style.display = 'block';
+        streamInput.value = url;
+        loadHlsStream(url);
+      }
 
       // Apple iOS Lock Screen & Dynamic Island Media Session
       updateMediaSession(lecture.title, activeCourse.title, activeCourse.dept);
@@ -1629,9 +1664,11 @@
 
     function openRandomCourse() {
       if (ALL_COURSES.length === 0) return;
-      const rnd = ALL_COURSES[Math.floor(Math.random() * ALL_COURSES.length)];
+      const vids = ALL_COURSES.filter(c => c.video_count > 0);
+      const pool = vids.length > 0 ? vids : ALL_COURSES;
+      const rnd = pool[Math.floor(Math.random() * pool.length)];
       openCourseDrawer(rnd);
-      showToast(`已隨機選取：【${rnd.title}】`);
+      showToast(`已隨選影音課程：【${rnd.title}】`);
     }
 
     let toastTimeout = null;
@@ -1661,13 +1698,26 @@
 
     function checkResumeProgress() {
       const saved = localStorage.getItem('nou_last_watch');
-      if (!saved) return;
+      if (!saved) {
+        // Auto-load first HD video course so video player is ready on screen immediately
+        const defaultCourse = ALL_COURSES.find(c => c.video_count > 0) || ALL_COURSES[0];
+        if (defaultCourse) {
+          openCourseDrawer(defaultCourse);
+        }
+        return;
+      }
       try {
         const state = JSON.parse(saved);
         if (state.courseTitle && state.lectureTitle) {
           document.getElementById('resumeCourseName').textContent = `【${state.courseTitle}】`;
           document.getElementById('resumeLectureName').textContent = state.lectureTitle;
           document.getElementById('resumeBanner').style.display = 'flex';
+          
+          const course = ALL_COURSES.find(c => c.id === state.courseId || c.title === state.courseTitle);
+          if (course) {
+            openCourseDrawer(course);
+            playLecture(state.lectureIdx || 0);
+          }
         }
       } catch (e) {
         console.warn(e);
