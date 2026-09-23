@@ -23,26 +23,26 @@ window.NOU_CATALOG = {
   },
   "courses": [
     {
-      "id": "101163",
+      "id": "740057",
       "raw_name": "(113下)生成式AI與提示工程",
       "title": "生成式AI與提示工程",
       "semester": "113下",
       "dept": "管理與資訊學系",
       "total_lectures": 35,
-      "video_count": 0,
+      "video_count": 12,
       "first_url": "",
       "lectures": [
         {
           "title": "1-1 課程介紹與目標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 生成式AI的基本概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 生成式AI的發展歷史",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/01/1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 生成式AI的優勢與潛力",
@@ -50,31 +50,31 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 GPT原理簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 常見的GPT工具",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/02/2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 GPT註冊與使用方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-1 Markdown基本語法介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 Markdown工具",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 Mermaid工具",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/03/3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 思維鏈",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/03/3-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-5 思維樹",
@@ -90,11 +90,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 名詞定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 使用情況介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740057/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 文章解讀技巧",
@@ -1044,7 +1044,7 @@ window.NOU_CATALOG = {
       "semester": "114下",
       "dept": "管理與資訊學系",
       "total_lectures": 262,
-      "video_count": 122,
+      "video_count": 185,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760124/00/0-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -1117,7 +1117,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 按職能區分",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 設定投資理財的目標",
@@ -1125,7 +1125,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-2 按與標的相關區分",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 按作業資源之彈性區分",
@@ -1153,7 +1153,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 EXCEL練習 (上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 一段資訊工具投資理財的示範",
@@ -1161,7 +1161,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-2 EXCEL練習 (中)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 EXCEL練習 (下)",
@@ -1185,7 +1185,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 歸納成本法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 投資理財的管道與選擇",
@@ -1193,7 +1193,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-2 變動成本法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 進行投資理財",
@@ -1201,7 +1201,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-3 利量分析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4 損益兩平點分析",
@@ -1213,7 +1213,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 安全邊際 (上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 各類軟體的運用",
@@ -1221,7 +1221,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-2 安全邊際 (下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3 營業槓桿 (上)",
@@ -1249,7 +1249,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-1 EXCEL練習 (情境一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2 行動app",
@@ -1257,7 +1257,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-2 EXCEL練習 (情境二)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/02/2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5 認識金融工具",
@@ -1305,7 +1305,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 銷貨預算",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 程式實作",
@@ -1313,7 +1313,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2 期末存貨預算",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 生產預算",
@@ -1353,7 +1353,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 現金收入預算",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2 程式實作",
@@ -1361,7 +1361,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-2 現金支出預算",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 現金預算",
@@ -1373,7 +1373,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-1 彈性預算 (上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-2 進行技術分析",
@@ -1381,7 +1381,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-2 彈性預算 (中)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/03/3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-3 彈性預算 (下)",
@@ -1409,7 +1409,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 利潤差異分析 (上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 面對與處理資料",
@@ -1417,7 +1417,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-2 利潤差異分析 (中)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 利潤差異分析 (下)",
@@ -1433,7 +1433,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 直接材料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 存取財務金融資料",
@@ -1441,7 +1441,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-2 直接人工",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 變動製造費用",
@@ -1461,7 +1461,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 EXCEL練習 (上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2資料庫技術的運用",
@@ -1469,7 +1469,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-2 EXCEL練習 (中)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-3 EXCEL練習 (下)",
@@ -1485,7 +1485,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 內部財務資訊對於財務報表之形成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1 綜合損益表",
@@ -1513,7 +1513,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 靜態分析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 特徵工程在財金資料的應用",
@@ -1521,7 +1521,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 動態分析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 找出特徵的重要性",
@@ -1529,7 +1529,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-3 比率分析(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-4 情緒分析",
@@ -1537,7 +1537,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-4 比率分析(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-5 與事件相關的特徵",
@@ -1549,7 +1549,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3 個案演練",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/05/5-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 財經資料運用上可能發生的缺失",
@@ -1589,7 +1589,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 風險(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 葛蘭碧八大法則",
@@ -1597,7 +1597,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-2 風險(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 切線",
@@ -1605,7 +1605,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-3 風險的種類(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4 支撐與壓力",
@@ -1613,7 +1613,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-4 風險的種類(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-5 均線交易法",
@@ -1625,7 +1625,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1 報酬",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2 成交量隱含的訊息",
@@ -1633,7 +1633,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-2 報酬的種類(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/06/6-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3 報酬的種類(下)",
@@ -1649,7 +1649,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 投資組合報酬(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 技術分析指標的運用",
@@ -1657,7 +1657,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-2 投資組合報酬(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3 投資組合的風險(上)",
@@ -1673,7 +1673,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 多角化的目的",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 KD指標的觀察",
@@ -1681,7 +1681,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-2 相關係數與投資組合之關係(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 相關係數與投資組合之關係(下)",
@@ -1693,7 +1693,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 效率前緣",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 MACD指標的觀察",
@@ -1701,7 +1701,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-2 最小變異數投資組合",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-1 認識RSI指標",
@@ -1709,7 +1709,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4-1 資本配置線",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-2 RSI指標的觀察",
@@ -1717,7 +1717,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4-2 資本市場線",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-3 系統風險與非系統風險",
@@ -1741,7 +1741,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-5-1 夏普指標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-5-2 布林通道的觀察",
@@ -1749,7 +1749,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-5-2 崔諾指標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/07/7-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-5-3 詹森指標",
@@ -1789,7 +1789,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 股票評價",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 籌碼面的觀察",
@@ -1797,7 +1797,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-2 時間價值簡述",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3 技術面的分析",
@@ -1805,7 +1805,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-3 股利折現模式(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/08/8-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-4 股利折現模式(下)",
@@ -1817,7 +1817,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 本益比",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-2持有期間的監控",
@@ -1825,7 +1825,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-2 效率市場",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/08/8-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-3 公司性質",
@@ -1877,7 +1877,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-1 利息的性質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-2 碳排放數據的分類與定義",
@@ -1885,7 +1885,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-2 單利與複利",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3 碳排資料的來源",
@@ -1893,7 +1893,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-3 終值與現值",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4 年金終值與年金現值(上)",
@@ -1909,7 +1909,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 債券",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 SRI",
@@ -1917,7 +1917,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-2 債券條款與種類(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 Impact investing",
@@ -1925,7 +1925,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-3 債券條款與種類(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4 ESG",
@@ -1937,7 +1937,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3 債券評價模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-1 存續期間",
@@ -1957,7 +1957,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1 期貨的簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-2 投資組合的優點",
@@ -1965,7 +1965,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-2 期貨交易(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-3 個人投資組合的類型",
@@ -1973,7 +1973,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-3 期貨交易(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-4 不同年齡層的投資組合",
@@ -1981,7 +1981,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-4 期貨標準化合約之建置與種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-5 期貨的風險因素與避險方式",
@@ -1993,7 +1993,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 選擇權原理與意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 投資組合的風險評估",
@@ -2001,7 +2001,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-2 選擇權合約內容",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760124/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-3 選擇權損益分析",
@@ -6912,7 +6912,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 67,
-      "video_count": 37,
+      "video_count": 39,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750090/01/1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -6957,7 +6957,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-5 臺灣的性別圖像",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/01/1-5.mp4/playlist.m3u8"
         },
         {
           "title": "第二週 青春期少女的健康",
@@ -7069,7 +7069,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-4 <專題>社群媒體與青少女心理健康",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/09/9-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-5 補充資源～一個陪伴憂鬱症家人的案例",
@@ -7594,7 +7594,7 @@ window.NOU_CATALOG = {
       ]
     },
     {
-      "id": "115上_生成式AI在行政實務的應用",
+      "id": "740057",
       "raw_name": "115上_生成式AI在行政實務的應用",
       "title": "生成式AI在行政實務的應用",
       "semester": "",
@@ -8719,7 +8719,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 220,
-      "video_count": 163,
+      "video_count": 164,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/720059/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -9124,7 +9124,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-4 臺灣的多元文化教育",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720059/04/4-5-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-5 對多元文化教育的評論",
@@ -10943,7 +10943,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "人文學系",
       "total_lectures": 221,
-      "video_count": 155,
+      "video_count": 159,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/710087/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -11068,15 +11068,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-3 康託爾的集合論「實無限」(一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710087/03/3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-4 康託爾的集合論「實無限」(二)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710087/03/3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-5 康託爾的集合論「實無限」(三)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710087/03/3-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 影響",
@@ -11244,7 +11244,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1安薩裡",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710087/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 阿維羅伊",
@@ -13093,7 +13093,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 236,
-      "video_count": 173,
+      "video_count": 180,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-3-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -13126,15 +13126,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "顏春煌 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "曾展鵬 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "郭秋田 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/00/0-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "學習進度表",
@@ -13182,11 +13182,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 程式語言的由來",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1-1 程式的執行",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1-2 語言的抽象化",
@@ -13194,11 +13194,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-2 程式語言的演進",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2-1 程式語言發展史",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2-2 各種程式語言",
@@ -13214,15 +13214,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 程式語言的組成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-1 文法的基本組成",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-2 貝諾爾格式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-3 運算式的文法",
@@ -13230,11 +13230,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1-4 文法分析的實例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 程式語言的分類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2-1 以方法論（Paradigm）來分類",
@@ -13242,7 +13242,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-2-2 以語言的特性來區分",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 程式語言的功能與處理的方式",
@@ -13270,15 +13270,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-6-2 用程式語言描述演算法的邏輯",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-6-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-6-2-1 描述問題",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-6-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-6-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-6-2-2 控制結構",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-6-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/01/1-6-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-6-2-3 控制流程圖",
@@ -13410,7 +13410,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-2 Java裡的資料型式與變數",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-1-2a.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2a 補充說明",
@@ -13422,7 +13422,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 算術運算",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-1a.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1a 補充說明",
@@ -13430,7 +13430,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2 與位元相關的運算",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-2a.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2a 補充說明",
@@ -13438,7 +13438,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-3 資料型式的數值範圍",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-2-3a.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3a 補充說明",
@@ -13482,7 +13482,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-5 有彈性的字串處理功能",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-3-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/03/3-3-5a.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-5a 補充說明",
@@ -13550,7 +13550,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 while指令",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/04/4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/04/4-3-1a.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-1a 補充說明",
@@ -13686,11 +13686,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 Java程式語言的模型與方法論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1-1 Java程式語言的模型與方法論",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1-2 Java類別架構",
@@ -13734,19 +13734,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 程式語言中執行緒（Thread）的用途",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-1 多執行緒程式設計的優點",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-2 執行緒狀態的變化",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-3 在Java中建立執行緒",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600617/06/6-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-4 Java執行緒中常用的方法",
@@ -14049,7 +14049,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 136,
-      "video_count": 80,
+      "video_count": 82,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760110/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -14158,11 +14158,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 Azure計算與網路服務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-1 Azure計算與網路服務(1)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-2 Azure計算與網路服務(2)",
@@ -14182,11 +14182,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-2 Microsoft 3AP服務概述",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-1 Microsoft 3AP服務概述(1)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760110/02/2-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-2 Microsoft 3AP服務概述(2)",
@@ -15205,7 +15205,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 187,
-      "video_count": 0,
+      "video_count": 45,
       "first_url": "",
       "lectures": [
         {
@@ -15262,11 +15262,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 整體操作說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 從Anaconda開始",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 安裝相關的軟體",
@@ -15294,11 +15294,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 語法慣例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 第一個Python程式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 Python的資料型態",
@@ -15306,11 +15306,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 資料型態",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 探索資料型態的語法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 Python的運算表示法",
@@ -15318,7 +15318,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 Python的運算子與運算式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 Python的運算邏輯語法",
@@ -15366,11 +15366,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 有結構的資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 資料的面面觀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 Python的結構化程式設計",
@@ -15378,15 +15378,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 從函式開始",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 結構化程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 類別與物件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 Python的繪圖功能",
@@ -15394,11 +15394,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 用Python繪圖",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 多元繪圖功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 NumPy套件",
@@ -15406,11 +15406,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-1 認識陣列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2 陣列的語法魔術",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/04/4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 Pandas套件",
@@ -15446,15 +15446,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 自動進行加總",
@@ -15462,15 +15462,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 來玩猜數字",
@@ -15478,15 +15478,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/05/5-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 辨別數字與類別變數",
@@ -15538,11 +15538,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3程式設計",
@@ -15558,15 +15558,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4 操作示範",
@@ -15578,15 +15578,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4 操作示範",
@@ -15598,11 +15598,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/06/6-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3 程式設計",
@@ -15682,15 +15682,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-4 操作示範",
@@ -15702,15 +15702,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-4 操作示範",
@@ -15722,19 +15722,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 需要解決的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 運算思維與技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-3 程式設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-4 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760086/07/7-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 資料比比看",
@@ -16405,7 +16405,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "商學系",
       "total_lectures": 171,
-      "video_count": 120,
+      "video_count": 127,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/730082/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -16494,27 +16494,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-4 個別因素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-1 土地之宗地條件(一)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-2 土地之宗地條件(二)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-3 土地之街道條件",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-4 土地之接近、環境與行政條件",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-5 建物",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/02/2-1-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-4-6 小結",
@@ -16566,23 +16566,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 確定估價基本事項",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-1 確定勘估標的內容",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-2 確定價格日期",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-3 確定估價目的及條件",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-4 確定價格種類(一)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/03/3-2-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-5 確定價格種類(二)",
@@ -16770,11 +16770,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2 價格調整項目",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/06/6-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2-1 情況與價格日期調整",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/06/6-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/06/6-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2-2 區域與個別因素調整",
@@ -16922,11 +16922,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-2 素地估價實務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/08/8-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2-1 空地之素地估價實務",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/08/8-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/08/8-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2-2 獨立估價之素地估價實務",
@@ -16986,15 +16986,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-3 地上權估價方法與運用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3-1 地上權之市場性",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3-2 地上權之估價方法",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3-3 地上權之價值差異分析",
@@ -17002,11 +17002,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-4 區分地上權估價",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4-1 區分地上權案例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4-2 區分地上權估價方法",
@@ -17030,15 +17030,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-4 都市更新權利變換估價實務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-1 權利變換估價實務-估價條件",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-2-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-2 權利變換估價實務-產權調查",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-2-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730082/09/9-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-3 權利變換估價實務-實務探討",
@@ -20853,7 +20853,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "人文學系",
       "total_lectures": 131,
-      "video_count": 89,
+      "video_count": 92,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/710023/00/0-3-2.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -21046,7 +21046,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-3 實例演練 ( 音節與音標的組合練習 )",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-1 三個音節",
@@ -21054,15 +21054,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-3-2 四個音節",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-3 五個音節",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-4 音節的綜合練習",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/02/2-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 字音合一",
@@ -21318,11 +21318,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 熱身階段",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-1 讀音與聽力",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-2 慎選基本實用的字",
@@ -21330,19 +21330,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-2 學習閱讀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-1 學習閱讀馬太效應",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-2 Decoding",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-3 Word Recognition",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710023/09/9-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-4 以音為核心—聽力練習與口語練習",
@@ -23486,7 +23486,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1-2 專家與生手的知識組織 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200114/06/6-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200114/06/6-1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 向專家學習",
@@ -26569,7 +26569,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 99,
-      "video_count": 61,
+      "video_count": 62,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750012/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -26918,15 +26918,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 綠色休閒遊程與活動－食",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-1 當季當地有機食材",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-2 與有機無毒餐廳結盟",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-3 設計飲食文化解說",
@@ -26934,7 +26934,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1-4 有機農場體驗實例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750012/09/9-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 綠色休閒遊程與活動－衣",
@@ -26977,7 +26977,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 174,
-      "video_count": 0,
+      "video_count": 35,
       "first_url": "",
       "lectures": [
         {
@@ -27018,7 +27018,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 休閒的定義與相關概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1 休閒的字面解釋",
@@ -27034,7 +27034,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2 休閒的起源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 西方的觀點",
@@ -27046,7 +27046,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3 休閒的效益",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/01/1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1 休閒效益的最大化",
@@ -27066,7 +27066,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1休閒的意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1 休閒的概念",
@@ -27078,7 +27078,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2 休閒活動之類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/02/2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1 益智類、收藏類、藝術類之休閒活動",
@@ -27094,7 +27094,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3 休閒運動之類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1 球類、健身類、戶外類之休閒運動類型",
@@ -27118,11 +27118,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 生命週期的定義與內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 生命週期之階段",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 不同生命週期",
@@ -27134,15 +27134,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 嬰幼兒期之成長特質與休閒運動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2 兒童期之成長特質與休閒運動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/03/3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 青少年期之成長特質與休閒運動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/03/3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-4 壯年期之成長特質與休閒運動",
@@ -27166,15 +27166,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 休閒動機的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 影響休閒動機的特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 休閒動機理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1心流理論",
@@ -27194,11 +27194,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 個人因素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/04/4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 休閒體驗與休閒資訊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "第5章 休閒態度與行為",
@@ -27206,7 +27206,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 休閒態度的基本概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1 研究休閒態度的目的",
@@ -27222,7 +27222,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2 休閒態度之形成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/05/5-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1 計畫行為理論之觀點",
@@ -27234,7 +27234,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3 休閒態度在行為預測上之應用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/05/5-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-1 休閒態度測不準的原因",
@@ -27250,7 +27250,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 休閒效益之意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1 休閒效益的定義",
@@ -27262,7 +27262,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2 個人效益",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 生理效益與心理效益",
@@ -27278,7 +27278,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3 社會價值",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1 經濟效益與環境效益",
@@ -27298,11 +27298,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 三段五級健康促進及預防措施",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 健康的架構模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 全人健康",
@@ -27310,15 +27310,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 全人健康七個面向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 積極老化的九項原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 國人健康之現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/07/7-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1 十大死因變化",
@@ -27338,7 +27338,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 體適能定義和及對健康的益處",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 健康體適能",
@@ -27346,11 +27346,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 健康體適能與競技體適能組成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 健康體適能檢測",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 運動處方",
@@ -27358,11 +27358,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 運動處方與FITT原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-2 自我評估",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/08/8-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "第9章 健康促進行為",
@@ -27370,7 +27370,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 生活型態",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-1 健康生活型態及影響因子",
@@ -27382,7 +27382,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2 規律運動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/09/9-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1 規律運動與現況",
@@ -27394,7 +27394,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3 自我健康管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780049/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-1 體重控制與代謝症候群",
@@ -31328,11 +31328,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-4-1專家訪談－臺灣從清末至日據時代的經濟發展(上)：清末臺灣開港之後的對外貿易",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-3-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-3-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-4-2專家訪談－臺灣從清末至日據時代的經濟發展(中)：日治後期政策變革與台灣經濟發展",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-3-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-3-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-4-3專家訪談－臺灣從清末至日據時代的經濟發展(下)：日治時期對臺經濟政策",
@@ -31344,7 +31344,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-1-1 二戰之後的經濟整合與全球化逆襲(上)：貿易自由化",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-4-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-1-2二戰之後的經濟整合與全球化逆襲(下)：反全球化",
@@ -31356,7 +31356,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-3-1 全球化的轉折與多元發展(上)：多元挑戰",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/01/1-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-3-2 全球化的轉折與多元發展(下)：脫鉤與去風險化",
@@ -31428,7 +31428,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-3-1 碳關稅與碳權交易機制 (上)：全球碳排放現況",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-1-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3-2 碳關稅與碳權交易機制",
@@ -31488,7 +31488,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-4-1 難纏的的通貨膨脹(上)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-4-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-4-2 難纏的的通貨膨脹(下)",
@@ -31500,7 +31500,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-6-1 不切實際的保護主義(上)：激進產業政策",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-4-6-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730069/03/3-4-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-6-2 不切實際的保護主義(下)：成本與效益權衡",
@@ -32103,7 +32103,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "公共行政學系",
       "total_lectures": 154,
-      "video_count": 0,
+      "video_count": 32,
       "first_url": "",
       "lectures": [
         {
@@ -32128,11 +32128,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 直觀論的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 對直觀論的評述",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 直觀論對公務倫理的意義與啟發",
@@ -32144,15 +32144,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 德行論的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 德行論的內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 德行論對公務倫理的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 二種道德哲學在公務倫理的體現",
@@ -32188,7 +32188,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1 管理主義的人性論及其反思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-1 管理主義的人性論",
@@ -32200,7 +32200,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2 施為觀點的人性論及其影響",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 施為觀點的人性論",
@@ -32232,7 +32232,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 工具理性公共行政的哲學觀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1 工具理性公共行政的哲學觀（一）",
@@ -32252,7 +32252,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2 工具理性的公務倫理建構之取向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 倫理的目的",
@@ -32292,11 +32292,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 對於「政治與行政分離論」的倫理反思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 對於「管理主義」的倫理反思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/05/5-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 對於行政知識的科學主義倫理反",
@@ -32316,7 +32316,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 全觀理性的公務倫理之意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 全觀理性的公務倫理之目的",
@@ -32344,7 +32344,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1 公共價值的基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-1 公共價值的意義與特性",
@@ -32360,7 +32360,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3 社會公正",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/07/7-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1 社會公正的內涵",
@@ -32488,15 +32488,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 自利取向公民參與的意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 自利取向公民參與的倫理反思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 以公共對話為基礎的實質參與",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/08/8-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-1 實質參與之意義",
@@ -32548,7 +32548,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 廉政規範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-1 聯合國反貪腐公約與廉能政府",
@@ -32568,7 +32568,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2 學者專家訪談—世界各國反貪及貪府研究",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/09/9-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1 為何需要廉政？",
@@ -32592,7 +32592,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3 學者專家訪談—香港廉政公署個案探討",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-1 廉政個案探討學者專家訪談(一)",
@@ -32628,7 +32628,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1 公務人員課責",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/10/10-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-1 課責的概念",
@@ -32648,7 +32648,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2 專家學者訪談—我國主要的課責系統：公務員服務法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/10/10-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-1 公務服務法的要點介紹(一)",
@@ -32664,11 +32664,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-1 我國課責的法制：「公務人員考績法」",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/10/10-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-2 我國課責的法制：「公務員懲戒法」",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/10/10-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "第11章 政治中立",
@@ -32684,23 +32684,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-1 美國公務人員政治中立法制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2 英國公務人員政治中立法制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-3 法國公務人員政治中立法制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-4 德國公務人員政治中立法制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-5 日本公務人員政治中立法制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-6 加拿大公務人員政治中立法制",
@@ -32712,15 +32712,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 我國「公務人員行政中立法」的要點：規範對象、基本原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-2 我國「公務人員行政中立法」的要點：政治（黨）活動參與分際",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-3 我國「公務人員行政中立法」的要點：競選公職",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740029/11/11-2-3.mp4/playlist.m3u8"
         }
       ]
     },
@@ -34339,7 +34339,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "公共行政學系",
       "total_lectures": 118,
-      "video_count": 0,
+      "video_count": 50,
       "first_url": "",
       "lectures": [
         {
@@ -34460,23 +34460,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 現代公民意識之內涵(一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 現代公民意識之內涵(二)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 優質公民社會的特質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/01/1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 社會資本理論(一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/01/1-4.mp4/playlist.m3u8"
         },
         {
           "title": "1-5 社會資本理論(二)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/01/1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-6 建構公民社會對良善治理的意義",
@@ -34484,19 +34484,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 公民參與的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 公民參與的多元主義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/02/2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 公民參與的統合主義與利益團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4 台灣多元主義的實務經驗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/02/2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-5 公民參與的社群主義",
@@ -34508,23 +34508,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1 什麼是大學社會責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 地方創新",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 社會創新",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/03/3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 行政院社會創新行動方案",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/03/3-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-5 地方創生的緣起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/03/3-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-6 我國地方創生的政策",
@@ -34536,23 +34536,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 前言",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 社區營造的多元型態與樣貌",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 鄉村型社區的生態及其發展趨勢",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/04/4-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 民眾參與鄉村型社區事務的特質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/04/4-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 鄉村型社區營造遭遇的困境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/04/4-5.mp4/playlist.m3u8"
         },
         {
           "title": "4-6 我國社區的未來可能的發展趨勢",
@@ -34560,31 +34560,31 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 社區營造的多元型態與樣貌",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 都會型社區的生態及其發展趨勢",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 民眾參與都會型社區事務的特質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 都會型社區營造遭遇的困境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-5 我國社區的未來可能的發展趨勢",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-6 以德行繽紛社區為例(一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-6.mp4/playlist.m3u8"
         },
         {
           "title": "5-7 以德行繽紛社區為例(二)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/05/5-7.mp4/playlist.m3u8"
         },
         {
           "title": "5-8 以德行繽紛社區為例(三)",
@@ -34592,71 +34592,71 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 公民參與及社區治理基本概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 理解社群主義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 個案介紹：宜蘭縣冬山鄉中山社區",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-1 前言",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 以「社會實踐」為核心的辦學理念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/07/7-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 深耕蘭陽的發展策略：以佛光大學為例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/07/7-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 大學協助地方創生的現有問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/07/7-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-5 協助社區營造的行動經驗總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/07/7-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-1 生活、改善生活、為了精緻生活",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/08/8-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 品：品格、品德、品味",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/08/8-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 臺南在地文創：鹽、香、布、畫",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/08/8-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 臺南在地文創：史",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/08/8-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-1 社區營造的多元型態與樣貌",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 政府推動社造組織體系",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/09/9-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 社區日曆進行方式與步驟",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-4 社區日曆的成效",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/09/9-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-5 社區營造推動的問題與省思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/09/9-5.mp4/playlist.m3u8"
         },
         {
           "title": "9-6 提升社區營造能量",
@@ -34664,19 +34664,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1 參與式預算之源起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/10/10-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 參與式預算之意涵與擴散",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/10/10-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3 他國經驗：以美國為例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/10/10-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-4 他國經驗及我國做法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/10/10-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-5 參與式預算之挑戰與展望",
@@ -34684,15 +34684,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1 社區治安的論述觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/11/11-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 社區警察制度",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/11/11-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 我國社區治安的推動策略與實施",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740033/11/11-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4 民眾參與社區治安的實踐經驗(一)",
@@ -37250,7 +37250,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 143,
-      "video_count": 78,
+      "video_count": 84,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760064/01/1-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -37503,7 +37503,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-2-1 FC模擬器下載",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 使用FC模擬器",
@@ -37519,15 +37519,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-2 Bluestacks示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-1 下載BlueStacks",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-2 安裝BlueStacks",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-3 使用Android系統",
@@ -37543,19 +37543,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-2 VirtualBox示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-1 下載安裝檔",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-2 安裝VirtualBox",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-3 安裝Ubuntu",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-4 直接匯入應用裝置",
@@ -37563,7 +37563,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-2-5 下載應用裝置檔",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-6 第四章 PPT友善下載",
@@ -37603,11 +37603,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 CardBoard介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-1 街景服務",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-2 CardBoard實際操作展示",
@@ -37779,7 +37779,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 附檔-空大聰明蛋-猜數字遊戲小程式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-1何謂人工智慧？",
@@ -37787,7 +37787,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-2 附檔-蒙地卡羅演算法算圓周率",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 人工智慧的重要技術",
@@ -37834,7 +37834,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 143,
-      "video_count": 76,
+      "video_count": 84,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760064/01/1-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -38091,7 +38091,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-2-1 FC模擬器下載",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4虛擬化動手做-來玩安卓系統",
@@ -38103,11 +38103,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-2 Bluestacks示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-1 下載BlueStacks",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-2 安裝BlueStacks",
@@ -38115,7 +38115,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-2-3 使用Android系統",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 虛擬化動手做-來玩Linux",
@@ -38127,19 +38127,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-2 VirtualBox示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-1 下載安裝檔",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-2 安裝VirtualBox",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-3 安裝Ubuntu",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-4 直接匯入應用裝置",
@@ -38147,7 +38147,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-2-5 下載應用裝置檔",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/04/4-5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-6 第四章 PPT友善下載",
@@ -38187,11 +38187,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 CardBoard介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-1 街景服務",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/05/5-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-2 CardBoard實際操作展示",
@@ -38367,7 +38367,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 附檔-空大聰明蛋-猜數字遊戲小程式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 人工智慧的重要技術",
@@ -38375,7 +38375,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-2 附檔-蒙地卡羅演算法算圓周率",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 人工智慧與電腦圍棋",
@@ -38395,7 +38395,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-4 臉書黑森林(Darkforest)與臺灣圍棋團隊開發之互動學習平臺",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760064/08/8-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-5 腦圍棋程式在教育層面之應用",
@@ -38754,7 +38754,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 131,
-      "video_count": 102,
+      "video_count": 105,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760115/00/0-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -38799,7 +38799,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-1 吳政穎 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760115/00/0-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-1 文化創意品牌權益與衡量",
@@ -38807,7 +38807,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-2 林俊裕 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760115/00/0-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-2 講故事的人：台灣文創轉型個案",
@@ -38815,7 +38815,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-3 王貞雅 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760115/00/0-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-3 文化創意永續與挑戰",
@@ -39290,7 +39290,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 255,
-      "video_count": 193,
+      "video_count": 194,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760082/00/0-4-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -39959,11 +39959,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4-3 新產品理論、應用與評估階段",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760082/07/7-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-3-1 新產品理論、應用與評估階段(一)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760082/07/7-4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760082/07/7-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-3-2 新產品理論、應用與評估階段(二)",
@@ -45454,7 +45454,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 138,
-      "video_count": 96,
+      "video_count": 101,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760083/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -45551,7 +45551,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 外顯氣質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760083/a/a-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "A-1-1 就業探索（1）",
@@ -45575,7 +45575,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2 表達能力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760083/a/a-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "A-1-2 就業探索（2）",
@@ -45595,7 +45595,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3 積極度",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760083/a/a-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "A-1-3 就業探索（3）",
@@ -45615,7 +45615,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4 與主管互動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760083/a/a-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "A-1-4 就業探索（4）",
@@ -45635,7 +45635,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-5 四型風格解析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760083/a/a-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "A-1-5 面談寫真",
@@ -47770,7 +47770,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 288,
-      "video_count": 0,
+      "video_count": 210,
       "first_url": "",
       "lectures": [
         {
@@ -47803,15 +47803,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3-1 吳武典 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-3-2 張德聰 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "0-3-3 洪有義 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-4 課程簡介",
@@ -47819,15 +47819,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-4-1 吳武典 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-4-2 張德聰 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "0-4-3 洪有義 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/00/0-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "第1章 團體輔導導論",
@@ -47835,7 +47835,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-0.mp4/playlist.m3u8"
         },
         {
           "title": "1-1 團體與團輔導的意義",
@@ -47843,15 +47843,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 什麼是團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 什麼是團體輔導",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 團體輔導須具備之四項要素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 團體的種類",
@@ -47859,27 +47859,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-0 團體輔導的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-0.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 團體輔導",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 團體諮商",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 團體治療",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-4 工作團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-5 混合型團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 團體中的角色功能",
@@ -47887,27 +47887,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 團體中的形形色色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 團體中角色扮演地位的差別",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 團體中常見三種角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-1 抗拒角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-2 操縱角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-3 協助角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 團體動力的意義",
@@ -47915,11 +47915,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-1 團體動力的緣起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-2 團體動力的定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-5 團體輔導的功能與限制",
@@ -47927,11 +47927,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-5-1 團體輔導的功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-5-2 團體輔導的限制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-6 團體輔導與個別輔導的比較",
@@ -47939,15 +47939,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-6-1 團體輔導與個別輔導相同處",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-6-2 團體輔導與個別輔導相異處",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-6-3 團體輔導與個別輔導使用的時機",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-7 團體輔導的基本原理",
@@ -47955,19 +47955,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-7-1 團體輔導的基本原理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-7-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-7-2 團體輔導的基本策略",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-7-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-7-3 團體輔導的基本模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-7-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-8 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-8.mp4/playlist.m3u8"
         },
         {
           "title": "第2章 團體諮商理論概述",
@@ -47975,7 +47975,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-0.mp4/playlist.m3u8"
         },
         {
           "title": "2-1 心理動力取向",
@@ -47983,15 +47983,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 心理分析學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 阿德勒學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 溝通分析學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 人本與存在主義取向",
@@ -47999,15 +47999,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 個人中心學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 存在主義學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3 完形治療學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 認知行為取向",
@@ -48015,19 +48015,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 行為學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2 理性情緒行為治療學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3 現實治療學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/02/2-4.mp4/playlist.m3u8"
         },
         {
           "title": "第3章 團體倫理",
@@ -48035,7 +48035,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-0.mp4/playlist.m3u8"
         },
         {
           "title": "3-1 團體倫理的重要性與功能",
@@ -48043,15 +48043,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 團體倫理的性質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 團體倫理的重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 團體倫理的功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 團體倫理的內涵",
@@ -48059,19 +48059,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 團體倫理所探討的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 團體領導者專業準備的標準",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 輔導人員專業倫理守則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-4 團體輔導專業倫理標準",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 團體歷程中應考慮的倫理問題",
@@ -48099,15 +48099,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-1 缺乏經驗的領導者的個實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-2 違反對當事人守密原則的個案的實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/03/3-5.mp4/playlist.m3u8"
         },
         {
           "title": "第4章 團體輔導的基本技巧",
@@ -48115,7 +48115,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-0.mp4/playlist.m3u8"
         },
         {
           "title": "4-1 學習團體輔導技巧的準備",
@@ -48123,15 +48123,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 專業知能與經驗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 適切人格態度",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 領導者自我覺察能力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 團體輔導的基本技巧",
@@ -48139,15 +48139,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 反應的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 互動的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 主動的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 團體輔導常用的討論技術與媒體工具",
@@ -48155,11 +48155,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 團體討論法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 團體輔導中如何運用媒體工具",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 如何學習成為有效能的團體輔導員",
@@ -48167,35 +48167,35 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-1 專業訓練與專業經驗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2 學習如何了解團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-3 瞭解及扮演團體輔導員的角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-4 學習發展團體輔導員的功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-5 團體領導功能意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-6 團體領導功能的工作行為與支持行為座標說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-6.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-7 學習成為有效能的團體輔導員",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-7.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-5.mp4/playlist.m3u8"
         },
         {
           "title": "第5章 團體輔導的發展階段與技巧一~準備、開始與轉換",
@@ -48203,7 +48203,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-0.mp4/playlist.m3u8"
         },
         {
           "title": "5-1 團體輔導的發展階段",
@@ -48211,11 +48211,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 團體輔導發展階段的分類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 團體輔導發展階段的統合觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 團體輔導前的準備工作",
@@ -48223,23 +48223,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 團體組成前團體輔導者十大自我省思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 如何擬訂適切的「團體計畫書」",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 團體成員的招募與篩選",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-4 團體成員如何從團體中得到最大收穫",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-5 團體輔導者與協同團體輔導員的協調與準備",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 團體輔導開始階段的特徵、問題與處理",
@@ -48247,23 +48247,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 團體開始階段的主要特徵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 團體開始階段的任務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3 團體開始形成的方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4 團體開始階段的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-5 團體開始階段可能發生的問題與處理方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 團體輔導轉換階段的特徵、問題與處理",
@@ -48271,15 +48271,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-1 團體轉換階段之特徵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2 團體轉換階段的任務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-5 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/05/5-5.mp4/playlist.m3u8"
         },
         {
           "title": "第6章 團體輔導的發展階段與技巧二~工作、結束與追蹤",
@@ -48287,7 +48287,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-0.mp4/playlist.m3u8"
         },
         {
           "title": "6-1 團體輔導工作階段的特徵、任務、問題及處理方法",
@@ -48295,19 +48295,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 團體工作階段的特徵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 團體工作階段的任務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3 團體工作階段可能發生的問題與處理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-4 對團體輔導員的挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 團體工作階段團體輔導員的技巧",
@@ -48315,35 +48315,35 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 示範法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 練習法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3a 內外圈團體觀察(金魚缸式團體)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-3-b.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3b 內外圈團體觀察(金魚缸式團體)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-3-b.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4 腦力激盪法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-5 名義團體技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-6 團體過程觀察法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-6.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-7 團體目標導向流程表",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 團體輔導結束階段的特徵、任務、問題與準備",
@@ -48351,15 +48351,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 團體輔導結束階段的特徵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 團體輔導結束階段的任務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 團體輔導結束階段可能發生的問題與處理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4 團體輔導結束階段的領導技巧",
@@ -48367,19 +48367,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1 團體結束的基本概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2 團體結束階段的處理要點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3 如何防止團體過早結束的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-4 如何於單次團體聚會進行團體結束",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-5 團體的追蹤和評估",
@@ -48387,15 +48387,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-5-1 團體的追蹤",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-5-2 團體的評估",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-6 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-6.mp4/playlist.m3u8"
         },
         {
           "title": "第7章 團體活動設計實例",
@@ -48403,7 +48403,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-0.mp4/playlist.m3u8"
         },
         {
           "title": "7-1 團體輔導之系統式活動設計實例",
@@ -48411,35 +48411,35 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 設計旨趣",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 開場白",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3 團體發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-1 見面活動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-2 基本原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-3 回饋",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-4 檢驗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-5 其他活動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 團體輔導之單元式活動設計實例",
@@ -48447,11 +48447,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 團體輔導單元式基本策略說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 團體輔導單元式活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 團體輔導之主題式活動設計實例",
@@ -48459,15 +48459,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 團體輔導主題式基本策略說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 團體輔導主題式活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-4.mp4/playlist.m3u8"
         },
         {
           "title": "第8章 自我成長與人際關係團體",
@@ -48475,7 +48475,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-0.mp4/playlist.m3u8"
         },
         {
           "title": "8-1 成長團體與自我成長",
@@ -48483,19 +48483,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 成長團體的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 成長團體的類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-3 成長團體的目標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-4 成長團體的過程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 人際關係團體與自我成長",
@@ -48503,15 +48503,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 人際關係團體的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 健全人際關係的特徵與溝通原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3 團體經驗對人際關係訓練的效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 成長團體活動設計",
@@ -48519,15 +48519,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 成長團體活動設計說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-2 成長團體活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/08/8-4.mp4/playlist.m3u8"
         },
         {
           "title": "第9章 親子關係、婚姻與家庭團體",
@@ -48535,7 +48535,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-0.mp4/playlist.m3u8"
         },
         {
           "title": "9-1 夫妻溝通與夫妻團體",
@@ -48543,19 +48543,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-1 夫妻溝通困難的原因",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-2 夫妻和諧溝通的正確態度",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3 夫妻和諧溝通的方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4 婚姻的課題與夫妻成長團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 親子關係與家庭團體",
@@ -48563,15 +48563,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 親子和諧溝通的基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 親子和諧溝通的方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 家庭溝通團體模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 親子關係與夫妻團體活動設計",
@@ -48579,19 +48579,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3-1 親子關係與夫妻團體活動設計說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2 親子關係團體活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3 夫妻關係團體活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-4 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/09/9-4.mp4/playlist.m3u8"
         },
         {
           "title": "第10章 問題解決與創造力團體",
@@ -48599,7 +48599,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-0.mp4/playlist.m3u8"
         },
         {
           "title": "10-1 團體決策與團體輔導",
@@ -48607,31 +48607,31 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1 團體決策的特質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-2 各種決策方式的比較",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-3 團體決策的歷程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-4 有效溝通的基石",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-5 意見溝通的絆腳石",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-6 意見溝通的技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-6.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-7 團體溝通的型態",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-1-7.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 團體討論的方法與運用",
@@ -48639,23 +48639,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 團體討論的意義與功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 團體討論的方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-3 團體討論的策略",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-4 如何主持團體討論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-3 創造思考的基本策略與方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-4 創造性團體的歷程",
@@ -48663,11 +48663,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-4-1 創造性團體的重要性與組成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-4-2 創造性團體的歷程與領導",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-5 創造性團體的活動設計",
@@ -48675,15 +48675,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-5-1 創造性團體的活動設計說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-5-2 創造性團體的活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-6 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/10/10-6.mp4/playlist.m3u8"
         },
         {
           "title": "第11章 班級與學校社團團體",
@@ -48691,7 +48691,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-0.mp4/playlist.m3u8"
         },
         {
           "title": "11-1 班級團體與班級氣氛",
@@ -48699,23 +48699,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-1 班級團體基本原理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2 團體氣氛",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-3 團體向心力的來源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-4 團體離心力的來源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-5 改善班級氣氛之道",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 班級經營技巧",
@@ -48723,23 +48723,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 班級經營的內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-2 常規問題的形成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-3 班級常規問題管理模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-4 班級常規問題的再界定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-5 班級常規問題管理技巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 班級團體活動設計",
@@ -48747,11 +48747,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-1 活動設計原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-2 活動設計實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-4 學校社團團體的特性",
@@ -48759,19 +48759,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-1 學校社團的涵義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-2 學校社團的重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-3 學校社團的功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-4 學校社團的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-5 學校社團團體的組織與運作",
@@ -48779,15 +48779,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-5-1 學校社團的組織流程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-5-2 學校社團的組織架構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-5-3 學校社團運作之基本原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-5-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-6 如何輔導學校社團",
@@ -48795,27 +48795,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-6-1 建立良好輔導關係",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-6-2 澄清學校社團之功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-6-3 協助學生在社團中成長與學習",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-6-4 輔導學生社團領導功能的發揮",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-6-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-6-5 輔導學生社團活動有效運作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-6-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-7 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/11/11-7.mp4/playlist.m3u8"
         },
         {
           "title": "第12章 探索教育於團體輔導的運用",
@@ -48823,7 +48823,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-0 重點摘要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-0.mp4/playlist.m3u8"
         },
         {
           "title": "12-1 探索教育的意義、歷史與演變",
@@ -48831,15 +48831,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1 探索教育的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-2 探索教育相關名詞與意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-3 探索教育的歷史與演變",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-2 探索教育學習與領導理論簡介",
@@ -48847,15 +48847,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-1 探索教育學習理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-2 探索教育的團體領導原理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-3 探索教育的核心理念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-3 探索心理治療對行為改變的觀點與諮商活動的實施",
@@ -48863,15 +48863,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-3-1 探索心理治療在各階段對成員行為改變之觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-2 探索諮商活動的實施",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-3 探索活動的團體階段與類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-4 團體活動討論架構",
@@ -48879,11 +48879,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-1 引導討論六大要點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-2 引導討論可提出的問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-5 探索活動之評鑑",
@@ -48891,11 +48891,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-5-1 評鑑的四種面向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-5-2 以評鑑的步驟區分",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-6 探索教育的應用與展望",
@@ -48903,11 +48903,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-6-1 探索教育發展的五大領域",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-6-2 探索教育在台灣的展望",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-7 探索教育團體範例",
@@ -48919,11 +48919,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-7-2 探索教育團體活動的實施",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-7-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-8 總結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-8.mp4/playlist.m3u8"
         }
       ]
     },
@@ -48934,7 +48934,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 330,
-      "video_count": 0,
+      "video_count": 260,
       "first_url": "",
       "lectures": [
         {
@@ -48959,19 +48959,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 學習叮嚀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-3 曾展鵬 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-4 課程介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "0-4 曾展鵬 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "0-5 補充教材",
@@ -48987,7 +48987,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 SublimeText軟體安裝",
@@ -48995,15 +48995,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 SublimeText軟體簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 SublimeText軟體下載與安裝",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 安裝與移除套件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 SublimeText常用的功能",
@@ -49011,15 +49011,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 檔案、編輯、選擇、尋找功能表",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 檢視、前往、工具、專案功能表",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 設定、說明功能表",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 建立網頁以及網頁元素",
@@ -49027,23 +49027,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-1 安裝Emmet套件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-2 建立新網頁",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-3 建立網頁元素(1)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-4 建立網頁元素(2)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-5 Emmet參考文件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-5 Sublime Text文件與快捷鍵",
@@ -49051,7 +49051,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-5-1 瀏覽文件網站",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-5-2 Sublime Text常用快速鍵",
@@ -49063,7 +49063,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 認識HTML",
@@ -49071,19 +49071,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 什麼是HTML",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 瀏覽W3C網站",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3 HTML文件結構(1)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-4 HTML文件結構(2)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 內文相關標籤",
@@ -49091,39 +49091,39 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 段落、項目與區塊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2 文字格式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3 語意標籤",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4 超連結與多媒體標籤",
@@ -49131,51 +49131,51 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-1 超連結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2 圖片",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3 聲音",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4 影片",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5 表格與表單",
@@ -49183,27 +49183,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5-1 表格",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-1 標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2 表單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2-1 表單簡介與標籤說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第3章 CSS簡介",
@@ -49211,7 +49211,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 認識CSS",
@@ -49219,27 +49219,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 什麼是CSS？",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 CSS的套用及樣式規則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 CSS選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 文字與段落設定",
@@ -49247,27 +49247,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 顏色的設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2 文字相關樣式設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 段落、條列項目與超連結",
@@ -49275,27 +49275,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4-1 文字段落的樣式設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-1-1 文字段落的樣式設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-2 條列項目及超連結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-2-1 條列項目及超連結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5 背景與框線",
@@ -49303,27 +49303,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-5-1 設定背景",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5-2 設定框線",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-5-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-6 盒子模型與版面定位",
@@ -49331,35 +49331,35 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-6-1 版面的基礎觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-2 版面定位的元素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-2-1 版面定位的元素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-3 排版相關的元素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-3-1 排版相關的元素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-3-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-6-3-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-6-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "第4章 JavaScript簡介",
@@ -49367,7 +49367,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 JavaScript概要",
@@ -49375,7 +49375,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 認識JavaScript語言",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 JavaScript重要語法",
@@ -49383,7 +49383,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-3 第1個JavaScript程式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 流程控制",
@@ -49391,27 +49391,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 條件控制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-1-1 條件控制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 迴圈控制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 函式與陣列",
@@ -49419,27 +49419,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-1 函式基本原理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2 使用陣列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 物件",
@@ -49447,31 +49447,31 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-1 認識物件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-1-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-1-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2 文件物件模型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第5章 認識與使用jQuery",
@@ -49479,7 +49479,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 jQuery簡介",
@@ -49487,23 +49487,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 什麼是jQuery",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 安裝與使用jQuery",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 jQuery的結構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 jQuery選擇器",
@@ -49511,59 +49511,59 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 基本選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-1-1 基本選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-1-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 階層選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3 篩選選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3-1 篩選選擇器",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4 其他選取方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4-1 其他選取方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 jQuery存取CSS樣式與DOM文件",
@@ -49571,35 +49571,35 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-1 jQuery與CSS樣式互動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-1-1 jQuery與CSS樣式互動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-1-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-1-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2 與文件結構DOM的互動",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-5 jQuery的事件處理",
@@ -49607,39 +49607,39 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-5-1 jQuery事件處理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-1-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-1-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-2 jQuery的特殊效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-2-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-2-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-2-4 範例解說3",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "第6章 認識與使用jQuery Mobile",
@@ -49647,7 +49647,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 jQuery Mobile簡介",
@@ -49655,39 +49655,39 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 什麼是jQuery Mobile",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 安裝與使用jQuery Mobile",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3 使用jQuery Mobile",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4 頁面連結",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-2-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 jQuery Mobile常用元件",
@@ -49695,55 +49695,55 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 按鈕與導覽元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-1 按鈕與導覽元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 清單元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2-1 清單元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 版面格點元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-1 版面格點元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4 對話方塊元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4-1 對話方塊元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-3-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4 jQuery Mobile互動",
@@ -49751,47 +49751,47 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1 jQuery Mobile表單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2 jQuery Mobile事件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-2 範例解說1",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-3 範例解說2",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3 jQuery Mobile方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3-1 基本觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3-2 範例解說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "第7章 行動網站",
@@ -49799,7 +49799,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 行動裝置與網頁",
@@ -49807,19 +49807,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 認識行動與無線通訊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 網站與網頁",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 行動裝置上網",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-4 漫談行動網頁的趨勢",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 網頁設計流程",
@@ -49827,11 +49827,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 整體的流程與實務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 聽聽專家的網頁設計經驗談",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 響應式的網頁設計",
@@ -49839,11 +49839,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4-1 多元的裝置對網頁設計的影響",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-4-2 認識響應式的網頁設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-5 網頁的介面設計與風格",
@@ -49851,15 +49851,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-5-1 網頁的介面元件設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-5-2 網頁的風格",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-5-3 無障礙網頁的設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-5-3.mp4/playlist.m3u8"
         },
         {
           "title": "第8章 Bootstrap入門",
@@ -49867,7 +49867,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 Bootstrap的下載與安裝",
@@ -49875,11 +49875,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 行動網頁的開發工具",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 下載安裝Bootstrap",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 格線系統",
@@ -49887,11 +49887,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 認識格線系統",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-2 格線系統的設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 Bootstrap中的樣式",
@@ -49899,11 +49899,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-4-1 各種樣式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-4-2 樣式的套用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-5 建立行動網站的骨架",
@@ -49911,11 +49911,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-5-1 行動網站設計",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-5-2 建立網站骨架",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-6 線上的網頁編輯工具",
@@ -49923,11 +49923,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-6-1 認識Weebly",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-6-2 認識CodePen",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "第9章 運用Bootstrap主要元件與工具",
@@ -49935,7 +49935,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 Bootstrap的CSS樣式",
@@ -49943,63 +49943,63 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 版面配置",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-1 認識版面配置",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-2 版面配置的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 表格",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-1 認識表格",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-2 表格的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 表單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3-1 認識表單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3-2 表單的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4 圖片",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-1 認識圖片",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-2 圖片的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5 按鈕",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5-1 認識按鈕",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5-2 按鈕的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-2-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 Bootstrap的元件",
@@ -50007,39 +50007,39 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3-1 按鈕群組",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-1-1 認識按鈕群組",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-1-2 按鈕群組的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2 下拉選單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2-1 認識下拉選單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2-2 下拉選單的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3 導覽列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3-1 認識導覽列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3-2 導覽列的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-4 其他元件",
@@ -50047,11 +50047,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-4-1 認識其他元件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-2 其他元件的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "第10章 Bootstrap JS組件",
@@ -50059,7 +50059,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 切換內容標籤",
@@ -50067,11 +50067,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 認識切換內容標籤",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 切換內容標籤的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3 互動視窗",
@@ -50079,11 +50079,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-1 認識互動視窗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-2 互動視窗的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-4 提示訊息",
@@ -50091,11 +50091,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-4-1 認識提示訊息",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-4-2 提示訊息的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-5 彈出提示訊息",
@@ -50103,11 +50103,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-5-1 認識彈出提示訊息",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-5-2 彈出提示訊息的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-6 手風琴效果",
@@ -50115,11 +50115,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-6-1 認識手風琴效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-6-2 手風琴效果的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-7 摺疊效果",
@@ -50127,11 +50127,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-7-1 認識摺疊效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-7-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-7-2 摺疊效果的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-7-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-8 圖片輪播效果",
@@ -50139,11 +50139,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-8-1 認識圖片輪播效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-8-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-8-2 圖片輪播效果的操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-8-2.mp4/playlist.m3u8"
         },
         {
           "title": "第11章 行動網頁實例(一)",
@@ -50151,7 +50151,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 京都旅遊導覽",
@@ -50159,15 +50159,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 網頁設計的規劃",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-2 網頁設計專家經驗談(1)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 版面配置",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4 各版面成員的設計與製作",
@@ -50175,19 +50175,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-1 導覽列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-2 訊息區",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-3 主要內容區",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-4 完成網頁的製作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "11-5 類似網頁的製作",
@@ -50195,11 +50195,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-5-1 電腦機房導覽",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-5-2 企業產品導覽",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "第12章 行動網頁實例(二)",
@@ -50207,7 +50207,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2 我的個人網頁相簿",
@@ -50215,15 +50215,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-1 網頁設計的規劃",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-2 網頁設計專家經驗談(2)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-3 版面配置",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-4 各版面成員的設計與製作",
@@ -50231,19 +50231,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-1 導覽列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-2 訊息區",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-3 主要內容區",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-4 完成網頁的製作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "12-5 類似網頁的製作",
@@ -50251,11 +50251,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-5-1 美食街展示",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-5-2 作品展示",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-5-2.mp4/playlist.m3u8"
         }
       ]
     },
@@ -51750,7 +51750,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "商學系",
       "total_lectures": 255,
-      "video_count": 185,
+      "video_count": 186,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_",
       "lectures": [
         {
@@ -51815,11 +51815,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-2 國際收支包含的項目 (中)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-1-2-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-1-2-a.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 國際收支包含的項目 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-1-2-c.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-1-2-a.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 貿易統計與附加價值",
@@ -51835,7 +51835,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-2 貿易統計與附加價值 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-2-2-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-2-2-a.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 經常帳與雙赤字",
@@ -51851,7 +51851,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4 各國資產或外債累積的現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-4-a.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 各國資產或外債累積的現況 (上)",
@@ -51859,7 +51859,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4 各國資產或外債累積的現況 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-4-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/01/1-4-a.mp4/playlist.m3u8"
         },
         {
           "title": "第2章 外匯存底與全球失衡",
@@ -51883,7 +51883,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-2 外匯存底與貨幣供給的關係 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-1-2-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-1-2-a.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 外匯存底的權衡與運用",
@@ -51903,7 +51903,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-3 外匯存底的最適數量與投資決策 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-2-3-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-2-3-a.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 全球失衡",
@@ -51919,7 +51919,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-2 過度儲蓄與消費的全球困境 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-3-2-b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730071/02/2-3-2-a.mp4/playlist.m3u8"
         },
         {
           "title": "第3章 國際貨幣制度的演變",
@@ -52791,147 +52791,147 @@ window.NOU_CATALOG = {
         },
         {
           "title": "第 01 講 - 課程介紹",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 團體輔導的意義與種類",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 團體輔導的功能、限制及其與個別輔導的比較",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 團體輔導的基本原理",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 團體諮商理論(一)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 團體諮商理論(二)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 團體動力的意義、形成與發展",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 團體領導、團體效能與角色功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 團體倫理的功能與內涵",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 團體領導者專業倫理標準",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 團體輔導技巧(一)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 團體輔導技巧(二)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 團體輔導技巧(三)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 如何做好團體進行前之準備工作(一)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 如何做好團體進行前之準備工作(二)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 團體開始階段的特徵、任務與輔導技巧",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 團體轉換階段的特徵、任務與輔導技巧",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 團體工作階段的特徵、任務與輔導技巧",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_18.mp4/playlist.m3u8"
         },
         {
           "title": "第 19 講 - 團體結束階段的特徵、任務與輔導技巧",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_19.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_19.mp4/playlist.m3u8"
         },
         {
           "title": "第 20 講 - 團體追蹤與評估",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_20.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_20.mp4/playlist.m3u8"
         },
         {
           "title": "第 21 講 - 成長團體的目標與過程",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_21.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_21.mp4/playlist.m3u8"
         },
         {
           "title": "第 22 講 - 人際關係團體與成長",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_22.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_22.mp4/playlist.m3u8"
         },
         {
           "title": "第 23 講 - 成長團體活動",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_23.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_23.mp4/playlist.m3u8"
         },
         {
           "title": "第 24 講 - 夫妻溝通與夫妻團體",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_24.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_24.mp4/playlist.m3u8"
         },
         {
           "title": "第 25 講 - 親子溝通與親子家庭團體活動",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_25.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_25.mp4/playlist.m3u8"
         },
         {
           "title": "第 26 講 - 團體決策與團體溝通",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_26.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_26.mp4/playlist.m3u8"
         },
         {
           "title": "第 27 講 - 團體討論",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_27.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_27.mp4/playlist.m3u8"
         },
         {
           "title": "第 28 講 - 班級團體與班級氣氛",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_28.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_28.mp4/playlist.m3u8"
         },
         {
           "title": "第 29 講 - 班級經營技巧與班級團體活動設計",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_29.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_29.mp4/playlist.m3u8"
         },
         {
           "title": "第 30 講 - 學校社團團體的特性、組織與運作",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_30.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_30.mp4/playlist.m3u8"
         },
         {
           "title": "第 31 講 - 如何輔導學校社團",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_31.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_31.mp4/playlist.m3u8"
         },
         {
           "title": "第 32 講 - 價值澄清法特色與功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_32.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_32.mp4/playlist.m3u8"
         },
         {
           "title": "第 33 講 - 價值澄清的實施與團體活動",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_33.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_33.mp4/playlist.m3u8"
         },
         {
           "title": "第 34 講 - 創造思考的基本策略",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_34.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_34.mp4/playlist.m3u8"
         },
         {
           "title": "第 35 講 - 創造性團體的形成與活動設計",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_35.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_35.mp4/playlist.m3u8"
         },
         {
           "title": "第 36 講 - 課程的回顧與總結",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/500112/800k/500112_36.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500112/800k/500112_36.mp4/playlist.m3u8"
         }
       ]
     },
@@ -52942,7 +52942,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 289,
-      "video_count": 207,
+      "video_count": 211,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/100962/g200A2/3-3-1_01.m4a/playlist.m3u8",
       "lectures": [
         {
@@ -52955,7 +52955,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100962/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100962/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -53071,15 +53071,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-3 團體中常見三種角色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-1 抗拒角色",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-2 操縱角色",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/01/1-3-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-3 協助角色",
@@ -53347,7 +53347,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-2 學習如何瞭解團體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/04/4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-3 瞭解及扮演團體輔導員的角色",
@@ -53499,7 +53499,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-3a 內外圈團體觀察(金魚缸式團體)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/06/6-2-3-b.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3b 內外圈團體觀察(金魚缸式團體)",
@@ -53595,23 +53595,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-3 團體發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-1 見面活動",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-2 基本原則",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-3 回饋",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-4 檢驗",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/07/7-1-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3-5 其他活動",
@@ -54083,7 +54083,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-6-2 探索教育在臺灣的展望",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750007/12/12-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-7 探索教育團體範例",
@@ -55070,75 +55070,75 @@ window.NOU_CATALOG = {
         },
         {
           "title": "第 01 講 - 基金管理的基本概念",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 資產配置",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 投資組合理論一",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 投資組合理論二",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 資本市場效率",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 股票交易與股價指數",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 股票評價與影響股價因素",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 債券市場",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 金融期貨基本概念與股價指數期貨",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 利率期貨與外匯期貨",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 共同基金的意義",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 共同基金的種類",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 共同基金的投資哲學",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 退休基金的意義.種類",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 退休基金的投資",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 基金的績效評估一",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 基金的績效評估二",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 基金的績效評估三",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600208/800k/600208_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600208/800k/600208_18.mp4/playlist.m3u8"
         }
       ]
     },
@@ -56634,7 +56634,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1子宮頸癌的分期與治療",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/11/11-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1 認識憂鬱症",
@@ -56642,7 +56642,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2子宮頸癌的預防",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/11/11-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/09/9-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 憂鬱症與焦慮症治療及家人支持",
@@ -56650,7 +56650,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3卵巢癌與保健",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/11/11-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750090/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 個人情緒管理與調適",
@@ -59666,15 +59666,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2-1 行銷思維與行為理解",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2-2 行銷溝通與品牌價值塑造",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2-3 行銷策略與企劃整合",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2-4 行銷創新與產業實務",
@@ -59686,7 +59686,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1a",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-3-1a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780079/03/3-3-1b.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-1b",
@@ -63889,7 +63889,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100829/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100829/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -64253,7 +64253,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1a 家庭發展階段相關議題",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-1-1a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-1-1b.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1b 家庭發展階段相關議題(座談)",
@@ -64261,7 +64261,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-2a 困擾青少年的相關問題",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-1-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-1-2b.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2b 困擾青少年的相關問題(座談)",
@@ -64293,7 +64293,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-2a 經濟問題危機",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-3-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-3-2b.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2b 經濟問題危機(座談)",
@@ -64305,7 +64305,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-4a 親子互動問題危機",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-3-4a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-3-4b.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4b 親子互動問題危機(座談)",
@@ -64321,7 +64321,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-2a SWOT分析危機因應對策",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-4-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-4-2b.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2b SWOT分析危機因應對策(座談)",
@@ -64329,7 +64329,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-3a 特定對象危機因應對策",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-4-3a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/05/5-4-3b.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-3b 特定對象危機因應對策(座談)",
@@ -64361,7 +64361,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-2a 親職教育的發展與推動",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-1-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-1-2b.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2b 親職教育的發展與推動(座談)",
@@ -64377,7 +64377,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2a 以行為學派為主的模式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-2-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-2-2b.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2b 以行為學派為主的模式(座談)",
@@ -64393,7 +64393,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1a 多元化家庭親職教育策略",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-3-1a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-3-1b.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1b 多元化家庭親職教育策略(座談)",
@@ -64401,7 +64401,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-2a 特殊兒少家庭親職教育策略",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-3-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-3-2b.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2b 特殊兒少家庭親職教育策略(座談)",
@@ -64409,7 +64409,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-3 跨國婚姻家庭支持策略",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100829/g217A/4-4-4_1.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100829/g217A/4-4-4_1.m4a/playlist.m3u8"
         },
         {
           "title": "6-4 親職教育的實施與評鑑及發展趨勢",
@@ -64421,7 +64421,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-2a 親職教育推廣案例討論",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-4-2a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-4-2b.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2b 親職教育推廣案例討論(座談)",
@@ -64429,7 +64429,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-3a 親職教育評鑑與設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-4-3a.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/06/6-4-3b.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3b 親職教育評鑑與設計(座談)",
@@ -64865,7 +64865,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-3-1b 公民身分",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/13/13-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/13/13-3-1a.mp4/playlist.m3u8"
         },
         {
           "title": "13-3-2a 語言、文化、子女教養(一)",
@@ -64873,7 +64873,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-3-2b 語言、文化、子女教養(二)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/13/13-3-2b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/13/13-3-2a.mp4/playlist.m3u8"
         },
         {
           "title": "13-3-3 經濟與就業需求",
@@ -65005,11 +65005,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-5-2b 兒少虐待防治之落實-預防面向",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/14/14-5-2b.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/14/14-5-2a.mp4/playlist.m3u8"
         },
         {
           "title": "14-5-2c 兒少虐待防治之落實-後續處理",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/14/14-5-2c.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/500521/14/14-5-2a.mp4/playlist.m3u8"
         },
         {
           "title": "14-5-3 兒少虐待防治之挑戰",
@@ -72943,7 +72943,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 87,
-      "video_count": 0,
+      "video_count": 8,
       "first_url": "",
       "lectures": [
         {
@@ -72984,7 +72984,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 自主學習的意涵與特點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 自主學習的必要與重要性",
@@ -73092,11 +73092,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-0 本章概要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/06/6-0.mp4/playlist.m3u8"
         },
         {
           "title": "6-1 組成對象與特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 帶領人的角色與功能",
@@ -73108,7 +73108,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4 團體運作時程與地點規劃",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/06/6-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-5 資源運用與連結",
@@ -73120,11 +73120,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-0 本章概要",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/07/7-0.mp4/playlist.m3u8"
         },
         {
           "title": "7-1 學習環境之意涵與重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 成人學習環境之層面與檢視量表",
@@ -73144,7 +73144,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1 團體運行的有利_不利因子",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/08/8-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 團體開展有利因子的關鍵要素",
@@ -73164,7 +73164,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 自主學習團體活動方案的重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780061/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 自主學習團體活動方案的設計技巧",
@@ -75607,147 +75607,147 @@ window.NOU_CATALOG = {
         },
         {
           "title": "第 01 講 - 投資理財的介紹",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 投資理財的功能與目的",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 利率水準",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 金融市場",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 證券種類",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 證券市場組織",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 風險與投資行為",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 風險與報酬率",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 資金、終值與現值",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 年金與分期付款",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 證券投資與債券價值",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 股票價值",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 證券投資分析（一）直接與間接分析",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 證券投資分析（二）基本分析與技術分析",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 股票及股票市場概說",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 股票價格及其影響因素",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 財務報表分析方法",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 投資指標及其應用",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_18.mp4/playlist.m3u8"
         },
         {
           "title": "第 19 講 - 技術分析理論概說",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_19.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_19.mp4/playlist.m3u8"
         },
         {
           "title": "第 20 講 - 技術分析方法之應用",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_20.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_20.mp4/playlist.m3u8"
         },
         {
           "title": "第 21 講 - 投資組合及其風險",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_21.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_21.mp4/playlist.m3u8"
         },
         {
           "title": "第 22 講 - 投資組合選擇和其功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_22.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_22.mp4/playlist.m3u8"
         },
         {
           "title": "第 23 講 - 債券市場概說",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_23.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_23.mp4/playlist.m3u8"
         },
         {
           "title": "第 24 講 - 債券投資及其過程",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_24.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_24.mp4/playlist.m3u8"
         },
         {
           "title": "第 25 講 - 基金型態及功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_25.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_25.mp4/playlist.m3u8"
         },
         {
           "title": "第 26 講 - 基金發展及投資實例",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_26.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_26.mp4/playlist.m3u8"
         },
         {
           "title": "第 27 講 - 期貨投資和功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_27.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_27.mp4/playlist.m3u8"
         },
         {
           "title": "第 28 講 - 期貨投資及其風險",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_28.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_28.mp4/playlist.m3u8"
         },
         {
           "title": "第 29 講 - 期貨市場組織架構",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_29.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_29.mp4/playlist.m3u8"
         },
         {
           "title": "第 30 講 - 期貨商品種類和特性",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_30.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_30.mp4/playlist.m3u8"
         },
         {
           "title": "第 31 講 - 選擇權發展及其功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_31.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_31.mp4/playlist.m3u8"
         },
         {
           "title": "第 32 講 - 選擇權和交易策略",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_32.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_32.mp4/playlist.m3u8"
         },
         {
           "title": "第 33 講 - 營運資金與現金管理",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_33.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_33.mp4/playlist.m3u8"
         },
         {
           "title": "第 34 講 - 現金管理與信用政策",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_34.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_34.mp4/playlist.m3u8"
         },
         {
           "title": "第 35 講 - 投資理財發展的趨勢",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_35.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_35.mp4/playlist.m3u8"
         },
         {
           "title": "第 36 講 - 本書總結",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600205/600205_36.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600205/600205_36.mp4/playlist.m3u8"
         }
       ]
     },
@@ -79467,75 +79467,75 @@ window.NOU_CATALOG = {
         },
         {
           "title": "第 01 講 - 教育社會學的概說、理論基礎與研究類型",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 教育社會學的歷史發展",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 教育的社會功能",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 社會階層、社會流動與教育",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 教育機會均等",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 政治、經濟與教育",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 家庭、社區與教育",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 文化、族群與教育",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 期中座談",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 學校組織與學校文化",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 學校領導與運作",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 教育人員專業化",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 班級社會系統、學生角色與學生次文化",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 教師角色與師生關係",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 課程與教學法",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 當代教育社會學分析：全球化與教育",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 當代教育社會學分析：學習機會的擴充",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 期末座談",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/200207/200207_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200207/200207_18.mp4/playlist.m3u8"
         }
       ]
     },
@@ -79546,7 +79546,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 220,
-      "video_count": 163,
+      "video_count": 164,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/720059/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -79951,7 +79951,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-5-4 臺灣的多元文化教育",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720059/04/4-5-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-5 對多元文化教育的評論",
@@ -81518,7 +81518,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 227,
-      "video_count": 137,
+      "video_count": 158,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760089/00/0-4.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -81587,23 +81587,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 資料的來源與類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1-1 資料變成有用資產的關鍵因素",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1-2 資料的應用",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1-3 資料量的等級",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1-4 資料的類型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-1-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1-5 資料的類型與產生方式",
@@ -81623,11 +81623,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 數據分析的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1-1 數據分析的研究",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/01/1-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1-2 不同類型的數據分析",
@@ -81675,19 +81675,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 從事件與試驗看機率的觀念與應用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1-1 為什麼需要機率與統計？",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1-2 機率與統計如何處理不確定性？",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1-3 機率(probability)的定義與表示法",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1-4 隨機實驗",
@@ -81719,19 +81719,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-3 推論與假設檢定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-1 傳統的統計推論過程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-2 中央極限定理",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-3 估計(estimation)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/02/2-2-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-4 假設檢定(hypothesis testing)",
@@ -81771,11 +81771,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 資料處理的種類",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/03/3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/03/3-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-1 遺失值的處理邏輯",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/03/3-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/03/3-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1-2 離群值的判斷與因應",
@@ -81847,19 +81847,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 問題的定義與適用性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1-1 最簡單的預測範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1-2 什麼是可靠的模型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1-3 資料集與問題的種類",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1-4 問題定義的重要性",
@@ -81867,11 +81867,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-2 如何選擇演算法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2-1 先求有再求好",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2-2 站在巨人的肩膀上",
@@ -81883,11 +81883,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 模型的評估指標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1-1 迴歸問題的效果評估",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1-2 分類問題的效果評估",
@@ -81895,7 +81895,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 成功建模的標準流程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-1 實務上的開發流程",
@@ -81903,15 +81903,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2-2 建模的重點",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2-3 集成學習",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 效果的驗證方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3-1 案例說明",
@@ -81919,11 +81919,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-3-2 A/B測試與卡方檢定",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3-3 增益模型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/05/5-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "第6章 機器學習入門",
@@ -81975,7 +81975,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 NumPy套件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1-1 NumPy套件簡介",
@@ -81983,11 +81983,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1-2 NumPy套件範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 Pandas套件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2-1 Pandas套件",
@@ -81995,11 +81995,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2-2 資料框範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3 Matplotlib套件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3-1 Matplotlib套件",
@@ -82007,7 +82007,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-3-2 Matplotlib套件範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 Scikit-learn套件",
@@ -82027,7 +82027,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1 處理遺漏的資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1-1 處理遺漏的資料",
@@ -82035,11 +82035,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-1-2 處理遺漏資料的範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2 處理分類資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-1 處理分類資料",
@@ -82047,11 +82047,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-2-2 處理分類資料範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3 資料集與特徵值",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3-1 資料集與特徵值尺度",
@@ -82059,7 +82059,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-3-2 資料集與特徵值尺度範例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/06/6-4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "第7章 機器學習實務",
@@ -82167,7 +82167,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 機器學習開發平臺以及自動化機器學習",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 雲端的機器學習服務",
@@ -82179,11 +82179,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1-1 影像辨識展示",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/08/8-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-2 文字語意處理展示",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/08/8-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 雲端的機器學習平臺",
@@ -82215,7 +82215,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-2 深度學習的演進發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-2-1 影像辨識競賽ImageNet的介紹",
@@ -82223,11 +82223,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-2-2 深度學習的發展關鍵",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3 深度學習的當代應用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3-1 深度學習的創造力",
@@ -82239,7 +82239,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 類神經網路的架構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-1-1 類神經網路的核心元素",
@@ -82247,11 +82247,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1-2 基礎運算的實作練習",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 類神經網路的建模方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-1 類神經網路的運作概念和數學",
@@ -82259,15 +82259,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-2-2 類神經網路的建模步驟",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-3 類神經網路的完整實作練習",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2-4 動手玩深度學習",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/09/9-2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 各種深度學習網路的結構介紹",
@@ -82291,7 +82291,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1-1 Colab 的介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-2 運用 TensorFlow 的程式開發邏輯",
@@ -82299,7 +82299,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-2-1 TensorBoard 的介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 以 TensorFlow 實作深度學習",
@@ -82315,11 +82315,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-2-1 手寫數字資料集的介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2-2 TensoFlow 實作演練",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第11章 Keras",
@@ -82343,7 +82343,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-2-1 Softmax 的原理",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/11/11-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/11/11-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 分類的效果評估",
@@ -82379,11 +82379,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-1 認識卷積神經網路",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/12/12-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-1-1 卷積和池化的運算原理",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/12/12-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760089/12/12-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-1-2 卷積神經網路的架構和特性",
@@ -85881,7 +85881,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "人文學系",
       "total_lectures": 145,
-      "video_count": 80,
+      "video_count": 82,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/100208/01/1-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -86450,11 +86450,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "16-2-1 大眾傳播",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100208/16/16-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "16-2-2 大眾文化",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100208/16/16-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "總結",
@@ -87745,7 +87745,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 162,
-      "video_count": 46,
+      "video_count": 122,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/720081/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -87838,7 +87838,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 資訊科技的概念與發展",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/01/1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1 樂活的五大方向(一)",
@@ -87846,15 +87846,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 何謂新聞",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1 高齡社會的問題與挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 社會規範與法律規範",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/01/1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 樂活的五大方向(二)",
@@ -87862,15 +87862,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-2 何謂社會新聞",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 高齡社會之準備與對應",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 資訊科技對於社會與法律的衝擊",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/01/1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 綠色_理性消費",
@@ -87878,15 +87878,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-3 社會新聞的影響",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 活力老年、發揮銀色價值",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 公權力可否蒐集人民通訊資料",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/01/1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 消費行為 V.S. 黑心商品",
@@ -87894,15 +87894,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 案例討論（上）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 何以高齡者容易受騙",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 可否立法蒐集人民通訊資料",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/01/1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 有機商品 V.S. 健康",
@@ -87910,11 +87910,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-2 案例討論（下）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 高齡員工 翻轉職場競爭力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第二章 AI人工智慧與刑事司法實務",
@@ -87934,7 +87934,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 AI在我國刑事司法實務之運用",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/02/2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1 食品安全的基本觀念",
@@ -87942,15 +87942,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 子女之種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1 長期照顧概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 當AI遇見受刑人─以智慧監獄為例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/02/2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 我國的食品安全管理法制",
@@ -87958,15 +87958,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-2 親權之概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 長期照顧服務法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 AI協助降低再犯─以智慧觀護為例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/02/2-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 食安謠言的防治",
@@ -87974,15 +87974,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-3 親權之歸屬",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 長期照顧10年計畫2.0",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1 人工智慧對司法的影響及未來發展",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/02/2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1 想像不到的食品添加物要如何管制？",
@@ -87990,15 +87990,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 父母離婚時的親權歸屬？父母一方死亡時的親權歸屬？",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1 長期照顧服務法的下一步",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 機器人會犯罪嗎？談AI的人格能力",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/02/2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 食安與其他利益之間的取捨",
@@ -88006,11 +88006,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-2 父母離婚後，母再婚卻死亡時的親權歸屬？",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 長期照顧10年計畫2.0的下一步",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第三章 區塊鏈發展與法律應用",
@@ -88030,7 +88030,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 金融科技監理架構",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-1 自然與環境的意義",
@@ -88038,15 +88038,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 戀愛和婚姻在法律上的差別",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-1 活耀老化與就業",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 區塊鏈之基礎概念",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 保存與保全的論爭",
@@ -88054,15 +88054,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-2 我的他（她）是人夫(人妻)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 中高齡者及高齡者就業促進法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 區塊鏈之挑戰與反思",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 當代的新視野：我們只有一個地球",
@@ -88070,15 +88070,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-3 他（她）對我不好，越痛越愛_",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 安全就業-其他相關法規",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 區塊鏈之運用現狀",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 海洋悲歌：比台灣還大44倍的垃圾島",
@@ -88086,11 +88086,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 捍衛配偶權",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 議題討論(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720071/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 區塊鏈運用之未來趨勢",
@@ -88098,15 +88098,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2 電商年產塑膠垃圾可繞地球500圈",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 多元成家、同性婚姻",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 議題討論(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第四章 無人機法律問題探討",
@@ -88130,15 +88130,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 綠能的背景與願景",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1 法定繼承與意定遺囑",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1 少子化的定義與衝擊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 無人機管理注意事項",
@@ -88146,15 +88146,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-2 綠能與節能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 繼承的方式與效力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 少子化的原因與影響",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 活動區域公告與其他事項",
@@ -88162,15 +88162,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-3 各種綠能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 成年子女扶養義務的減輕或免除",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 少子化V.S高齡化",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 飛航安全的問題",
@@ -88178,15 +88178,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 「種電」蔓延全台：綠電還是發財夢？",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 拋棄繼承的效力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 整合資源擬定少子化社會對策",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 涉及個人隱私資料問題",
@@ -88194,15 +88194,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-2 非核vs.零碳家園",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 可否禁止棄養父母或不孝兒女繼承財產",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 搶救倒數生育率，育兒政策撒錢誰買單",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第五章 自駕車法律問題探討",
@@ -88226,15 +88226,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 健康促進與全民健保",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1 網路犯罪的概念與態樣",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1 休閒與旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 自駕車與相關法令",
@@ -88242,15 +88242,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-2 病人自主權利",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 網路色情",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 旅遊糾紛之類型與規範（上）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 自駕車規範的重點",
@@ -88258,15 +88258,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-3 安寧緩和醫療",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 網路賭博",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 旅遊糾紛之類型與規範（下）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1 自駕車與個人資料收集",
@@ -88274,15 +88274,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 健保案例之討論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1 議題討論(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1 由新聞事件延伸討論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 自駕車死傷事故的法律責任",
@@ -88290,15 +88290,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 預立醫療決定v.s.安寧緩和醫療暨維生醫療抉擇意願",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 議題討論(下)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 旅遊糾紛處理管道",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "第六章 GPS法律問題探討",
@@ -88322,15 +88322,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 專業人士為何需要負起社會責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1 基本的正確觀念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1 高齡化社會的養老問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 衛星定位系統實際運用情形",
@@ -88338,15 +88338,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-2 專業倫理規範使專業人士負起社會責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 訴訟外的解決途徑",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 我國的以房養老政策",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3 裝設於他人車輛蒐集行車動線",
@@ -88354,15 +88354,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-3 專業倫理規範與社會責任：以法律倫理為例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3 訴訟須知",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3 以房養老之風險與問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 美國的法制與實務，以及對於我國的啟示",
@@ -88370,15 +88370,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 法官_檢察官的政治中立義務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 案例討論（上）：迴避問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 以房養老的案例說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 德國的法制與實務，以及對於我國的啟示",
@@ -88386,15 +88386,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2 律師的忠誠與真實義務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 案例討論（下）：訴訟扶助",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 以房養老所面對的實務問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720081/720070/06/6-2-2.mp4/playlist.m3u8"
         }
       ]
     },
@@ -88876,7 +88876,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "商學系",
       "total_lectures": 121,
-      "video_count": 71,
+      "video_count": 78,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/730076/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -88905,7 +88905,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 學習叮嚀",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/00/0-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "0-3 課程介紹",
@@ -88953,7 +88953,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-5 臺灣會展產業發展現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/01/1-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 會展產業發展趨勢",
@@ -89033,7 +89033,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2 亞太與臺灣國際會議發展現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 會議競標與企劃行銷",
@@ -89113,7 +89113,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-3 臺灣展覽產業環境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/04/4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-4 線上展會",
@@ -89193,7 +89193,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 臺灣觀光產業發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 國際旅客成長情況及永續旅遊",
@@ -89209,7 +89209,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-2 臺灣獎勵旅遊產業發展與案例分享",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/05/5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 激勵的基礎理論與應用",
@@ -89249,7 +89249,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-6-3 亞洲超級團隊及臺灣如何成為Incentive Destination",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/05/5-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-6-4 國際知名的獎勵旅遊組織",
@@ -89313,7 +89313,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-6 臺灣特殊活動發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/730076/06/6-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-7 活動贊助",
@@ -90280,7 +90280,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 140,
-      "video_count": 104,
+      "video_count": 108,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760111/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -90401,7 +90401,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C1-1 個案基本資料與發展沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c1/c1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 價值的本質與分類",
@@ -90409,7 +90409,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C1-2 價值主張說明與變革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c1/c1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 企業對價值主張的操作",
@@ -90417,7 +90417,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C1-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c1/c1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/01/1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 價值主張的類型",
@@ -90425,7 +90425,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C1-4 市場或消費者的價值認同",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c1/c1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/01/1-4.mp4/playlist.m3u8"
         },
         {
           "title": "C1-5 財務或績效",
@@ -90437,7 +90437,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 策略與競爭優勢",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c2/c2-1.mp4/playlist.m3u8"
         },
         {
           "title": "C2-1 個案基本資料與發展沿革",
@@ -90457,7 +90457,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2 企業商業模式的策略規劃",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c2/c2-2.mp4/playlist.m3u8"
         },
         {
           "title": "C2-2 價值主張說明與變革",
@@ -90481,7 +90481,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C2-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c2/c2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "C2-4 市場或消費者的價值認同",
@@ -90501,7 +90501,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C3-1 個案基本資料與發展沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c3/c3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 環境因素對消費者的影響",
@@ -90509,7 +90509,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C3-2 價值主張說明與變革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c3/c3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 虛擬服務場域",
@@ -90517,7 +90517,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C3-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c3/c3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/03/3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 結語",
@@ -90525,7 +90525,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C3-4 市場或消費者的價值認同",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c3/c3-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/03/3-4.mp4/playlist.m3u8"
         },
         {
           "title": "C3-5 財務或績效",
@@ -90541,7 +90541,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C4-1 個案基本資料與發展沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c4/c4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 感性的感知價值",
@@ -90549,7 +90549,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C4-2 價值主張說明與變革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c4/c4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 結語",
@@ -90557,7 +90557,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C4-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c4/c4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/04/4-3.mp4/playlist.m3u8"
         },
         {
           "title": "C4-4 市場或消費者的價值認同",
@@ -90573,7 +90573,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 腳本理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c5/c5-1.mp4/playlist.m3u8"
         },
         {
           "title": "C5-1 個案基本資料與發展沿革",
@@ -90601,7 +90601,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2 基模理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c5/c5-2.mp4/playlist.m3u8"
         },
         {
           "title": "C5-2 價值主張說明與變革",
@@ -90625,7 +90625,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C5-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c5/c5-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/05/5-3.mp4/playlist.m3u8"
         },
         {
           "title": "C5-4 市場或消費者的價值認同",
@@ -90645,7 +90645,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C6-1 個案基本資料與發展沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c6/c6-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 效價評估機制",
@@ -90653,7 +90653,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C6-2 價值主張說明與變革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c6/c6-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 結語",
@@ -90661,7 +90661,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "C6-3 組織服務環境與流程設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/c6/c6-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760111/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "C6-4 市場或消費者的價值認同",
@@ -92725,7 +92725,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-3 越南之漢化 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/03/3-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/03/3-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 越南之漢化",
@@ -92769,7 +92769,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 婆羅浮屠之宗教意義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 婆羅浮屠之宗教意義",
@@ -92785,7 +92785,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-3 比較 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 比較",
@@ -92925,7 +92925,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2 印尼在日本統治下之民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 印尼在日本統治下之民族主義",
@@ -92953,7 +92953,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-3 馬來亞在日本統治下的民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 馬來亞在日本統治下的民族主義",
@@ -92965,7 +92965,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-5 新加坡在日本統治下的民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-5 新加坡在日本統治下的民族主義",
@@ -93093,7 +93093,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-5 新加坡加入及脫離馬來西亞聯邦 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-1-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-1-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-5 新加坡加入及脫離馬來西亞聯邦",
@@ -93137,7 +93137,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-3 有民主無自由的保守政治 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-3 有民主無自由的保守政治",
@@ -93169,7 +93169,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-4 革新開放 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/09/9-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/09/9-1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4 革新開放",
@@ -93557,7 +93557,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-3 越南之漢化 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/03/3-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/03/3-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 越南之漢化",
@@ -93601,7 +93601,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 婆羅浮屠之宗教意義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 婆羅浮屠之宗教意義",
@@ -93617,7 +93617,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-3 比較 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/04/4-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 比較",
@@ -93757,7 +93757,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2 印尼在日本統治下之民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 印尼在日本統治下之民族主義",
@@ -93785,7 +93785,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-3 馬來亞在日本統治下的民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3 馬來亞在日本統治下的民族主義",
@@ -93797,7 +93797,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-5 新加坡在日本統治下的民族主義 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/06/6-3-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-5 新加坡在日本統治下的民族主義",
@@ -93925,7 +93925,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-5 新加坡加入及脫離馬來西亞聯邦 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-1-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-1-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-5 新加坡加入及脫離馬來西亞聯邦",
@@ -93969,7 +93969,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-3 有民主無自由的保守政治 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/08/8-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-3 有民主無自由的保守政治",
@@ -94001,7 +94001,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-4 革新開放 (影音)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/09/9-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710078/09/9-1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-4 革新開放",
@@ -94212,7 +94212,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "人文學系",
       "total_lectures": 217,
-      "video_count": 164,
+      "video_count": 165,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/710075/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -94461,7 +94461,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-4 朱熹《楚辭集註》",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710075/03/3-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-5 王夫之、林雲銘",
@@ -95609,7 +95609,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100843/g200A/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100843/g200A/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -95853,7 +95853,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-4 唐傳奇俠客故事對後世之影響",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710074/03/3-2-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710074/03/3-2-5.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-4 唐傳奇俠客故事對後世之影響(續)",
@@ -96265,7 +96265,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "鈕則誠 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750058/00/0-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750058/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-1 課程簡介與學習目標",
@@ -96980,7 +96980,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 80,
-      "video_count": 49,
+      "video_count": 53,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/570056/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -97141,7 +97141,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2 臺灣的喪服制度",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750056/07/7-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 喪服制度的文化功能",
@@ -97277,15 +97277,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-1 臺灣殯葬學術教育的現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750056/14/14-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-2 臺灣殯葬學術建構的可能面向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750056/14/14-2.mp4/playlist.m3u8"
         },
         {
           "title": "14-3 臺灣殯葬學術教育的落實之道",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750056/14/14-3.mp4/playlist.m3u8"
         },
         {
           "title": "第15章 當代殯葬的發展趨勢",
@@ -97312,7 +97312,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 129,
-      "video_count": 48,
+      "video_count": 49,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750060/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -97813,7 +97813,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-6 提問篇：臺灣傳統喪葬禮俗",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750060/09/9-6.mp4/playlist.m3u8"
         },
         {
           "title": "第十章　當代殯葬文書與禮俗的發展",
@@ -97853,7 +97853,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "尉遲淦 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750054/00/0-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750054/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-1 課程簡介與學習目標",
@@ -98132,7 +98132,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 95,
-      "video_count": 57,
+      "video_count": 61,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/570057/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -98157,11 +98157,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "學習叮嚀",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/00/0-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "課程介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/00/0-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "週與章節對照表",
@@ -98177,15 +98177,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-1 復/楔（ㄒㄧㄝˋ）齒/綴（ㄓㄨㄟˋ）足/命赴/弔唁",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 致襚（ㄙㄨㄟˋ）/為銘:銘旌（ㄐㄧㄥ）/沐浴/飯含/襲屍/",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 設冒/設重/設燎/小殮/大殮與「殯」/",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 先秦時期的殯葬儀節",
@@ -98193,15 +98193,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 成服/朝夕哭、朝夕奠/「筮」（ㄕˋ）宅/卜日/啟殯",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 朝祖/讀賵（ㄈㄥˋ）/書遣於策/發引/安葬",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 反哭/卒哭/小祥/禫（ㄊㄢˇ）祭",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 我國歷代喪禮服務人員的稱謂與職掌",
@@ -98209,15 +98209,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 先秦/兩漢/晉",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 北朝/唐朝/宋朝/元朝",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/01/1-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 明朝/清朝/日治時期（臺灣）/現代",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "第二章 現代喪禮服務人員的社會意涵",
@@ -98229,15 +98229,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 喪禮服務勞動特性 (上)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 喪禮服務勞動特性 (中)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 喪禮服務勞動特性 (下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 現代喪禮服務人員的角色期許",
@@ -98245,11 +98245,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 心理與社會層面",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 業務與教育層面",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 現代喪禮服務人員的職業倫理",
@@ -98257,11 +98257,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 職業倫理與工作態度(上)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2 職業倫理與工作態度(下)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/02/2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/02/2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "第三章 殯葬禮儀之規劃及諮詢",
@@ -98273,15 +98273,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 辭神/謝願/遮神",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 示喪/貼紅/助念-腳尾經",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 豎靈/擇日/接棺",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 治喪基本流程",
@@ -98289,15 +98289,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 治喪協調/訃聞撰印/作七安排",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 乞水/勘選墓地/塔位",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 沐浴/穿衣/入殮",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/03/3-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/03/3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第四章 殯葬文書之設計及撰寫",
@@ -98309,15 +98309,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 家族稱謂",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 親戚稱謂",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-3 人際關係的稱呼",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 殯葬文書撰寫要領",
@@ -98325,15 +98325,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 孫科先生伉儷生平",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 現代化碑",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-3 現代化銘文",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/04/4-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/04/4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第五章 殯葬司儀之專業涵養與技巧",
@@ -98345,15 +98345,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 家祭（奠）禮程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 公祭（奠）禮",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 各大宗教喪禮儀軌與程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 環保葬之儀軌與程序",
@@ -98361,15 +98361,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 植樹葬/樹葬/花葬之儀軌與程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 灑葬之儀軌與程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 海葬之儀軌與程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/05/5-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/05/5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第六章 殮殯葬會場之規劃設計",
@@ -98381,15 +98381,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 自宅",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 搭棚",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3 館內",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 禮堂佈置實務",
@@ -98397,15 +98397,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 式場佈置之理念",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 牌坊",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3 祭壇",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/06/6-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/06/6-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第七章  臨終關懷及悲傷輔導",
@@ -98417,15 +98417,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 臨終關懷的概念發展",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 禮儀師所能從事的臨終關懷",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3 互動式的臨終關懷",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 悲傷輔導",
@@ -98433,15 +98433,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 完成哀傷的四個階段",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 悲傷輔導的目標",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 喪禮能發揮的悲輔作用",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/07/7-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/07/7-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第八章 主要殯葬用品及設施",
@@ -98453,19 +98453,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 骨灰罐（URN）",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/08/8-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 壽衣﹙Shroud﹚",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/08/8-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-3 棺木（casket/coffin）",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/08/8-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/08/8-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 墓園（cemetery）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/08/8-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-1 陳老師介紹孫科伉儷墓園環境/風水",
@@ -98489,15 +98489,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-1 學科/乙級",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-2 學科/丙級",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3 術科/乙級第一站",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 檢定考試術科得分要領",
@@ -98505,15 +98505,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 術科/乙級第二站",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 術科/乙級第三站",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 術科/丙級",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/570057/09/9-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750057/09/9-2-3.mp4/playlist.m3u8"
         }
       ]
     },
@@ -98649,19 +98649,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/01/1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 殯儀館發展歷程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/01/1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 殯葬政策與殯儀館之現況",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/01/1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/01/1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4 殯儀館之功能與效益",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/01/1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/01/1-4.mp4/playlist.m3u8"
         },
         {
           "title": "第二章 殯儀館規劃與設計",
@@ -98669,19 +98669,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 殯儀館規劃設計原則",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/02/2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 殯儀館整體空間配置及動線",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/02/2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/02/2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 殯儀館設置興建相關法令",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/02/2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4 殯儀館工程基本設施與預算",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/02/2-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/02/2-4.mp4/playlist.m3u8"
         },
         {
           "title": "第三章 殯儀館設施與設備",
@@ -98689,19 +98689,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1 「殮」的設施與設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/03/3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 「殯」的設施與設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/03/3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/03/3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3 其他設施與設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/03/3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/03/3-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-4 單獨設置「禮廳」、「靈堂」設施與設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/03/3-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/03/3-4.mp4/playlist.m3u8"
         },
         {
           "title": "第四章 殯儀館未來規劃設計趨勢與殯儀館問題探討",
@@ -98709,23 +98709,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 殯儀館類型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/04/4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 殯儀館興建空間配置評估與需求量推估",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/04/4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 殯儀館創新設計規畫之走向",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/04/4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/04/4-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 殯儀館公辦民營、民辦民營之評估",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/04/4-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/04/4-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 殯儀館問題探討",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/04/4-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/04/4-5.mp4/playlist.m3u8"
         },
         {
           "title": "第五章 火化場之沿革與發展趨勢",
@@ -98733,19 +98733,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/05/5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 火化場發展趨勢",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/05/5-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/05/5-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 國內火化場分析探討",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/05/5-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/05/5-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-4 火化葬法之功能與效益",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/05/5-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/05/5-4.mp4/playlist.m3u8"
         },
         {
           "title": "第六章 火化場規劃設計",
@@ -98753,11 +98753,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 概念設計與其包含事項",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 服務量體與禮俗考量規劃",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 火化作業流程動線設計",
@@ -98765,15 +98765,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 火化作業流程動線設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 火化作業流程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4 火化場設置相關法規",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-5 基本規劃與設計",
@@ -98781,15 +98781,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-5-1 基本規劃與設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-5-2 火化場設施設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-5-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-6 火化爐及空氣汙染防制設備設置工程技術服務分析",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/06/6-6.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/06/6-6.mp4/playlist.m3u8"
         },
         {
           "title": "第七章 火化爐形式與構造",
@@ -98797,27 +98797,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1 火化爐之基本形式與基本結構",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 火化爐主體結構及設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 火化爐其他結構系統",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 火化爐全自動化之設計及完全燃燒的功能說明",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-5 火化爐設計準則",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-5.mp4/playlist.m3u8"
         },
         {
           "title": "7-6 火化場附屬設施與其功能",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/07/7-6.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/07/7-6.mp4/playlist.m3u8"
         },
         {
           "title": "第八章 火化爐空氣汙染防制設備與火化爐問題探討",
@@ -98825,19 +98825,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1 火化爐空氣汙染防制設備設計與功能分析",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/08/8-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/08/8-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 火化爐空氣汙染防制系統基本規畫建議",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/08/8-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/08/8-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3 戴奧辛污染防治技術分析與防治對策",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/08/8-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/08/8-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 火化場問題探討",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/08/8-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/08/8-4.mp4/playlist.m3u8"
         },
         {
           "title": "第九章 公墓之沿革與發展",
@@ -98845,19 +98845,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/09/9-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 公墓發展歷程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/09/9-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/09/9-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 公墓設置興建相關法規",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/09/9-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/09/9-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-4 公墓應有的設施規定",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/09/9-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/09/9-4.mp4/playlist.m3u8"
         },
         {
           "title": "第十章 傳統公墓與公墓公園化墓園",
@@ -98865,19 +98865,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1 傳統公墓與公墓公園化墓園",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/10/10-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/10/10-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 傳統公墓對於環境保護的影響",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/10/10-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/10/10-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3 傳統公墓遷葬、更新的方式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/10/10-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/10/10-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-4 公墓公園化墓園使用效益問題評估",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/10/10-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/10/10-4.mp4/playlist.m3u8"
         },
         {
           "title": "第十一章 公墓類型及未來規劃設計趨勢",
@@ -98885,19 +98885,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1 早期公墓類型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/11/11-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/11/11-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 墓政時期公墓類型",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/11/11-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/11/11-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 私人公墓設施",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/11/11-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/11/11-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4 未來公墓規劃設計趨勢施",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/11/11-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/11/11-4.mp4/playlist.m3u8"
         },
         {
           "title": "第十二章 環保自然葬與公墓問題探討",
@@ -98905,27 +98905,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1 環保自然葬相關法規",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/12/12-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/12/12-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2 環保自然葬規則設計原則",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/12/12-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/12/12-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-3 環保自然葬面臨的問題與解決方法",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/12/12-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/12/12-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-4 公墓問題探討",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/12/12-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/12/12-4.mp4/playlist.m3u8"
         },
         {
           "title": "13-1 沿革",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/13/13-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/13/13-1.mp4/playlist.m3u8"
         },
         {
           "title": "13-2 近代骨灰(骸)存放設施發展歷程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/13/13-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/13/13-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-3 骨灰(骸)存放設施之功能與效益",
@@ -98933,7 +98933,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-3-1 骨灰(骸)存放設施之功能與效益",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/13/13-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/13/13-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "13-3-2 聯合祭祀",
@@ -98941,7 +98941,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-3-2 公立納骨堂志工之超薦法會",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/13/13-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750055/new_mp4/13/13-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-3-3 民營納骨堂之法會服務",
@@ -102709,7 +102709,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-0-1 司法巡禮：檢察機關(上)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/720057/05/5-0-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720057/05/5-0-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-0-1 司法巡禮：檢察機關(下)",
@@ -104724,7 +104724,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 313,
-      "video_count": 233,
+      "video_count": 238,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760029/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -104845,11 +104845,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-2-1 傳統階梯式的軟體開發程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/01/1-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/01/1-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-2-2 漸進式的軟體開發程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/01/1-4-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/01/1-4-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-2-3 其他種類的軟體開發程序",
@@ -104901,7 +104901,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1-1「物件」是什麼？",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1-2 「類別」是什麼？",
@@ -104913,15 +104913,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-2-1 程式設計觀念",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-2 程式語言中類別的觀念",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-3 程式中物件的觀念",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-4 物件的成員與類別的成員",
@@ -104937,7 +104937,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1-1 物件和類別的關係",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-2 資料模型之間的差異",
@@ -104957,7 +104957,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-1-1 物件導向設計的結構",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-4-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-2 物件的觀點",
@@ -105013,7 +105013,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-6-1-1 物件導向的分析方法",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-6-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/02/2-6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-6-1-2 物件導向的設計方法",
@@ -105109,15 +105109,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1-1 使用案例圖的構思(I)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1-2 使用案例圖的構思(II)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1-3 使用案例圖的繪製",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1-4 使用案例圖的實例",
@@ -105149,7 +105149,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-2-1 建立活動圖的流程",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/04/4-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2-2 建立活動圖的操作",
@@ -105245,7 +105245,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-2-1 認識物件圖",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/05/5-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/05/5-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2-2 繪製物件圖",
@@ -105285,15 +105285,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1-1 Rational Rose軟體畫出來的序列圖",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1-2 序列圖的表示方法",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1-3 序列圖的實例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/06/6-2-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1-4 繪製序列圖的流程與準則",
@@ -105433,7 +105433,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-4 內聚力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/08/8-2-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-4-1 方法內聚力",
@@ -105441,11 +105441,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-4-2 類別內聚力",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/08/8-2-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/08/8-2-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-4-3 一般化_特殊化內聚力",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/08/8-2-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/08/8-2-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-5 共生性",
@@ -105717,7 +105717,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1 軟體系統建置的程序",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/12/12-1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-1-1 建立軟硬體的環境",
@@ -105725,7 +105725,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1-2 系統建置的細節",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/12/12-1-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/12/12-1-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-2 系統雛形化",
@@ -105837,7 +105837,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-1-2 用SIM動手繪圖",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/13/13-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "13-1-2-1 SIM的使用與UML圖形",
@@ -105845,7 +105845,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-1-2-2 操作演示",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/13/13-1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/13/13-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "13-1-3 思考練習",
@@ -105929,7 +105929,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-1-2 SIM的下載與安裝",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-1-2-1 下載與安裝的說明",
@@ -105937,7 +105937,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-1-2-2 下載與安裝的操作",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-1-3 簡單的使用說明",
@@ -105957,7 +105957,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-3-2 概念塑模(conceptual modeling)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-3-2-1 ER Model的基本符號",
@@ -105965,11 +105965,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-3-2-2 表示關聯(relationship)",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-3-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-3-2-3 ER model的實例",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-3-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760029/14/14-3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "14-3-3 需要更多的細節",
@@ -110344,7 +110344,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "公共行政學系",
       "total_lectures": 105,
-      "video_count": 66,
+      "video_count": 68,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/740021/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -110573,7 +110573,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-5 環保局訪談：空汙案例與清潔隊員報考經驗分享",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740021/05/5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 既有規範簡介",
@@ -110765,7 +110765,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-5 環保團體訪談：空汙訴訟經驗分享",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740021/08/8-3-4.mp4/playlist.m3u8"
         }
       ]
     },
@@ -112408,7 +112408,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 221,
-      "video_count": 149,
+      "video_count": 159,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/200227/00/0-4.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -113017,11 +113017,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 生命全程的發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1-1 多元發展的可能",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1-2 人生總有意外",
@@ -113029,15 +113029,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-2 優生與成長",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2-1 優生的因素",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2-2 重要優生法令",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2-3 如何幫助生命成長",
@@ -113045,15 +113045,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-3 臨終與殯葬",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3-1 國人期待的善終",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3-2 臨終的準備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-3-3 殯葬的意義",
@@ -113061,15 +113061,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-4 情緒的管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-4-1 常見的情緒迷思",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-4-2 IQ與EQ",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-1-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-4-3 修煉EQ，創造命運",
@@ -113089,11 +113089,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-3 重要的靈性關懷",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3-1 靈性關懷的屬性",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-3-2 宗教信仰與靈性關懷",
@@ -113101,19 +113101,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-4 身心靈的全人關懷",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-1 理想緣起",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-2 珍惜生命、活在當下",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-3 壓力的調適",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-2-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-4-4 化危機為轉機",
@@ -113137,15 +113137,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-4 激發生命力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-3-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4-1 生命力的鍛鍊與激發",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-3-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-3-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4-2 有備無憾，面對死亡",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-3-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-3-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-4-3 追求文化的生命",
@@ -113161,11 +113161,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-2 悲傷撫慰的常用技術",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-1 陪伴的技術",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-2-2 安慰的技術",
@@ -113173,11 +113173,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4-3 環境的 助長效果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3-1 輔助配備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-3-2 環境示範",
@@ -113193,11 +113193,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-5-2 社區與機構的推展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-5-2-1 機構的推展",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-5-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/200227/06/6-5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-5-2-2 社區的推展",
@@ -113304,7 +113304,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 363,
-      "video_count": 112,
+      "video_count": 200,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750072/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -113425,7 +113425,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-2 旅遊、旅遊者的概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-2 旅遊與旅遊者的定義",
@@ -113433,7 +113433,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-3 旅遊的意義、特徵及旅遊者之定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-3 休閒與遊憩的定義",
@@ -113441,7 +113441,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1-4 休閒、遊憩及觀光的概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-4 休閒、遊憩與觀光三者之間的關係",
@@ -113457,7 +113457,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-1 運動旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 各類旅遊之種類",
@@ -113465,7 +113465,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-2 宗教旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-2 運動旅遊之分享",
@@ -113473,7 +113473,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-3 產業旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-3 文化旅遊之分享(一)",
@@ -113481,7 +113481,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-4 文化旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-4 文化旅遊之分享(二)",
@@ -113501,19 +113501,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 生態旅遊的特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-1 保護性、自然性、高品質性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-2 專業性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1-3 參與性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-1 生態旅遊之概念與定義",
@@ -113521,7 +113521,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-2 發展生態旅遊之原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 生態旅遊的特性與內涵",
@@ -113529,19 +113529,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-3 生態旅遊之內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-1 生態旅遊之內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-2 注重生態資源保育與維護的旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3-3 強調社區生態參與和利益的旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/01/1-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 生態旅遊與傳統大眾旅遊之差異",
@@ -113569,7 +113569,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 社會文明進程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-1 旅遊與自然環境的互惠關係",
@@ -113577,7 +113577,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-2 經濟利益",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 旅遊與社會的互惠關係",
@@ -113589,7 +113589,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 生態環境觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1 對於社會環境的負面影響",
@@ -113597,7 +113597,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-2 社會環境觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 自然環境及社會環境改變對旅遊業發展的影響",
@@ -113613,7 +113613,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3 延伸學習─旅遊與掮客",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/02/2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 延伸學習：森林療癒師的分享",
@@ -113637,7 +113637,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 生態旅遊定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-1 生態旅遊之原則",
@@ -113645,7 +113645,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-2 全球環境變遷下的新定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 生態旅遊之內涵",
@@ -113665,7 +113665,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 生態旅遊大事記",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-1 國際生態旅遊的發展",
@@ -113673,7 +113673,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-2 國際生態旅遊之發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 國內生態旅遊的發展(一)",
@@ -113681,7 +113681,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-3 國內生態旅遊之發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/03/3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 國內生態旅遊的發展(二)",
@@ -113737,7 +113737,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3 影響旅遊需求之因素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/04/4-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 延伸學習：旅遊容忍度之探討",
@@ -113769,7 +113769,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 旅遊資源的定義及其構成要件",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-1 旅遊資源的意義及其構成要件",
@@ -113785,7 +113785,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 生態旅遊資源之概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-1 生態旅遊資源之概念與特性",
@@ -113793,7 +113793,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-2 生態旅遊資源具地域性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 生態旅遊的類別",
@@ -113865,7 +113865,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 臺灣地區推動生態旅遊機關",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-1 國家公園之介紹(一)",
@@ -113873,7 +113873,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-2 國家公園的意義、功能、設立目的及選定標準",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 國家公園之介紹(二)",
@@ -113881,7 +113881,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-3 國家公園行政管理組織、管理處業務及遊客禁止行為",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-3 國家公園生態資源案例(一)",
@@ -113889,7 +113889,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-4 國家風景區、風景區、觀光地區之定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-4 國家公園生態資源案例(二)",
@@ -113897,7 +113897,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-5 我國風景特定區之分級、評鑑、行政及管理體系",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-5 國家風景區之介紹(一)",
@@ -113905,7 +113905,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-6 我國風景區管理職責及遊客管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-6.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-6 國家風景區之介紹(二)",
@@ -113913,15 +113913,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-7 生態旅遊資源案例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-7.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-7-1 案例(一)阿里山之生態旅遊資源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-7.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-7-2 案例(二)大鵬灣之生態旅遊資源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-7.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-7 國家風景區生態資源案例(一)",
@@ -113929,7 +113929,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-8 國家森林遊樂區定義、設置標準及行政管理體系",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-8.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-8 國家風景區生態資源案例(二)",
@@ -113937,7 +113937,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-9 森林遊樂區使用分區及遊客管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-3-9.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-9 國家森林遊樂區之介紹",
@@ -113961,7 +113961,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-1 臺灣之人情味",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-1 臺灣人的人情味",
@@ -113969,7 +113969,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4-2 人情味案例分享",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/05/5-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-2 臺灣人的素養",
@@ -114029,7 +114029,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 生態旅遊對自然環境的衝擊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 澎湖海洋觀光的衝擊",
@@ -114037,7 +114037,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-2 生態旅遊對自然環境的衝擊(中外案例)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 澎湖海洋觀光永續策略",
@@ -114045,7 +114045,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3 生態旅遊對經濟的衝擊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 延伸學習：小琉球生態旅遊之分享",
@@ -114121,7 +114121,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 什麼是遊憩機會序列",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-1 遊憩機會序列之概念",
@@ -114129,7 +114129,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-2 遊憩機會序列的應用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 遊憩機會序列之評估因子",
@@ -114141,7 +114141,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 什麼是承載量",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-1 承載量之定義及類別",
@@ -114149,7 +114149,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-2 承載量的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 承載量之評估方法",
@@ -114161,7 +114161,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 可接受的改變限度的緣起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1 可接受改變限度之介紹及規劃系統",
@@ -114169,7 +114169,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-2 可接受的改變限度步驟",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 可接受改變限度之應用",
@@ -114177,7 +114177,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4 生態旅遊理論之應用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/07/7-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 延伸學習：承載量在森林遊憩規劃的應用",
@@ -114209,7 +114209,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 澎湖群島石滬-以七美島為例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-1 石滬的形成",
@@ -114217,7 +114217,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-2 石滬漁業文化資源-訪問李明儒老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 漁業與社區文化",
@@ -114233,7 +114233,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 澎湖群島生態旅遊資源─望安綠蠵龜生態保育區資源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-1 綠蠵龜的分類與分佈",
@@ -114241,7 +114241,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-2 綠蠵龜相關保育",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 綠蠵龜的相關保育",
@@ -114257,7 +114257,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 澎湖玄武岩景介紹-訪問呂文雄老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1 澎湖群島地形之介紹",
@@ -114265,7 +114265,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-2 澎湖先民與天搏鬥的智慧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-2 澎湖奎壁山地質公園",
@@ -114273,7 +114273,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-4 澎湖群島生態旅遊資源-燕鷗-訪問鄭謙遜老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/08/8-4.mp4/playlist.m3u8"
         },
         {
           "title": "8-4 延伸學習：台灣島嶼生態之分享",
@@ -114353,7 +114353,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-5 生態旅遊與社區總體營造",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/09/9-5.mp4/playlist.m3u8"
         },
         {
           "title": "9-5 延伸學習：無人機在生態監測之應用",
@@ -114385,7 +114385,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1 什麼是行銷",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-1 行銷的意義",
@@ -114393,7 +114393,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-2 行銷觀念的演進",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-2 綠色品牌行銷",
@@ -114401,7 +114401,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-3 行銷管理理論四大核心",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-3 綠色旅遊的介紹",
@@ -114417,7 +114417,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 綠色旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-1 生態旅遊的原則",
@@ -114425,7 +114425,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-2 綠色行銷",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 生態旅遊行銷的原則",
@@ -114445,7 +114445,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-1 生態旅遊的意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-1 特殊生態行銷議題",
@@ -114453,7 +114453,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-2 生態旅遊行銷的原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-2 節能減碳行銷議題",
@@ -114461,7 +114461,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-4 生態旅遊的行銷策略",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/10/10-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-4 延伸學習：出發吧！低碳的自助旅遊",
@@ -114513,7 +114513,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-1 什麼是行為規範與環境責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-1 行為規範-尷尬感、羞恥感及罪惡感",
@@ -114521,7 +114521,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-2 生態旅遊規範與環境責任實例",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2 遊客道德情緒約束不當行為之案例",
@@ -114537,7 +114537,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 道德情緒",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-1 環境責任與環境倫理",
@@ -114545,7 +114545,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-2 社會化之影響",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-2 生態旅遊守則與環境責任",
@@ -114565,7 +114565,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-1 似是而非的生態旅遊行為",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-1 社會化與生態旅遊教育",
@@ -114573,7 +114573,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-2 大眾對於生態學之迷思",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-2 環境教育與生態旅遊",
@@ -114593,7 +114593,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-1 當生態旅遊遇上環境教育",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-1 迷思一：丟果皮",
@@ -114601,7 +114601,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-2 如何在生態旅遊中發揮環境教育的功效",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-2 迷思二：餵食",
@@ -114609,7 +114609,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-3 生態旅遊與環境教育之未來",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/11/11-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-4-3 迷思三：放生",
@@ -114649,7 +114649,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1 綠色生態旅遊的源起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-1 綠色生態旅遊的規劃設計",
@@ -114657,7 +114657,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-2 綠色生態旅遊的設計概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-2 低碳的生態旅遊",
@@ -114673,7 +114673,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-1 永續發展的概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-1 發展生態旅遊應有的改變",
@@ -114681,7 +114681,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-2 落實永續的生態旅遊",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-2 生態旅遊永續經營原則",
@@ -114689,7 +114689,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2-3 生態旅遊永續經營的原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-3 生態旅遊永續經營面向",
@@ -114709,7 +114709,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-3-1 生態旅遊發展的原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-1 生態旅遊分級制度",
@@ -114717,7 +114717,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-3-2 生態旅遊點的分級",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-2 生態旅遊推動機制與策略",
@@ -114733,7 +114733,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-1 我國生態旅遊未來發展目標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-1 生態旅遊未來發展目標",
@@ -114741,7 +114741,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-2 我國生態旅遊未來發展方向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-2 生態旅遊未來發展方向",
@@ -114749,7 +114749,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-3 我國生態旅遊未來預期成果",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750072/12/12-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-3 生態旅遊預期達到之成果",
@@ -114762,7 +114762,7 @@ window.NOU_CATALOG = {
       ]
     },
     {
-      "id": "生成式AI在行政實務的應用",
+      "id": "740057",
       "raw_name": "生成式AI在行政實務的應用",
       "title": "生成式AI在行政實務的應用",
       "semester": "",
@@ -114822,7 +114822,7 @@ window.NOU_CATALOG = {
       ]
     },
     {
-      "id": "101163",
+      "id": "740057",
       "raw_name": "生成式AI與提示工程",
       "title": "生成式AI與提示工程",
       "semester": "",
@@ -115515,7 +115515,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 105,
-      "video_count": 61,
+      "video_count": 63,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760092/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -115860,7 +115860,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 短影音的崛起與平臺生態",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760092/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 短影音的企劃與腳本設計",
@@ -115884,7 +115884,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 平臺發布與流量基礎概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760092/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 媒體授權與數位版權注意事項",
@@ -116999,7 +116999,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 139,
-      "video_count": 95,
+      "video_count": 96,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760094/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -117400,7 +117400,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 %>%運算子",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760094/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 filter函數",
@@ -121959,7 +121959,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 257,
-      "video_count": 0,
+      "video_count": 61,
       "first_url": "",
       "lectures": [
         {
@@ -121992,7 +121992,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 社會工作專業倫理的重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1 社會工作專業使命與社會責任",
@@ -122008,7 +122008,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2 專業倫理在確保善用專業權力",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 社會工作業務過失的類型與案例—濫權",
@@ -122036,11 +122036,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 倫理學是社工專業知識系統的一環",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 社會工作哲學的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 哲學在社會工作實務中之運用",
@@ -122060,15 +122060,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 價值之意義與特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 價值之類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3 價值的形成",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第3章 社工專業價值基礎之建構",
@@ -122080,11 +122080,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 社會工作專業價值的意義與重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 社會工作專業價值的面向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 社會工作價值的本質與內涵",
@@ -122092,11 +122092,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 有關社會工作對於「人」的價值觀 —人有潛能和實踐潛能義務",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 有關社會工作對於「人」的價值觀 —人有生存發展與需求",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 社會工作專業對人的看法有尊重、權利與責任。這容易實踐嗎？",
@@ -122108,11 +122108,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 有關社會工作對於「人的結果」的價值觀 —人要發揮功能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2 有關社會工作對於「人的結果」的價值觀 —社會與人得相互權利",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 有關社會工作對於「人的結果」的價值觀 —正義與自決",
@@ -122132,7 +122132,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 倫理與學理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1 倫理之意義",
@@ -122156,7 +122156,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2 行為為本的倫理學—義務論的觀點與爭議",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 義務論主要觀點",
@@ -122176,7 +122176,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3 行為為本的倫理學—目的論的觀點與爭議",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-3.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-1 目的論主要觀點",
@@ -122196,11 +122196,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-1 效益主義理之意義與危險性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2 效益主義理辯證與新解",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-3 規則倫理之批判",
@@ -122232,15 +122232,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 社會工作專業倫理守則之意義與本質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 對服務使用者的倫理責任—維護使用者利益優先",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 對服務使用者的倫理責任—自決與保密",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 社會工作專業倫理守則面向與要旨",
@@ -122248,11 +122248,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 對同仁與機構的倫理責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 對專業的責任",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 對第三者與社會的倫理責任",
@@ -122272,7 +122272,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 前言",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1 人生價值與生活哲學的重要性",
@@ -122280,7 +122280,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2 儒家與基督教社會人生價值與哲學取向",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 中西方社會生活差異之事實",
@@ -122296,7 +122296,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3 中西方的自我觀念與社會生活取向方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1 華人家族關係與義務",
@@ -122312,7 +122312,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4 結語",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1 社會文化結構對社會工作專業服務之影響",
@@ -122328,7 +122328,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 實踐正義是社會工作使命",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 華人社會中的正義觀",
@@ -122336,15 +122336,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 儒家的正義觀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 孔孟對「義」的論說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 儒家的倫常與義的實踐：因時制義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 西方社會的正義觀",
@@ -122352,11 +122352,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 「正義」的意義與相關概念",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 社會正義的類別",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-3 資源分配原則與社會正義",
@@ -122368,7 +122368,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-4-1 儒家的義觀與西方正義之比較",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-5 儒家仁義觀與民主法治社會生活",
@@ -122412,7 +122412,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 華人社會講要會做人",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 華人社會的人際互動文化規範",
@@ -122420,11 +122420,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 親疏等差的互動關係",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 人情關係與面子的交易操作",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3 人情關係與信任",
@@ -122432,7 +122432,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3 做人處事與專業自主性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1 人情與關係的建立和維繫",
@@ -122476,7 +122476,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-1 實踐價值是說的比較容易",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 社會工作實務上涉及的價值面向",
@@ -122484,7 +122484,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 實踐情境的多面向價值",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3 社會工作專業服務中的價值兩難",
@@ -122492,11 +122492,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3-1 價值兩難的意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2 價值兩難的類型—立場、手段與過程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3 價值兩難的類型—本質與結果",
@@ -122556,7 +122556,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1 專業倫理議題與倫理問題之意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 社會工作倫理問題實踐之影響因素",
@@ -122564,11 +122564,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 專業倫理實踐的困難",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 專業服務困難影響因素",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3 社會工作面臨倫理實踐之挑戰",
@@ -122576,23 +122576,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-1 掌控專業關係的挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-2 獲得專業處置權責的挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-3 權益保障之挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-4 有效分配資源之挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-5 資訊保密之挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-5.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-6 個人價值處置介入之挑戰",
@@ -122620,7 +122620,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-1 倫理兩難辨明與抉擇",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 Beauchamp及 Childress生命倫理四原則",
@@ -122628,7 +122628,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 生命倫理四原則之意義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 Reamer社會工作倫理抉擇六原則",
@@ -122636,11 +122636,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-1 社會工作倫理抉擇六原則之要旨",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-2 原則運用之思辨",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-4 Lowenberg和Dolgoff社會工作倫理抉擇七原則",
@@ -122648,7 +122648,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-4-1 社會工作倫理抉擇七原則之要旨",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-5 李瑞全儒家生命道德原則",
@@ -122688,11 +122688,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1 倫理決策是行動基礎",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2 倫理兩難判斷上的陷阱",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-1 「普通常識和客觀」陷阱",
@@ -122716,11 +122716,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-3-1 各家倫理決策模式簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-2 倫理決策階段與要旨",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-4 案例與倫理決策分析",
@@ -122728,11 +122728,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-1 案例說明",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-2 確認倫理議題與完備相關事實資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-3 釐清倫理議題牽涉哪些價值衝突與倫理兩難",
@@ -123607,7 +123607,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 183,
-      "video_count": 0,
+      "video_count": 63,
       "first_url": "",
       "lectures": [
         {
@@ -123644,7 +123644,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 管理的意涵、性質與職能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-1-1 「行政」與「管理」的區別",
@@ -123660,7 +123660,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2 管理者、管理技能與管理才能",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/01/1-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-2-1 管理者與管理者的角色",
@@ -123680,11 +123680,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 管理思潮的發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 古典管理學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 人群關係學派與組織環境理論",
@@ -123692,15 +123692,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 人群關係學派",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 組織環境理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3 晚近管理新思維",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/02/2-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第三章 社會工作與管理",
@@ -123712,11 +123712,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1-1 社會工作管理的發展",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-2 新管理主義的興起與特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-1-3 新管理主義對社會工作的意涵",
@@ -123728,11 +123728,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-2-1 最佳價值的興起",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-2 最佳價值的內涵與特色",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-2-3 最佳價值 對社會工作的意涵",
@@ -123744,11 +123744,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 社會工作管理的環境脈絡",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-2 社會工作管理的內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/03/3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-3 社會工作管理者的才能",
@@ -123760,7 +123760,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 規劃的意涵、目的與類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-1 規劃的意涵與目的",
@@ -123776,7 +123776,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2 規劃的步驟與策略性規劃",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/04/4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-1 規劃的步驟",
@@ -123800,15 +123800,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 組織的意涵與組織環境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 組織結構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-3 組織分化Ⅰ：垂直分化",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-4 組織分化Ⅱ：水平分化",
@@ -123820,11 +123820,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 組織授權與協調",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 溝通",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-3 組織變革",
@@ -123840,7 +123840,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 領導的定義及早期領導觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-1 領導與管理",
@@ -123856,7 +123856,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2 當代領導觀點",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-1 當代領導觀點Ⅰ：自我領導",
@@ -123872,7 +123872,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3 激勵的意涵與理論",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1 激勵的意涵與類型",
@@ -123904,15 +123904,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 決策的意涵與本質",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 決策的類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-3 團體決策的技術",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 決策模式與決策偏誤",
@@ -123920,15 +123920,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 理性決策模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 非理性決策模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3 決策偏誤與補救方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/07/7-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "第八章 社會工作的人力資源管理",
@@ -123940,11 +123940,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1-1 人力資源管理與人事管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-2 人力資源管理的重要性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-1-3 人力資源管理的過程",
@@ -123956,11 +123956,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 員工晉用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 員工訓練",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3 員工發展",
@@ -123968,7 +123968,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3 員工激勵與維持",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/08/8-3.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1 員工的績效考核",
@@ -123992,11 +123992,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1-1 績效管理的意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-2 績效管理的過程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-1-3 績效管理對社會工作的意涵",
@@ -124008,11 +124008,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-1 目標管理的意涵與步驟",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-2 目標管理的功能與限制",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-3 績效監測的意涵與工具",
@@ -124024,11 +124024,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-3-1 品質管理的意涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-2 社會服務品質管理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/09/9-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-3-3 全面品質管理",
@@ -124044,15 +124044,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1-1 福利分工與網絡治理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-2 夥伴關係的意涵與挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-1-3 夥伴關係的特性、效益與挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 網絡與資源網絡",
@@ -124060,15 +124060,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 網絡的意涵、功能與代價",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2 網絡建構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-3 網絡維繫(一)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-4 網絡維繫(二)",
@@ -124080,15 +124080,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-1 工作團隊的類型與特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-2 專業團隊的意涵與類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-3 專業團隊的建構、維繫與挑戰",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/10/10-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "第十一章 社會工作個案_與照顧管理",
@@ -124100,11 +124100,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-1 個案_照顧管理的意涵與特性",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2 個案_照顧管理的實務原則",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-3 個案_照顧管理的實務基礎",
@@ -124116,15 +124116,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1【步驟一】個案篩選、接案與關係建立+【步驟二】評量與目標設定",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-2 【步驟三】介入計畫擬訂與資源確認+【步驟四】介入計畫執行",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-3【步驟五】監測+【步驟六】結案",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "11-3 個案_照顧管理的運作",
@@ -124132,11 +124132,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-1 個案_照顧管理的運作模式Ⅰ：案主-供給者取向模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-2 個案_照顧管理的運作模式Ⅱ：行政-資源協調-密集模式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/11/11-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-3 個案_照顧管理者與機構的職責",
@@ -124152,11 +124152,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1-1 何謂社會工作方案",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-2 社會工作需求與方案類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-1-3 社會工作方案的規劃",
@@ -124164,7 +124164,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-2 方案管理組織架構",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-2-1 方案管理組織團隊類型與領導特徵",
@@ -124184,11 +124184,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-3-1 方案評估類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-3-2 需求評估意義與階段",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "12-4 社區需求評估與方法",
@@ -124196,11 +124196,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-4-1 社區需求評估的方法",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-4-2 需求評估技術",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720045/12/12-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-1 社會工作督導意義",
@@ -124351,7 +124351,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "社會科學系",
       "total_lectures": 185,
-      "video_count": 110,
+      "video_count": 111,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/720051/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -124888,7 +124888,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-5 焦點話題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/720051/08/8-5-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-5 焦點話題：種族滅絕",
@@ -126855,7 +126855,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 133,
-      "video_count": 93,
+      "video_count": 96,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-3-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -126880,11 +126880,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "林俊裕 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-1 課程簡介與學習目標",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-6-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-1 打造創新路徑(上)",
@@ -126892,7 +126892,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2 師資介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-6-2.mp4/playlist.m3u8"
         },
         {
           "title": "0-2 打造創新路徑(中)",
@@ -126900,7 +126900,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 學習叮嚀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760097/00/0-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-3 打造創新路徑(下)",
@@ -130549,7 +130549,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 377,
-      "video_count": 242,
+      "video_count": 259,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/100960/g200A2/3-3-1_01.m4a/playlist.m3u8",
       "lectures": [
         {
@@ -130634,7 +130634,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100960/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100960/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -131034,7 +131034,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-6 IPCC對全球暖化衝擊的探討",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
         },
         {
           "title": "6-2-7 暖化對全球的衝擊",
@@ -131046,11 +131046,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 台灣過去氣候的變遷",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-1 台灣過去溫度的變化",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1-2 台灣過去雨量的變化",
@@ -131058,27 +131058,27 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1-3 台灣過去海平面的變化",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 台灣未來氣候變遷預估",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
         },
         {
           "title": "6-3-3 衝擊與脆弱度評估",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-1 水資源與洪旱災",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-2 糧食安全與相關產業",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-3 森林與生態系統",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-3-4 人類健康",
@@ -131086,7 +131086,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-3-5 社會經濟",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/06/6-3-3-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-1 學習目標與導讀",
@@ -131210,7 +131210,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-3 具經濟效益的減緩技術與作法",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100960/g215A/1-1-3-2.m4a/playlist.m3u8"
         },
         {
           "title": "8-3-4 各國減量情形",
@@ -131250,11 +131250,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-4-2 集熱器的種類",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-2-1 平板型集熱器",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-2-2 真空管集熱器",
@@ -131262,11 +131262,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-4-3 太陽能熱水系統",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-3-1 自然循環式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/09/9-4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-4-3-2 強制循環式",
@@ -131358,11 +131358,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-3 水力發電的設備",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-3-1 引水設備",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-3-2 制水設備",
@@ -131370,11 +131370,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-3-4 水輪機",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-4-1 水輪機型式與構造",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/10/10-3-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-3-4-2 水輪機種類",
@@ -131446,23 +131446,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-3-5 纖維素轉化酒精技術",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-5-1 前處理",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-5-2 纖維素水解",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-5-3 發酵單元",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-5-4 生產酒精微生物",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/11/11-3-5-5.mp4/playlist.m3u8"
         },
         {
           "title": "11-3-5-5 纖維分解酵素",
@@ -131598,11 +131598,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-2-5 電動車用電池",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/13/13-2-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-2-5-1 鉛酸電池",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/13/13-2-5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/13/13-2-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-2-5-2 鋰電池",
@@ -131658,11 +131658,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "14-2-3 變頻式冷氣",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/14/14-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "14-2-3-1 變頻方式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/14/14-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/14/14-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "14-2-3-2 變頻冷的優點",
@@ -131746,11 +131746,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "15-3-2 綠色設計生命週期評估",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-3-2-1 綠色產品設計決策評估模式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-3-2-2 產品綠色設計準則檢核",
@@ -131758,11 +131758,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "15-3-3 環保標章",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-3-3-1 我國環保標章制度推行",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-3-3-2 我國環保標章產品規格標準",
@@ -131778,11 +131778,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "15-4-2 溫室氣體",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-4-2-1 京都議定書管制之溫室氣體",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "15-4-2-2 二氧化碳當量",
@@ -131802,15 +131802,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "15-4-6 產品碳足跡計算",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "15-4-6-1 產品碳足跡計算盤查表設計",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-6-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "15-4-6-2 計算準則建立",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-6-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/15/15-4-6-3.mp4/playlist.m3u8"
         },
         {
           "title": "15-4-6-3 碳足跡盤查作業",
@@ -131886,11 +131886,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "16-4-2 再生水",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "16-4-2-1 雨水再利用及中水道系統",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "16-4-2-2 生活污水再生水利用",
@@ -131914,19 +131914,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "16-5-4 國際間化學物質管理現況",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "16-5-4-1 現況、斯德哥爾摩公約與化學品政策",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "16-5-4-2 美國化學物質管理方式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "16-5-4-3 加拿大化學物質管理方式",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750008/16/16-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "16-5-4-4 日本化學物質管理方式",
@@ -132069,7 +132069,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "商學系",
       "total_lectures": 153,
-      "video_count": 112,
+      "video_count": 113,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/100840/g200A2/3-3-1_01.m4a/playlist.m3u8",
       "lectures": [
         {
@@ -132082,7 +132082,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100840/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100840/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -132106,7 +132106,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 學習叮嚀",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/301004/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-3 高明瑞 老師",
@@ -138348,7 +138348,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "通識教育中心",
       "total_lectures": 84,
-      "video_count": 48,
+      "video_count": 51,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/780052/01/1-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -138653,7 +138653,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-3 村裡名的改正辦法與頒布",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780052/07/7-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 戰後臺灣都市街道名稱的轉化與區域特色",
@@ -138681,11 +138681,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-2 鄉鎮村裡名稱的演變",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780052/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-3 鄉鎮村裡名的特色(宜蘭為例)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780052/07/7-3-3.mp4/playlist.m3u8"
         }
       ]
     },
@@ -139408,7 +139408,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 62,
-      "video_count": 1,
+      "video_count": 15,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/100955/g200A2/3-3-1_01.m4a/playlist.m3u8",
       "lectures": [
         {
@@ -139421,7 +139421,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1「教學目標與課程概要」",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100955/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100955/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -139449,11 +139449,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 新手上路",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-4 課程簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "0-5 學習進度表",
@@ -139465,7 +139465,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-1 事業組織市場行銷簡介",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/01/1-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-2 事業組織市場與消費市場的差異",
@@ -139477,7 +139477,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1 企業營利機構市場特性分析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/02/2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 政府機構市場特性分析",
@@ -139489,7 +139489,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-1 組織購買行為影響因素探討",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/03/3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-2 購買中心成員之相互影響",
@@ -139501,7 +139501,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1 組織採購之剖析",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/04/4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 組織採購類型及採購動機",
@@ -139513,7 +139513,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1 事業組織市場關係之建立",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/05/5-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 關係行銷策略與網路關係",
@@ -139525,7 +139525,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1 行銷資訊的價值與決策支援系統",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/06/6-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 次級資料與初級資料的蒐集",
@@ -139537,7 +139537,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1 事業組織市場區隔",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/07/7-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 事業組織市場需求分析",
@@ -139549,7 +139549,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-1 事業組織市場之行銷策略規劃(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/08/8-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2 事業組織市場之行銷策略規劃(下)",
@@ -139561,7 +139561,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-1 事業組織市場的基本觀念和產品線策略",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/09/9-1.mp4/playlist.m3u8"
         },
         {
           "title": "9-2 事業組織市場個別產品的決策",
@@ -139573,7 +139573,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-1 創新策略與新產品開發專案",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/10/10-1.mp4/playlist.m3u8"
         },
         {
           "title": "10-2 新產品開發過程與關鍵成功因素",
@@ -139585,7 +139585,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1 事業組織市場的服務策略(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/11/11-1.mp4/playlist.m3u8"
         },
         {
           "title": "11-2 事業組織市場的服務策略(下)",
@@ -139597,7 +139597,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "12-1 事業組織市場之行銷通路(上)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760061/12/12-1.mp4/playlist.m3u8"
         },
         {
           "title": "12-2 事業組織市場之行銷通路(下)",
@@ -139685,7 +139685,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "紀和均 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/740048/00/0-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/740048/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "書面教材",
@@ -144677,7 +144677,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "鍾温凊 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/750068/00/0-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750068/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "全課程期末總複習與核心考點解析",
@@ -146388,7 +146388,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 143,
-      "video_count": 113,
+      "video_count": 116,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/760113/01/1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -146461,7 +146461,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-1 吳政穎 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760113/00/0-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-1 旅舘作業管理",
@@ -146469,7 +146469,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-2 林俊裕 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760113/00/0-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-2 餐飲智慧廚房",
@@ -146477,7 +146477,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-3 王貞雅 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760113/00/0-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-3 餐廳的作業管理",
@@ -146921,7 +146921,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "13-5-1 總合規劃實施程序",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760113/13/13-5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760113/13/13-5-2.mp4/playlist.m3u8"
         },
         {
           "title": "13-5-1 總合規劃範例",
@@ -147204,7 +147204,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "人文學系",
       "total_lectures": 120,
-      "video_count": 93,
+      "video_count": 109,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -147245,15 +147245,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 陶潛詩質樸的趣味",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1-1 陶潛簡介",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1-2＜歸園田居＞(五首選一)陶潛",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-1-3＜移居＞(二首選一)陶潛",
@@ -147261,19 +147261,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-2 王維詩自然的趣味",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-1 王維介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-2＜終南別業＞王維",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-3＜欒家瀨＞王維",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2-4＜辛夷塢＞王維",
@@ -147281,15 +147281,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-3 王績‧張說詩恬淡的趣味（上）王績",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-1 王績介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-2＜獨坐＞王績",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-3-3＜山夜調琴＞王績",
@@ -147297,11 +147297,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-4 王績‧張說詩恬淡的趣味（下）張說",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-4-1 張說介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-4-2＜湘州北亭＞張說",
@@ -147313,19 +147313,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 張九齡‧張籍詩中的比喻修辭",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-1 張九齡介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-2＜感遇十二首之七＞張九齡",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-3 張籍介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-1-4＜節婦吟寄東平李司空師道＞張籍",
@@ -147333,15 +147333,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-2 王昌齡‧常建詩的象徵修辭（上）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2-1 王昌齡介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2-2＜聽流人水調子＞王昌齡",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2-3＜從軍行＞七首之二王昌齡",
@@ -147349,11 +147349,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-3 王昌齡‧常建詩的象徵修辭（下）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3-1 常建介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-3-2＜題破山寺後禪院＞常建",
@@ -147361,23 +147361,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-4 沈佺期‧劉禹錫詩對襯的修辭",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4-1 沈佺期介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4-2＜古意呈補闕喬知之＞沈佺期",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4-3＜邙山＞沈佺期",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4-4劉禹錫介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-3-4-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4-5＜烏衣巷＞劉禹錫",
@@ -147389,23 +147389,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-1 孟浩然‧司空曙詩瀟灑的心境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-1 孟浩然介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-2＜夏日南亭懷辛大＞孟浩然",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-3＜宿業師山房期丁大不至＞孟浩然",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-4 司空曙介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1-5＜江村即事＞司空曙",
@@ -147413,19 +147413,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-2 李頎‧戴叔倫詩壯濶的心境",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-1 李頎介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-2＜送陳章甫＞李頎",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-3 戴叔倫介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-2-4＜邊城曲＞戴叔倫",
@@ -147433,15 +147433,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-3 劉長卿‧錢起詩幽靜的心境（上）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3-1 劉長卿介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3-2＜集梁耿開元寺居院＞劉長卿",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-3-3＜尋張逸人山居＞劉長卿",
@@ -147449,15 +147449,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-4-4 劉長卿‧錢起詩幽靜的心境（下）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4-1 錢起介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4-2＜過裴長官新亭＞錢起",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-4-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-4-3＜谷口齋寄楊補闕＞錢起",
@@ -147469,23 +147469,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5-1 李白詩的浪漫風韻",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-1 李白介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-2＜山中問答＞李白",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-3＜聽蜀僧濬彈琴＞李白",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-4＜自遣＞李白",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1-5＜南陵別兒童入京＞李白",
@@ -147493,15 +147493,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5-2 杜甫詩的寫實風韻（上）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2-1 杜甫介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2-2＜月夜＞杜甫",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-2-3＜贈衛八處士＞杜甫",
@@ -147509,11 +147509,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5-3 杜甫詩的寫實風韻（下）",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-3-1＜為農＞杜甫",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-3-2＜春夜喜雨＞杜甫",
@@ -147521,19 +147521,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5-4 李商隱詩的深婉風韻",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-4-1 李商隱介紹",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-4-2＜二月二日＞李商隱",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-4-3＜落花＞李商隱",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100114/02/2-5-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-4-4＜蟬＞李商隱",
@@ -149688,7 +149688,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 64,
-      "video_count": 45,
+      "video_count": 47,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750049/00/0-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -149821,11 +149821,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-1-1 休閒理論遊程元件介紹一",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750049/06/6-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-1-2 休閒理論遊程元件介紹二",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750049/06/6-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-2 休閒諮詢實務",
@@ -152200,7 +152200,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 201,
-      "video_count": 0,
+      "video_count": 49,
       "first_url": "",
       "lectures": [
         {
@@ -152221,7 +152221,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-0.mp4/playlist.m3u8"
         },
         {
           "title": "1-1 特徵工程(feature engineering)是什麼？",
@@ -152237,11 +152237,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-3-1 MAE的定義",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/01/1-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-2 計算MAE",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/01/1-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-3-3 以線性迴歸模型為例",
@@ -152253,15 +152253,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-4-1 資料集",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/01/1-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "1-4-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/01/1-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "1-5 相關的學習資源",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/01/1-5.mp4/playlist.m3u8"
         },
         {
           "title": "第2章 Python重要語法的複習",
@@ -152269,7 +152269,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-0.mp4/playlist.m3u8"
         },
         {
           "title": "2-1 從資料集到資料框(DataFrame)",
@@ -152277,15 +152277,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-1-1 認識資料框",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-2 資料框與CSV檔案",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-1-3 資料分析師的起手式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-2 資料框的索引(index)",
@@ -152293,11 +152293,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-2-1 認識資料框的索引",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-2-2 索引的妙用",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-3 透過資料框探索資料集",
@@ -152305,15 +152305,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-1 進入資料的世界",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-2 熟能生巧",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "2-4 合併兩個資料框",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-4.mp4/playlist.m3u8"
         },
         {
           "title": "2-4-1 合併的條件",
@@ -152325,7 +152325,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-5 選擇資料框中的資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/02/2-5.mp4/playlist.m3u8"
         },
         {
           "title": "2-5-1 表格的任意分割",
@@ -152353,7 +152353,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/03/3-0.mp4/playlist.m3u8"
         },
         {
           "title": "3-1 認識交互資訊",
@@ -152369,7 +152369,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-4 實務案例(I)",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/03/3-4.mp4/playlist.m3u8"
         },
         {
           "title": "3-4-1 汽車資料集",
@@ -152397,7 +152397,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-0.mp4/playlist.m3u8"
         },
         {
           "title": "4-1 發現資料特徵",
@@ -152405,11 +152405,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-1-1 新的資料特徵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-1-2 準備資料集",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-2 數學上的轉換",
@@ -152417,11 +152417,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-2-1 了解問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-2-2 進行轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-3 計數",
@@ -152429,11 +152429,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-3-1 了解問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-3-2 進行轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-4 合成與分解",
@@ -152441,15 +152441,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "4-4-1 了解問題",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "4-4-2 進行轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "4-5 群組式的轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/04/4-5.mp4/playlist.m3u8"
         },
         {
           "title": "4-5-1 了解問題",
@@ -152465,7 +152465,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-0.mp4/playlist.m3u8"
         },
         {
           "title": "5-1 以平均數或中位數增補",
@@ -152473,11 +152473,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-1-1 平均數或中位數增補",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-1-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-2 對類別型資料進行增補",
@@ -152485,11 +152485,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-2-1 類別型資料的增補",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-2-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "5-3 以任意值增補",
@@ -152497,7 +152497,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 任意值增補",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 操作示範",
@@ -152505,7 +152505,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-4 用極端值進行增補",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-4.mp4/playlist.m3u8"
         },
         {
           "title": "5-4-1 認識極端值",
@@ -152517,7 +152517,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-5 以特定方法增補",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-5.mp4/playlist.m3u8"
         },
         {
           "title": "5-5-1 nearest-neighbor增補法",
@@ -152529,7 +152529,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-6 其他的遺失值處理方式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/05/5-6.mp4/playlist.m3u8"
         },
         {
           "title": "5-6-1 直接刪除或標記",
@@ -152545,7 +152545,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/06/6-0.mp4/playlist.m3u8"
         },
         {
           "title": "6-1 認識類別型變數",
@@ -152557,15 +152557,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-2-1 認識one-hot encoding",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/06/6-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-2-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/06/6-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "6-3 考量特徵頻率的編碼",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/06/6-3.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-1 特徵頻率編碼",
@@ -152577,7 +152577,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-4 以計數取代類別",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/06/6-4.mp4/playlist.m3u8"
         },
         {
           "title": "6-4-1 計數編碼",
@@ -152617,7 +152617,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-0 本章摘要與重點整理",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-0.mp4/playlist.m3u8"
         },
         {
           "title": "7-1 利用對數函數的轉換",
@@ -152625,11 +152625,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-1-1 對數函數的轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-1-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-1-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2 利用倒數函數的轉換",
@@ -152637,11 +152637,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 倒數函數的轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-3 利用平方根的轉換",
@@ -152649,11 +152649,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 平方根的轉換",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-2 操作示範",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760078/07/7-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-4 利用指數函數的轉換",
@@ -154280,7 +154280,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "通識教育中心",
       "total_lectures": 153,
-      "video_count": 101,
+      "video_count": 106,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/780060/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -154365,7 +154365,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "1-2-3 學習平臺",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780060/01/1-2-3.mp4/playlist.m3u8"
         },
         {
           "title": "1-3 支持學習環境的資訊科技",
@@ -154457,7 +154457,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "2-3-3 瞭解網路互動的內涵",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780060/02/2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "2-3-4 是否適合網路學習的評估",
@@ -154713,7 +154713,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "6-3-1 Ptt 電子佈告欄",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780060/06/6-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "6-3-2 網路新聞",
@@ -154825,11 +154825,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 數位學習平臺課程",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780060/08/8-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2 數位學習平臺作業繳交",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/780060/08/8-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3 圖書館電子書",
@@ -155080,7 +155080,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 205,
-      "video_count": 157,
+      "video_count": 159,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/600401/00/0-1-1.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -155129,7 +155129,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-2-1 林俊裕 老師",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600401/00/0-2-1.mp4/playlist.m3u8"
         },
         {
           "title": "0-2-1 台灣人工智慧學校的願景與使命",
@@ -155157,7 +155157,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-3 金融科技介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600401/00/0-3.mp4/playlist.m3u8"
         },
         {
           "title": "0-3-1 金融科技",
@@ -157349,7 +157349,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "概論",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/710077/02/2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/710077/06/6-2-0.mp4/playlist.m3u8"
         },
         {
           "title": "講義-瘧疾防治與防治下的基層衛生與國際援助",
@@ -157760,156 +157760,156 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 37,
-      "video_count": 36,
+      "video_count": 37,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_01.mp4/playlist.m3u8",
       "lectures": [
         {
           "title": "課程介紹",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760109/00/0-4.mp4/playlist.m3u8"
         },
         {
           "title": "第 01 講 - 什麼是軟體工程",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 淺談軟體系統 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 淺談軟體系統 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 軟體工程的應用與發展",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 軟體系統的分析與設計 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 軟體系統的分析與設計 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 軟體系統的分析與設計 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 軟體系統的製作、測試與品管 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 軟體系統的製作、測試與品管 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 軟體開發的輔助工具 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 軟體開發的輔助工具 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 軟體開發的輔助工具 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 軟體管理的範疇與環境 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 軟體管理的範疇與環境 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 資料庫應用系統開發的實務 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 資料庫應用系統開發的實務 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 資料庫應用系統開發的實務 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 資料庫應用系統開發的實務 (IV)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_18.mp4/playlist.m3u8"
         },
         {
           "title": "第 19 講 - 分散式系統開發的實務 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_19.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_19.mp4/playlist.m3u8"
         },
         {
           "title": "第 20 講 - 分散式系統開發的實務 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_20.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_20.mp4/playlist.m3u8"
         },
         {
           "title": "第 21 講 - 分散式系統開發的實務 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_21.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_21.mp4/playlist.m3u8"
         },
         {
           "title": "第 22 講 - 分散式系統開發的實務 (IV)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_22.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_22.mp4/playlist.m3u8"
         },
         {
           "title": "第 23 講 - 網際網路應用系統開發的實務(I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_23.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_23.mp4/playlist.m3u8"
         },
         {
           "title": "第 24 講 - 網際網路應用系統開發的實務(II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_24.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_24.mp4/playlist.m3u8"
         },
         {
           "title": "第 25 講 - 網際網路應用系統開發的實務 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_25.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_25.mp4/playlist.m3u8"
         },
         {
           "title": "第 26 講 - 網際網路應用系統開發的實務(IV)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_26.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_26.mp4/playlist.m3u8"
         },
         {
           "title": "第 27 講 - 跨平台可移植性的軟體開發技術 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_27.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_27.mp4/playlist.m3u8"
         },
         {
           "title": "第 28 講 - 跨平台可移植性的軟體開發技術 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_28.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_28.mp4/playlist.m3u8"
         },
         {
           "title": "第 29 講 - 跨平台可移植性的軟體開發技術 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_29.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_29.mp4/playlist.m3u8"
         },
         {
           "title": "第 30 講 - 設計模式與軟體工程 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_30.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_30.mp4/playlist.m3u8"
         },
         {
           "title": "第 31 講 - 設計模式與軟體工程 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_31.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_31.mp4/playlist.m3u8"
         },
         {
           "title": "第 32 講 - 軟體元件再使用的技術 (I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_32.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_32.mp4/playlist.m3u8"
         },
         {
           "title": "第 33 講 - 軟體元件再使用的技術 (II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_33.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_33.mp4/playlist.m3u8"
         },
         {
           "title": "第 34 講 - 軟體元件再使用的技術 (III)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_34.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_34.mp4/playlist.m3u8"
         },
         {
           "title": "第 35 講 - 反向工程(I)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_35.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_35.mp4/playlist.m3u8"
         },
         {
           "title": "第 36 講 - 反向工程(II)",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600402/800k/600402_36.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600402/800k/600402_36.mp4/playlist.m3u8"
         }
       ]
     },
@@ -158819,7 +158819,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "管理與資訊學系",
       "total_lectures": 322,
-      "video_count": 226,
+      "video_count": 240,
       "first_url": "https://codm.nou.edu.tw/vod/_definst_/100961/g200A2/3-3-1_01.m4a/playlist.m3u8",
       "lectures": [
         {
@@ -158832,7 +158832,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "0-1 教學目標與課程概要",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/100961/g200A2/3-3-1_01.m4a/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/100961/g200A2/3-3-1_01.m4a/playlist.m3u8"
         },
         {
           "title": "0-2 師資介紹",
@@ -159340,11 +159340,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-1 資料的輸入與調整",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-1-1 [輸入標題]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-1-2 [輸入同學的通訊資料]",
@@ -159352,11 +159352,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-2 儲存格的格式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2-1 [自動調整欄寬]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-2-2 [設定儲存格資料的型態]",
@@ -159364,15 +159364,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-2-3 Excel中的資料類型",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3-1 [Excel中常見的資料類型]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3-2 [資料類型分析]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-2-3-3.mp4/playlist.m3u8"
         },
         {
           "title": "7-2-3-3 [各種資料類型的呈現]",
@@ -159384,19 +159384,19 @@ window.NOU_CATALOG = {
         },
         {
           "title": "7-3-1 各種格式的調整",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1-1 [調整欄位寬度]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1-2 [插入表格]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1-3 [設定字型]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/07/7-3-1-4.mp4/playlist.m3u8"
         },
         {
           "title": "7-3-1-4 [加入超連結]",
@@ -159440,11 +159440,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-1 建立行事曆的框架",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-1-1 [輸入標題列的資料]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-1-2 [輸入日期]",
@@ -159452,31 +159452,31 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-2 經常性的編輯作業",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-1 [清除儲存格資料]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-2 [插入或刪除儲存格]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-3 [資料的移動]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-4 [資料的複製]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-5 [剪下(cut)與貼上(paste)]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-5.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-6 [選擇性貼上]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-6.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-2-7.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-2-7 [資料的尋找與取代]",
@@ -159484,11 +159484,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-2-3 輸入資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3-1 [輸入科目與行事曆]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-2-3-2.mp4/playlist.m3u8"
         },
         {
           "title": "8-2-3-2 [輸入進度]",
@@ -159500,23 +159500,23 @@ window.NOU_CATALOG = {
         },
         {
           "title": "8-3-1 進行格式的調整",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-1 [設定基本的框線]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-2 [調整內框線]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-3 [填滿]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-4 [字型的設定]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/08/8-3-1-5.mp4/playlist.m3u8"
         },
         {
           "title": "8-3-1-5 [輸入標題]",
@@ -159572,11 +159572,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-4 公式與格式化",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-1 [設定格式化條件]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-4-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-4-2 [調整其他的格式]",
@@ -159584,15 +159584,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "9-2-5 像程式語言條件敘述的函數",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-5-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5-1 [IF的語法與用途]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-5-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-5-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5-2 [VLOOKUP的語法與用途]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-5-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/09/9-2-5-3.mp4/playlist.m3u8"
         },
         {
           "title": "9-2-5-3 [HLOOKUP的語法與用途]",
@@ -159652,15 +159652,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-1 輸入資料",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-1-1 [建立收支明細的類別]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-1-2 [輸入收支明細資料]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-1-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-1-3.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-1-3 [以清單選取的方式輸入]",
@@ -159668,11 +159668,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "10-2-2 設定公式與格式",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2-1 [輸入合計的公式]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/10/10-2-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "10-2-2-2 [調整格式]",
@@ -159720,11 +159720,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-1-2 表格的呈現",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2-1 [框線的變化]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-1-2-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-1-2-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-1-2-2 [表格的立體化]",
@@ -159736,11 +159736,11 @@ window.NOU_CATALOG = {
         },
         {
           "title": "11-2-1 資料的建立",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-1-1 [建立基本資料]",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-2-1-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760015/11/11-2-1-2.mp4/playlist.m3u8"
         },
         {
           "title": "11-2-1-2 [輸入樞紐分析表的資料]",
@@ -163484,75 +163484,75 @@ window.NOU_CATALOG = {
         },
         {
           "title": "第 01 講 - 課程和研讀方法介紹",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_01.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_01.mp4/playlist.m3u8"
         },
         {
           "title": "第 02 講 - 電子商務理論架構",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_02.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_02.mp4/playlist.m3u8"
         },
         {
           "title": "第 03 講 - 企業的電子商務部門",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_03.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_03.mp4/playlist.m3u8"
         },
         {
           "title": "第 04 講 - 電子商務的資料交換（EDI）",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_04.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_04.mp4/playlist.m3u8"
         },
         {
           "title": "第 05 講 - 企業間B2B的交易安全",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_05.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_05.mp4/playlist.m3u8"
         },
         {
           "title": "第 06 講 - 電子商務與網路銀行",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_06.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_06.mp4/playlist.m3u8"
         },
         {
           "title": "第 07 講 - 電子商務與金融服務",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_07.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_07.mp4/playlist.m3u8"
         },
         {
           "title": "第 08 講 - 達康公司與網路行銷",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_08.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_08.mp4/playlist.m3u8"
         },
         {
           "title": "第 09 講 - 電子化客戶關係管理專輯",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_09.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_09.mp4/playlist.m3u8"
         },
         {
           "title": "第 10 講 - 數位化交易服務",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_10.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_10.mp4/playlist.m3u8"
         },
         {
           "title": "第 11 講 - 網路服務e-Service專輯",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_11.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_11.mp4/playlist.m3u8"
         },
         {
           "title": "第 12 講 - 供應鏈管理的定義與意義",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_12.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_12.mp4/playlist.m3u8"
         },
         {
           "title": "第 13 講 - 供應鏈管理與資訊科技的關係",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_13.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_13.mp4/playlist.m3u8"
         },
         {
           "title": "第 14 講 - 資料倉儲與採礦專輯",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_14.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_14.mp4/playlist.m3u8"
         },
         {
           "title": "第 15 講 - 數位內容專輯：國立故宮博物院",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_15.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_15.mp4/playlist.m3u8"
         },
         {
           "title": "第 16 講 - 電子商務與企業資訊系統整合",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_16.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_16.mp4/playlist.m3u8"
         },
         {
           "title": "第 17 講 - 行動商務",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_17.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_17.mp4/playlist.m3u8"
         },
         {
           "title": "第 18 講 - 課程總結",
-          "url": "https://codm.nou.edu.tw/vod/_definst_/600407/800k/600407_18.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/600407/800k/600407_18.mp4/playlist.m3u8"
         }
       ]
     },
@@ -163752,15 +163752,15 @@ window.NOU_CATALOG = {
         },
         {
           "title": "王貞雅 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-3-1.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-4-1.mp4/playlist.m3u8"
         },
         {
           "title": "陳文國 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-3-2.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-4-2.mp4/playlist.m3u8"
         },
         {
           "title": "林俊裕 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-3-3.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-4-3.mp4/playlist.m3u8"
         },
         {
           "title": "課程簡介",
@@ -163768,7 +163768,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "李青蓉 老師",
-          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-3-4.mp4/playlist.m3u8"
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/760052/00/0-4-4.mp4/playlist.m3u8"
         },
         {
           "title": "PDF檔案下載",
@@ -166411,7 +166411,7 @@ window.NOU_CATALOG = {
       "semester": "",
       "dept": "生活科學系",
       "total_lectures": 191,
-      "video_count": 120,
+      "video_count": 122,
       "first_url": "https://lodm.nou.edu.tw/vod/_definst_/750078/00/0-3.mp4/playlist.m3u8",
       "lectures": [
         {
@@ -166604,7 +166604,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "3-3-1 國內外休閒與文化之差異",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750078/03/3-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "3-3-1 國內外文化的休閒差異",
@@ -166700,7 +166700,7 @@ window.NOU_CATALOG = {
         },
         {
           "title": "5-3-1 鄰裡環境與休閒效益",
-          "url": ""
+          "url": "https://lodm.nou.edu.tw/vod/_definst_/750078/05/5-3-1.mp4/playlist.m3u8"
         },
         {
           "title": "5-3-2 鄰里社會與休閒效益",
