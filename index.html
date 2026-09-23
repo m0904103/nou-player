@@ -16,7 +16,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260923_v7_autovideo"></script>
+  <script src="nou_courses_catalog.js?v=20260923_v8_clearbtn"></script>
   
   <style>
     :root {
@@ -219,7 +219,7 @@
       background: #0f172a;
       border: 1px solid var(--border-color);
       border-radius: 10px;
-      padding: 10px 14px 10px 38px;
+      padding: 10px 38px 10px 38px;
       color: #f8fafc;
       font-size: 0.88rem;
       outline: none;
@@ -237,6 +237,34 @@
       color: var(--text-muted);
       font-size: 0.9rem;
       pointer-events: none;
+    }
+    .btn-clear-search {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 22px;
+      height: 22px;
+      background: rgba(255, 255, 255, 0.18);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 50%;
+      color: #cbd5e1;
+      font-size: 0.72rem;
+      font-weight: 800;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      z-index: 10;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .btn-clear-search:hover, .btn-clear-search:active {
+      background: #ef4444;
+      color: #ffffff;
+      border-color: #ef4444;
+      transform: translateY(-50%) scale(1.1);
     }
 
     /* Department Filter Scroll Pills */
@@ -402,7 +430,7 @@
       background: #0f172a;
       border: 1px solid var(--border-color);
       border-radius: 8px;
-      padding: 8px 12px 8px 34px;
+      padding: 8px 34px 8px 34px;
       color: #fff;
       font-size: 0.82rem;
       outline: none;
@@ -1138,6 +1166,7 @@
           <div class="search-input-wrap">
             <span class="search-icon">🔍</span>
             <input type="text" id="courseSearchInput" placeholder="搜尋 339 門課程名稱、學系或講義關鍵字..." oninput="handleCourseSearch()">
+            <button class="btn-clear-search" id="btnClearCourseSearch" onclick="clearCourseSearch()" onmousedown="event.preventDefault()" title="清除關鍵字">✕</button>
           </div>
 
           <!-- Department Filter Scroll Pills -->
@@ -1196,7 +1225,9 @@
 
         <!-- Lecture Search Filter -->
         <div class="lecture-search-wrap">
+          <span class="search-icon">🔍</span>
           <input type="text" id="lectureSearchInput" placeholder="快速搜尋本課程講次 (如 1-1, 第1章)..." oninput="handleLectureSearch()">
+          <button class="btn-clear-search" id="btnClearLectureSearch" onclick="clearLectureSearch()" onmousedown="event.preventDefault()" title="清除關鍵字">✕</button>
         </div>
 
         <!-- Lecture Rows Scroll Container -->
@@ -1482,8 +1513,25 @@
     }
 
     function handleCourseSearch() {
-      courseSearchQuery = document.getElementById('courseSearchInput').value.trim();
+      const input = document.getElementById('courseSearchInput');
+      courseSearchQuery = input.value.trim();
+      const btn = document.getElementById('btnClearCourseSearch');
+      if (btn) {
+        btn.style.display = input.value.length > 0 ? 'flex' : 'none';
+      }
       renderCourses();
+    }
+
+    function clearCourseSearch() {
+      const input = document.getElementById('courseSearchInput');
+      input.value = '';
+      courseSearchQuery = '';
+      const btn = document.getElementById('btnClearCourseSearch');
+      if (btn) {
+        btn.style.display = 'none';
+      }
+      renderCourses();
+      input.focus();
     }
 
     // Switch to View B: Lecture Drawer on the LEFT
@@ -1501,6 +1549,8 @@
 
       document.getElementById('lectureSearchInput').value = '';
       lectureSearchQuery = '';
+      const btnClearLec = document.getElementById('btnClearLectureSearch');
+      if (btnClearLec) btnClearLec.style.display = 'none';
 
       renderLectures();
 
@@ -1604,8 +1654,25 @@
     }
 
     function handleLectureSearch() {
-      lectureSearchQuery = document.getElementById('lectureSearchInput').value.trim();
+      const input = document.getElementById('lectureSearchInput');
+      lectureSearchQuery = input.value.trim();
+      const btn = document.getElementById('btnClearLectureSearch');
+      if (btn) {
+        btn.style.display = input.value.length > 0 ? 'flex' : 'none';
+      }
       renderLectures();
+    }
+
+    function clearLectureSearch() {
+      const input = document.getElementById('lectureSearchInput');
+      input.value = '';
+      lectureSearchQuery = '';
+      const btn = document.getElementById('btnClearLectureSearch');
+      if (btn) {
+        btn.style.display = 'none';
+      }
+      renderLectures();
+      input.focus();
     }
 
 
