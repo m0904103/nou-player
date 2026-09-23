@@ -6,12 +6,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="theme-color" content="#0b0f19">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>國立空中大學（NOU）隨選視訊 HLS 萬能旗艦播放器</title>
   
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <!-- Course Catalog Data (Offline & Zero-CORS safe) -->
-  <script src="nou_courses_catalog.js"></script>
+  <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
+  <script src="nou_courses_catalog.js?v=20260923_v5"></script>
   
   <style>
     :root {
@@ -1071,9 +1074,12 @@
         <!-- Text-only Lecture Notice Card -->
         <div class="no-stream-card" id="noStreamCard" style="display:none; position:absolute; inset:0; background:rgba(15,23,42,0.96); z-index:25; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:20px; gap:10px;">
           <span style="font-size: 2.2rem;">📖</span>
-          <div style="font-size: 1.05rem; font-weight:800; color:#38bdf8;">本講次為空大純文本數位講義</div>
-          <div style="font-size: 0.82rem; color:#94a3b8; max-width:300px; line-height:1.5;">本科目官方無提供 MP4/HLS 視訊串流，建議參閱講義或切換至視訊影音課程！</div>
-          <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 16px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; margin-top:4px;">🎬 瀏覽全校 164 門實測影音課程</button>
+          <div style="font-size: 1.05rem; font-weight:800; color:#38bdf8;" id="noStreamTitle">【本講次為空大純文本數位講義】</div>
+          <div style="font-size: 0.82rem; color:#cbd5e1; max-width:320px; line-height:1.5;" id="noStreamDesc">本科目官方無提供 MP4/HLS 視訊串流，建議參閱講義或切換至視訊影音課程！</div>
+          <div style="display:flex; gap:8px; margin-top:6px; flex-wrap:wrap; justify-content:center;">
+            <button id="btnJumpNextVideo" onclick="jumpToNextVideo()" style="background:#10b981; color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; display:none;">▶ 播放本課下一講視訊</button>
+            <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 14px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem;">🎬 瀏覽全校 157 門影音課程</button>
+          </div>
         </div>
       </div>
 
@@ -1462,7 +1468,14 @@
       const noStreamCard = document.getElementById('noStreamCard');
 
       if (!url) {
-        if (noStreamCard) noStreamCard.style.display = 'flex';
+        if (noStreamCard) {
+          noStreamCard.style.display = 'flex';
+          const nextVidBtn = document.getElementById('btnJumpNextVideo');
+          if (nextVidBtn) {
+            const hasVideo = activeCourse.lectures.some(l => l.url);
+            nextVidBtn.style.display = hasVideo ? 'inline-block' : 'none';
+          }
+        }
         video.style.display = 'none';
         if (hls) { hls.destroy(); hls = null; }
         video.pause();
@@ -1480,6 +1493,25 @@
       updateMediaSession(lecture.title, activeCourse.title, activeCourse.dept);
 
       savePlaybackState();
+    }
+
+    function jumpToNextVideo() {
+      if (!activeCourse || !activeCourse.lectures) return;
+      // Search forward
+      for (let i = activeLectureIndex + 1; i < activeCourse.lectures.length; i++) {
+        if (activeCourse.lectures[i].url) {
+          playLecture(i);
+          return;
+        }
+      }
+      // Search from beginning
+      for (let i = 0; i < activeCourse.lectures.length; i++) {
+        if (activeCourse.lectures[i].url) {
+          playLecture(i);
+          return;
+        }
+      }
+      showToast('本科目為純文本教材，暫無官方視訊');
     }
 
     function loadHlsStream(url) {
