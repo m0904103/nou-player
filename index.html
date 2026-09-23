@@ -946,7 +946,7 @@
       <div>
         <div class="brand-title">空大隨選視訊 HLS 萬能播放器</div>
       </div>
-      <span class="brand-badge" id="totalCoursesBadge">380 門課</span>
+      <span class="brand-badge" id="totalCoursesBadge">164 門實測影音</span>
     </div>
     <div class="header-actions">
       <button class="btn-action" onclick="toggleShortcuts()">⌨️ 說明</button>
@@ -976,7 +976,7 @@
           📋 本課講次 (<span id="mobileLecCount">0</span>)
         </button>
         <button class="mobile-tab-btn" id="tabBtnCatalog" onclick="mobileSwitchTab('catalog')">
-          📚 全校 380 門課
+          📚 全校課程 (<span id="mobileCourseCount">164</span>)
         </button>
       </div>
 
@@ -987,37 +987,37 @@
         <div class="catalog-controls">
           <div class="search-input-wrap">
             <span class="search-icon">🔍</span>
-            <input type="text" id="courseSearchInput" placeholder="搜尋 380 門課程名稱、學系或關鍵字..." oninput="handleCourseSearch()">
+            <input type="text" id="courseSearchInput" placeholder="搜尋 164 門實測影音課程名稱、學系或關鍵字..." oninput="handleCourseSearch()">
           </div>
 
           <!-- Department Filter Scroll Pills -->
           <div class="dept-pills-bar" id="deptPillsBar">
-            <button class="dept-pill active" onclick="setDepartmentFilter('ALL', this)">
-              🌟 全部 <span class="pill-count" id="countAll">380</span>
-            </button>
-            <button class="dept-pill" id="pillVideoOnly" onclick="setDepartmentFilter('VIDEO_ONLY', this)" style="border-color: rgba(52, 211, 153, 0.4); color: #34d399;">
-              🎬 視訊課 <span class="pill-count" id="countVideo">242</span>
+            <button class="dept-pill active" id="pillVideoOnly" onclick="setDepartmentFilter('VIDEO_ONLY', this)" style="border-color: rgba(52, 211, 153, 0.5); color: #34d399; background: rgba(16, 185, 129, 0.15);">
+              🟢 實測影音 <span class="pill-count" id="countVideo">164</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('管理與資訊學系', this)">
-              💻 管資 <span class="pill-count" id="countMgmt">72</span>
+              💻 管資 <span class="pill-count" id="countMgmt">46</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('社會科學系', this)">
-              👥 社科 <span class="pill-count" id="countSoc">68</span>
+              👥 社科 <span class="pill-count" id="countSoc">30</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('生活科學系', this)">
-              🌿 生科 <span class="pill-count" id="countLife">67</span>
+              🌿 生科 <span class="pill-count" id="countLife">26</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('人文學系', this)">
-              🏛️ 人文 <span class="pill-count" id="countHuman">58</span>
-            </button>
-            <button class="dept-pill" onclick="setDepartmentFilter('商學系', this)">
-              💼 商學 <span class="pill-count" id="countBiz">51</span>
-            </button>
-            <button class="dept-pill" onclick="setDepartmentFilter('通識教育中心', this)">
-              🎓 通識 <span class="pill-count" id="countGen">36</span>
+              🏛️ 人文 <span class="pill-count" id="countHuman">20</span>
             </button>
             <button class="dept-pill" onclick="setDepartmentFilter('公共行政學系', this)">
-              ⚖️ 公行 <span class="pill-count" id="countPub">28</span>
+              ⚖️ 公行 <span class="pill-count" id="countPub">17</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('商學系', this)">
+              💼 商學 <span class="pill-count" id="countBiz">16</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('通識教育中心', this)">
+              🎓 通識 <span class="pill-count" id="countGen">15</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('ALL', this)" style="border-color: rgba(148, 163, 184, 0.3); color: #94a3b8;">
+              📚 全課程庫 <span class="pill-count" id="countAll">362</span>
             </button>
           </div>
         </div>
@@ -1073,7 +1073,7 @@
           <span style="font-size: 2.2rem;">📖</span>
           <div style="font-size: 1.05rem; font-weight:800; color:#38bdf8;">本講次為空大純文本數位講義</div>
           <div style="font-size: 0.82rem; color:#94a3b8; max-width:300px; line-height:1.5;">本科目官方無提供 MP4/HLS 視訊串流，建議參閱講義或切換至視訊影音課程！</div>
-          <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 16px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; margin-top:4px;">🎬 瀏覽全校 242 門影音課程</button>
+          <button onclick="filterVideoCourses()" style="background:#0284c7; color:#fff; border:none; padding:8px 16px; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.85rem; margin-top:4px;">🎬 瀏覽全校 164 門實測影音課程</button>
         </div>
       </div>
 
@@ -1161,7 +1161,7 @@
   <script>
     // State Management
     let ALL_COURSES = [];
-    let currentDeptFilter = 'ALL';
+    let currentDeptFilter = 'VIDEO_ONLY';
     let courseSearchQuery = '';
     let lectureSearchQuery = '';
 
@@ -1188,7 +1188,7 @@
     async function initCatalog() {
       if (window.NOU_CATALOG && window.NOU_CATALOG.courses) {
         ALL_COURSES = window.NOU_CATALOG.courses;
-        updateDeptCounts(window.NOU_CATALOG.dept_stats);
+        updateDeptCounts(window.NOU_CATALOG.dept_stats, window.NOU_CATALOG.dept_video_stats);
         renderCourses();
         checkResumeProgress();
         return;
@@ -1199,7 +1199,7 @@
         if (res.ok) {
           const data = await res.json();
           ALL_COURSES = data.courses || [];
-          updateDeptCounts(data.dept_stats);
+          updateDeptCounts(data.dept_stats, data.dept_video_stats);
           renderCourses();
           checkResumeProgress();
           return;
@@ -1217,20 +1217,28 @@
       }
     }
 
-    function updateDeptCounts(stats) {
-      if (!stats) return;
-      document.getElementById('totalCoursesBadge').textContent = `${ALL_COURSES.length} 門課`;
-      document.getElementById('countAll').textContent = ALL_COURSES.length;
-      const vidCount = ALL_COURSES.filter(c => c.video_count > 0).length;
+    function updateDeptCounts(stats, videoStats) {
+      const vidCount = ALL_COURSES.filter(c => c.is_playable || c.video_count > 0).length;
+      document.getElementById('totalCoursesBadge').textContent = `${vidCount} 門實測影音`;
+      const mobileCountEl = document.getElementById('mobileCourseCount');
+      if (mobileCountEl) mobileCountEl.textContent = vidCount;
+      
+      const countAllEl = document.getElementById('countAll');
+      if (countAllEl) countAllEl.textContent = ALL_COURSES.length;
+      
       const vidPill = document.getElementById('countVideo');
       if (vidPill) vidPill.textContent = vidCount;
-      document.getElementById('countMgmt').textContent = stats['管理與資訊學系'] || 0;
-      document.getElementById('countSoc').textContent = stats['社會科學系'] || 0;
-      document.getElementById('countLife').textContent = stats['生活科學系'] || 0;
-      document.getElementById('countHuman').textContent = stats['人文學系'] || 0;
-      document.getElementById('countBiz').textContent = stats['商學系'] || 0;
-      document.getElementById('countGen').textContent = stats['通識教育中心'] || 0;
-      document.getElementById('countPub').textContent = stats['公共行政學系'] || 0;
+
+      const v = videoStats || {};
+      const s = stats || {};
+
+      document.getElementById('countMgmt').textContent = v['管理與資訊學系'] || s['管理與資訊學系'] || 0;
+      document.getElementById('countSoc').textContent = v['社會科學系'] || s['社會科學系'] || 0;
+      document.getElementById('countLife').textContent = v['生活科學系'] || s['生活科學系'] || 0;
+      document.getElementById('countHuman').textContent = v['人文學系'] || s['人文學系'] || 0;
+      document.getElementById('countBiz').textContent = v['商學系'] || s['商學系'] || 0;
+      document.getElementById('countGen').textContent = v['通識教育中心'] || s['通識教育中心'] || 0;
+      document.getElementById('countPub').textContent = v['公共行政學系'] || s['公共行政學系'] || 0;
     }
 
     function filterVideoCourses() {
@@ -1245,14 +1253,19 @@
       grid.innerHTML = '';
 
       const filtered = ALL_COURSES.filter(c => {
+        const isPlayable = c.is_playable || c.video_count > 0;
         if (currentDeptFilter === 'VIDEO_ONLY') {
-          if (c.video_count <= 0) return false;
-        } else if (currentDeptFilter !== 'ALL' && c.dept !== currentDeptFilter) {
-          return false;
+          if (!isPlayable) return false;
+        } else if (currentDeptFilter === 'ALL') {
+          // Show all courses
+        } else {
+          // Department filter: only show playable courses for that department by default!
+          if (c.dept !== currentDeptFilter) return false;
+          if (!isPlayable) return false;
         }
         if (courseSearchQuery) {
           const q = courseSearchQuery.toLowerCase();
-          const matchName = c.title.toLowerCase().includes(q) || c.raw_name.toLowerCase().includes(q);
+          const matchName = c.title.toLowerCase().includes(q) || (c.id && String(c.id).toLowerCase().includes(q));
           const matchDept = c.dept.toLowerCase().includes(q);
           return matchName || matchDept;
         }
@@ -1270,18 +1283,21 @@
         card.onclick = () => openCourseDrawer(c);
 
         const deptClass = getDeptClass(c.dept);
-        const semTag = c.semester ? `<span style="font-size: 0.72rem; color: #94a3b8; font-weight: normal;">[${c.semester}]</span> ` : '';
+        const isPlayable = c.is_playable || c.video_count > 0;
+        const playBadge = isPlayable 
+          ? `<span style="display:inline-flex; align-items:center; gap:4px; color:#34d399; font-weight:700;"><span style="width:6px; height:6px; border-radius:50%; background:#34d399; display:inline-block;"></span> 100% 實測可播 · ${c.video_count} 講視訊</span>`
+          : `<span style="color:#94a3b8;">📄 數位講義專篇 · ${c.total_lectures} 講</span>`;
 
         card.innerHTML = `
           <div class="card-meta-row">
             <span class="dept-tag ${deptClass}">${c.dept}</span>
-            <span style="font-size: 0.75rem; color: #94a3b8;">${c.total_lectures} 講</span>
+            <span style="font-size: 0.75rem; color: #94a3b8;">共 ${c.total_lectures} 講</span>
           </div>
           <div class="card-course-title">
-            ${semTag}${c.title}
+            ${c.title}
           </div>
           <div class="card-bottom-row">
-            <span>官方串流：<strong style="color: #34d399;">${c.video_count > 0 ? c.video_count + ' 講直連' : '隨選解鎖'}</strong></span>
+            <span>${playBadge}</span>
             <span class="btn-enter-course">進入課程 ▶</span>
           </div>
         `;
@@ -1320,8 +1336,10 @@
       renderLectures();
 
       // Start from the first playable lecture (0-1 / 1-1) at the BEGINNING
-      const firstPlayable = course.lectures.findIndex(l => l.url);
-      const targetIdx = (firstPlayable >= 0) ? firstPlayable : 0;
+      let targetIdx = (course.first_video_idx !== undefined && course.first_video_idx >= 0)
+        ? course.first_video_idx 
+        : course.lectures.findIndex(l => l.url);
+      if (targetIdx < 0) targetIdx = 0;
       playLecture(targetIdx);
     }
 
