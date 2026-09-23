@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0b0f19">
+  <title>國立空中大學（NOU）隨選視訊 HLS 萬能旗艦播放器</title>
+  
+  <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <!-- Course Catalog Data (Offline & Zero-CORS safe) -->
+  <script src="nou_courses_catalog.js"></script>
+  
+  <style>
+    :root {
+      --bg-dark: #0b0f19;
+      --bg-card: #161e31;
+      --bg-card-hover: #1f2a44;
+      --bg-surface: #1e293b;
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-focus: #38bdf8;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      
+      /* Department Theme Colors */
+      --dept-all: #6366f1;
+      --dept-mgmt: #06b6d4;      /* 管理與資訊學系 */
+      --dept-soc: #818cf8;       /* 社會科學系 */
+      --dept-life: #10b981;      /* 生活科學系 */
+      --dept-human: #f43f5e;     /* 人文學系 */
+      --dept-biz: #f59e0b;       /* 商學系 */
+      --dept-gen: #a855f7;       /* 通識教育中心 */
+      --dept-pub: #0ea5e9;       /* 公共行政學系 */
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "PingFang TC", "Helvetica Neue", sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding-top: env(safe-area-inset-top, 0px);
+      padding-bottom: env(safe-area-inset-bottom, 0px);
+      touch-action: manipulation;
+    }
+
+    /* Top Navigation Bar */
+    header {
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 120;
+    }
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      overflow: hidden;
+    }
+    .brand-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #38bdf8, #818cf8, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .brand-badge {
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-action {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .btn-action:active {
+      transform: scale(0.96);
+      background: rgba(56, 189, 248, 0.25);
+    }
+
+    /* Resume Watch Banner */
+    #resumeBanner {
+      display: none;
+      background: linear-gradient(90deg, rgba(56, 189, 248, 0.2), rgba(129, 140, 248, 0.2));
+      border-bottom: 1px solid rgba(56, 189, 248, 0.35);
+      padding: 8px 16px;
+      font-size: 0.8rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    #resumeBanner .resume-text {
+      color: #cbd5e1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    #resumeBanner strong { color: #38bdf8; }
+    .btn-resume {
+      background: #0284c7;
+      color: #fff;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    /* DESKTOP LAYOUT (>= 1025px): LEFT Playlist 40% + RIGHT Video 60% */
+    .app-main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 40% 60%;
+      max-width: 1920px;
+      width: 100%;
+      margin: 0 auto;
+      gap: 16px;
+      padding: 16px 20px;
+      height: calc(100vh - 60px);
+    }
+
+    /* LEFT STAGE: Course Catalog & Episode Hub */
+    .catalog-stage {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      height: 100%;
+      overflow: hidden;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    /* Mobile Segmented Switcher (Visible only on iPhone / mobile) */
+    .mobile-nav-bar {
+      display: none;
+      background: #0f172a;
+      border-radius: 10px;
+      padding: 3px;
+      margin-bottom: 10px;
+      border: 1px solid var(--border-color);
+    }
+    .mobile-tab-btn {
+      flex: 1;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    .mobile-tab-btn.active {
+      background: #0284c7;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.4);
+    }
+
+    /* Search Input */
+    .catalog-controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+    .search-input-wrap {
+      position: relative;
+      width: 100%;
+    }
+    .search-input-wrap input {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 10px 14px 10px 38px;
+      color: #f8fafc;
+      font-size: 0.88rem;
+      outline: none;
+      transition: all 0.2s;
+    }
+    .search-input-wrap input:focus {
+      border-color: #38bdf8;
+      background: #131d33;
+    }
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      pointer-events: none;
+    }
+
+    /* Department Filter Scroll Pills */
+    .dept-pills-bar {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .dept-pills-bar::-webkit-scrollbar { display: none; }
+    
+    .dept-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 7px 12px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      white-space: nowrap;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s;
+    }
+    .dept-pill:hover, .dept-pill:active {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+    .dept-pill.active {
+      background: #0284c7;
+      border-color: #38bdf8;
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(2, 132, 199, 0.35);
+    }
+    .dept-pill .pill-count {
+      font-size: 0.7rem;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 1px 6px;
+      border-radius: 999px;
+    }
+
+    /* Scrollable Container */
+    .view-container {
+      flex: 1;
+      overflow-y: auto;
+      padding-right: 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.15) transparent;
+    }
+
+    /* Course Cards */
+    .courses-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    .course-item-card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .course-item-card:hover, .course-item-card:active {
+      background: var(--bg-card-hover);
+      border-color: rgba(56, 189, 248, 0.5);
+    }
+    .course-item-card.active-course {
+      border-color: #38bdf8;
+      background: rgba(2, 132, 199, 0.18);
+      box-shadow: 0 0 12px rgba(56, 189, 248, 0.2);
+    }
+    .card-meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 6px;
+    }
+    .card-course-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      line-height: 1.35;
+    }
+    .card-bottom-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .btn-enter-course {
+      color: #38bdf8;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Lecture Drawer (View B) */
+    #lectureView {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      height: 100%;
+    }
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+    .btn-back-courses {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border-color);
+      color: #94a3b8;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-back-courses:active { background: rgba(255, 255, 255, 0.15); }
+    
+    .drawer-title-wrap {
+      flex: 1;
+      margin-left: 10px;
+      overflow: hidden;
+    }
+    .drawer-course-name {
+      font-size: 0.92rem;
+      font-weight: 800;
+      color: #f8fafc;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .drawer-count {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .lecture-search-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+    .lecture-search-wrap input {
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 8px 12px 8px 34px;
+      color: #fff;
+      font-size: 0.82rem;
+      outline: none;
+    }
+    .lecture-search-wrap input:focus { border-color: #38bdf8; }
+
+    .lectures-list {
+      flex: 1;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding-right: 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .lecture-row {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .lecture-row:active {
+      background: var(--bg-card-hover);
+      transform: scale(0.99);
+    }
+    .lecture-row.active-lecture {
+      background: rgba(2, 132, 199, 0.22);
+      border-color: #38bdf8;
+      box-shadow: 0 0 10px rgba(56, 189, 248, 0.25);
+    }
+    .lecture-row-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+      overflow: hidden;
+    }
+    .lecture-num {
+      font-size: 0.74rem;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.08);
+      color: #94a3b8;
+      padding: 3px 7px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .lecture-row.active-lecture .lecture-num {
+      background: #0284c7;
+      color: #fff;
+    }
+    .lecture-name {
+      font-size: 0.86rem;
+      font-weight: 600;
+      color: #e2e8f0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .lecture-row.active-lecture .lecture-name {
+      color: #38bdf8;
+      font-weight: 700;
+    }
+    .lecture-badge {
+      font-size: 0.68rem;
+      padding: 2px 6px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .badge-stream {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .badge-text {
+      background: rgba(148, 163, 184, 0.15);
+      color: #94a3b8;
+    }
+    .badge-playing {
+      background: rgba(56, 189, 248, 0.25);
+      color: #38bdf8;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .pulse-dot {
+      width: 6px;
+      height: 6px;
+      background: #38bdf8;
+      border-radius: 50%;
+      animation: pulse 1s infinite alternate;
+    }
+    @keyframes pulse { from { opacity: 0.3; } to { opacity: 1; } }
+
+    /* RIGHT STAGE: Player Theater */
+    .player-stage {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      overflow-y: auto;
+      padding-right: 2px;
+    }
+    .video-card {
+      position: relative;
+      width: 100%;
+      background: #000;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+      aspect-ratio: 16 / 9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+    
+    /* Touch Seek Gesture Indicator */
+    .seek-ripple {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: #fff;
+      background: rgba(2, 132, 199, 0.25);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+      z-index: 15;
+    }
+    .seek-ripple.left { left: 0; border-top-left-radius: 14px; border-bottom-left-radius: 14px; }
+    .seek-ripple.right { right: 0; border-top-right-radius: 14px; border-bottom-right-radius: 14px; }
+    .seek-ripple.active { opacity: 1; }
+
+    .video-overlay-msg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      font-weight: 700;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 20;
+    }
+    .video-overlay-msg.show { opacity: 1; }
+
+    /* Now Playing Info Bar */
+    .now-playing-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 12px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .now-playing-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .dept-tag {
+      font-size: 0.72rem;
+      padding: 3px 9px;
+      border-radius: 6px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      white-space: nowrap;
+    }
+    .lecture-progress-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .now-playing-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.4;
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .now-playing-course {
+      color: #38bdf8;
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    /* Player Controls Bar */
+    .controls-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 10px 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .ctrl-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-ctrl {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: #e2e8f0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      min-height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+    .btn-ctrl:active {
+      background: rgba(56, 189, 248, 0.25);
+      border-color: #38bdf8;
+      transform: scale(0.96);
+    }
+    .btn-ctrl:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+      border-color: var(--border-color);
+    }
+    .speed-select {
+      background: #0f172a;
+      border: 1px solid var(--border-color);
+      color: #38bdf8;
+      padding: 7px 10px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      min-height: 38px;
+      outline: none;
+    }
+    .speed-select:focus { border-color: #38bdf8; }
+    .toggle-wrap {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    .toggle-wrap input[type="checkbox"] {
+      cursor: pointer;
+      accent-color: #0284c7;
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Raw Stream Accordion */
+    details.stream-details {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.8rem;
+    }
+    details.stream-details summary {
+      cursor: pointer;
+      color: var(--text-muted);
+      font-weight: 600;
+      user-select: none;
+      outline: none;
+    }
+    details.stream-details summary:hover { color: #38bdf8; }
+    .stream-input-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .stream-input {
+      flex: 1;
+      background: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 6px;
+      padding: 8px 10px;
+      color: #e2e8f0;
+      font-family: monospace;
+      font-size: 0.78rem;
+      outline: none;
+    }
+    .btn-apply-url {
+      background: #0284c7;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 0 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* Department Colors */
+    .dept-管資 { background: rgba(6, 182, 212, 0.15); color: #22d3ee; border: 1px solid rgba(6, 182, 212, 0.35); }
+    .dept-社科 { background: rgba(129, 140, 248, 0.15); color: #a5b4fc; border: 1px solid rgba(129, 140, 248, 0.35); }
+    .dept-生科 { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.35); }
+    .dept-人文 { background: rgba(244, 63, 94, 0.15); color: #fda4af; border: 1px solid rgba(244, 63, 94, 0.35); }
+    .dept-商學 { background: rgba(245, 158, 11, 0.15); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.35); }
+    .dept-通識 { background: rgba(168, 85, 247, 0.15); color: #d8b4fe; border: 1px solid rgba(168, 85, 247, 0.35); }
+    .dept-公行 { background: rgba(14, 165, 233, 0.15); color: #7dd3fc; border: 1px solid rgba(14, 165, 233, 0.35); }
+
+    /* Shortcuts Modal */
+    .shortcuts-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+    }
+    .shortcuts-content {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 20px;
+      max-width: 420px;
+      width: 90%;
+    }
+    .shortcuts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 0.82rem;
+    }
+    .shortcut-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0f172a;
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+    kbd {
+      background: #334155;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-family: monospace;
+    }
+
+    /* ========================================================= */
+    /* 📱 IPHONE 18 PRO / MOBILE WEB OPTIMIZATIONS (< 1025px)   */
+    /* ========================================================= */
+    @media (max-width: 1024px) {
+      body {
+        overflow-x: hidden;
+      }
+      
+      header {
+        position: relative; /* 滾動時導航列順暢收起，讓置頂影片貼合螢幕頂部 */
+        padding-top: max(8px, env(safe-area-inset-top));
+        padding-left: max(12px, env(safe-area-inset-left));
+        padding-right: max(12px, env(safe-area-inset-right));
+      }
+      .brand-title {
+        font-size: 0.95rem;
+      }
+
+      /* 防止 iOS Safari 點擊聚焦輸入框時自動強制放大畫面 (需 >= 16px) */
+      .search-input-wrap input,
+      .lecture-search-wrap input,
+      .stream-input,
+      .speed-select {
+        font-size: 16px !important;
+      }
+
+      /* 避免長按跳出文字選取放大鏡，強化原生 App 手感 */
+      .btn-ctrl, .dept-pill, .mobile-tab-btn, .btn-action, .lecture-row, .course-item-card {
+        -webkit-touch-callout: none;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Mobile Main Container Flow: Video Pinned at Top, Content Below */
+      .app-main {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        height: auto;
+      }
+
+      /* Sticky Video Stage (Always in view at top) */
+      .player-stage {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: var(--bg-dark);
+        padding: 0;
+        gap: 0;
+        box-shadow: 0 6px 24px rgba(0, 0, 0, 0.85);
+      }
+
+      .video-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        aspect-ratio: 16 / 9;
+      }
+
+      .now-playing-box {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        padding: 8px 12px;
+      }
+      .now-playing-title {
+        font-size: 0.95rem;
+      }
+
+      .controls-bar {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        padding: 8px 12px;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+      .controls-bar::-webkit-scrollbar { display: none; }
+      
+      .btn-ctrl {
+        padding: 8px 14px;
+        font-size: 0.85rem;
+        white-space: nowrap;
+      }
+
+      details.stream-details {
+        display: none; /* Hide raw URL box on mobile to save vertical space */
+      }
+
+      /* Mobile Segmented Switcher */
+      .mobile-nav-bar {
+        display: flex;
+        margin: 10px 12px 6px;
+      }
+
+      /* Catalog & Episodes Stage Below Video */
+      .catalog-stage {
+        border-radius: 0;
+        border: none;
+        background: transparent;
+        padding: 6px 12px;
+        height: auto;
+        overflow: visible;
+        padding-bottom: max(60px, env(safe-area-inset-bottom, 30px));
+      }
+
+      .view-container, .lectures-list {
+        overflow-y: visible;
+        height: auto;
+      }
+
+      .lecture-row {
+        padding: 12px 14px; /* Larger tap targets on phone */
+        min-height: 48px;
+      }
+      .lecture-name {
+        font-size: 0.9rem;
+      }
+      .course-item-card {
+        padding: 14px;
+        min-height: 52px;
+      }
+    }
+
+    /* iPhone 橫向持握時自動切換為雙欄劇院分割畫面 */
+    @media (max-width: 1024px) and (orientation: landscape) {
+      .app-main {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        height: calc(100vh - 46px);
+        padding: 6px 12px;
+        gap: 10px;
+        overflow: hidden;
+      }
+      .player-stage {
+        position: static;
+        box-shadow: none;
+      }
+      .catalog-stage {
+        height: 100%;
+        overflow: hidden;
+        padding-bottom: env(safe-area-inset-bottom, 10px);
+      }
+      .view-container, .lectures-list {
+        height: calc(100vh - 140px);
+        overflow-y: auto;
+      }
+      .video-card {
+        border-radius: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Header Bar -->
+  <header>
+    <div class="brand-wrap">
+      <span style="font-size: 1.25rem;">🏛️</span>
+      <div>
+        <div class="brand-title">空大隨選視訊 HLS 萬能播放器</div>
+      </div>
+      <span class="brand-badge" id="totalCoursesBadge">380 門課</span>
+    </div>
+    <div class="header-actions">
+      <button class="btn-action" onclick="toggleShortcuts()">⌨️ 說明</button>
+      <button class="btn-action" onclick="openRandomCourse()">🎲 隨選</button>
+    </div>
+  </header>
+
+  <!-- Resume Watching Banner -->
+  <div id="resumeBanner">
+    <div class="resume-text">
+      <span>⚡ 上次觀看：</span>
+      <strong id="resumeCourseName">--</strong>
+      <span id="resumeLectureName">--</span>
+    </div>
+    <button class="btn-resume" onclick="resumeLastWatch()">▶ 繼續</button>
+  </div>
+
+  <!-- Main Container -->
+  <main class="app-main">
+
+    <!-- LEFT STAGE on Desktop / BELOW VIDEO on Mobile: Catalog & Episodes -->
+    <section class="catalog-stage" id="catalogStageSection">
+      
+      <!-- Mobile Segmented Tabs for 1-Tap Switching on iPhone -->
+      <div class="mobile-nav-bar" id="mobileNavBar">
+        <button class="mobile-tab-btn active" id="tabBtnLectures" onclick="mobileSwitchTab('lectures')">
+          📋 本課講次 (<span id="mobileLecCount">0</span>)
+        </button>
+        <button class="mobile-tab-btn" id="tabBtnCatalog" onclick="mobileSwitchTab('catalog')">
+          📚 全校 380 門課
+        </button>
+      </div>
+
+      <!-- VIEW A: Course Catalog List -->
+      <div id="catalogView" style="display: flex; flex-direction: column; gap: 10px; height: 100%;">
+        
+        <!-- Search & Department Tabs -->
+        <div class="catalog-controls">
+          <div class="search-input-wrap">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="courseSearchInput" placeholder="搜尋 380 門課程名稱、學系或關鍵字..." oninput="handleCourseSearch()">
+          </div>
+
+          <!-- Department Filter Scroll Pills -->
+          <div class="dept-pills-bar" id="deptPillsBar">
+            <button class="dept-pill active" onclick="setDepartmentFilter('ALL', this)">
+              🌟 全部 <span class="pill-count" id="countAll">380</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('管理與資訊學系', this)">
+              💻 管資 <span class="pill-count" id="countMgmt">72</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('社會科學系', this)">
+              👥 社科 <span class="pill-count" id="countSoc">68</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('生活科學系', this)">
+              🌿 生科 <span class="pill-count" id="countLife">67</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('人文學系', this)">
+              🏛️ 人文 <span class="pill-count" id="countHuman">58</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('商學系', this)">
+              💼 商學 <span class="pill-count" id="countBiz">51</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('通識教育中心', this)">
+              🎓 通識 <span class="pill-count" id="countGen">36</span>
+            </button>
+            <button class="dept-pill" onclick="setDepartmentFilter('公共行政學系', this)">
+              ⚖️ 公行 <span class="pill-count" id="countPub">28</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Course Cards Scroll View -->
+        <div class="view-container">
+          <div class="courses-grid" id="coursesGrid">
+            <!-- Dynamic course cards injected here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW B: Course Lectures Drawer (Sequential Chapters) -->
+      <div id="lectureView">
+        
+        <!-- Drawer Header -->
+        <div class="drawer-header">
+          <button class="btn-back-courses" onclick="backToCatalog()">
+            <span>←</span> 返回學系目錄
+          </button>
+          <div class="drawer-title-wrap">
+            <div class="drawer-course-name" id="drawerCourseName">--</div>
+            <div class="drawer-count" id="drawerCourseCount">-- 講</div>
+          </div>
+        </div>
+
+        <!-- Lecture Search Filter -->
+        <div class="lecture-search-wrap">
+          <input type="text" id="lectureSearchInput" placeholder="快速搜尋本課程講次 (如 1-1, 第1章)..." oninput="handleLectureSearch()">
+        </div>
+
+        <!-- Lecture Rows Scroll Container -->
+        <div class="lectures-list" id="lecturesList">
+          <!-- Dynamic lecture items injected here in strict sequential order -->
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- RIGHT STAGE on Desktop / TOP STICKY on Mobile: Video Theater -->
+    <section class="player-stage" id="playerStageSection">
+      
+      <!-- Video Screen with Touch Double-Tap Zones -->
+      <div class="video-card" id="videoCard">
+        <video id="videoPlayer" playsinline webkit-playsinline x5-playsinline x-webkit-airplay="allow" preload="auto" controls></video>
+        <div class="seek-ripple left" id="seekRippleLeft">⏪ -10秒</div>
+        <div class="seek-ripple right" id="seekRippleRight">+10秒 ⏩</div>
+        <div class="video-overlay-msg" id="overlayMsg">--</div>
+      </div>
+
+      <!-- Now Playing Information Box -->
+      <div class="now-playing-box">
+        <div class="now-playing-header">
+          <span class="dept-tag dept-管資" id="currentDeptTag">管理與資訊學系</span>
+          <span class="lecture-progress-text" id="lectureProgressText">講次 -- / --</span>
+        </div>
+        <div class="now-playing-title">
+          <span id="currentLectureTitle">請選擇課程與講次開始播放</span>
+          <span class="now-playing-course" id="currentCourseTitle">【國立空中大學】</span>
+        </div>
+      </div>
+
+      <!-- Playback Controls Bar (Touch-Optimized for iPhone) -->
+      <div class="controls-bar">
+        <div class="ctrl-group">
+          <button class="btn-ctrl" id="btnPrev" onclick="playPrevLecture()" title="上一講">⏮️ 上一講</button>
+          <button class="btn-ctrl" onclick="seekRelative(-10)" title="倒退 10 秒">⏪ -10s</button>
+          <button class="btn-ctrl" id="btnPlayPause" onclick="togglePlayPause()" title="播放 / 暫停">⏯️ 播放</button>
+          <button class="btn-ctrl" onclick="seekRelative(10)" title="快進 10 秒">⏩ +10s</button>
+          <button class="btn-ctrl" id="btnNext" onclick="playNextLecture()" title="下一講">⏭️ 下一講</button>
+        </div>
+
+        <div class="ctrl-group">
+          <label style="font-size: 0.75rem; color: var(--text-muted);">倍速：</label>
+          <select class="speed-select" id="speedSelect" onchange="changeSpeed(this.value)">
+            <option value="0.75">0.75x</option>
+            <option value="1.0" selected>1.0x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="1.75">1.75x</option>
+            <option value="2.0">2.0x</option>
+          </select>
+
+          <label class="toggle-wrap" title="當前講次播完自動載入並播放下一講">
+            <input type="checkbox" id="autoPlayNext" checked>
+            <span>自動連播</span>
+          </label>
+
+          <button class="btn-ctrl" onclick="togglePiP()" title="畫中畫 (小視窗浮動)">🔲 畫中畫</button>
+          <button class="btn-ctrl" onclick="toggleFullScreen()" title="全螢幕劇院模式">⛶ 全螢幕</button>
+        </div>
+      </div>
+
+      <!-- Advanced Stream Inspector & Manual Input -->
+      <details class="stream-details">
+        <summary>📡 官方 HLS 串流直連來源網址 (可複製或自訂輸入)</summary>
+        <div class="stream-input-row">
+          <input type="text" class="stream-input" id="streamUrlInput" placeholder="請輸入 .m3u8 串流網址...">
+          <button class="btn-apply-url" onclick="loadManualUrl()">換片播放</button>
+        </div>
+      </details>
+
+    </section>
+
+  </main>
+
+  <!-- Keyboard / Touch Help Modal -->
+  <div class="shortcuts-modal" id="shortcutsModal" onclick="toggleShortcuts()">
+    <div class="shortcuts-content" onclick="event.stopPropagation()">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <h3 style="color:#38bdf8; font-size:1.05rem;">📱 iPhone / 快捷操作指南</h3>
+        <button onclick="toggleShortcuts()" style="background:none; border:none; color:#94a3b8; font-size:1.2rem; cursor:pointer;">✕</button>
+      </div>
+      <div style="font-size:0.8rem; color:#cbd5e1; margin-top:10px; line-height:1.6;">
+        💡 <b>iPhone 18 Pro 專屬手勢：</b><br>
+        • 點擊影片左半邊兩下：倒退 10 秒<br>
+        • 點擊影片右半邊兩下：快進 10 秒<br>
+        • 鎖定畫面 / 動態島：直接支援播放/暫停與選單切換<br>
+        • 向上滑動清單時，影片將置頂保持播放！
+      </div>
+      <div class="shortcuts-grid">
+        <div class="shortcut-item"><span>播放 / 暫停</span> <kbd>Space</kbd></div>
+        <div class="shortcut-item"><span>快進 10 秒</span> <kbd>→</kbd></div>
+        <div class="shortcut-item"><span>倒退 10 秒</span> <kbd>←</kbd></div>
+        <div class="shortcut-item"><span>下一講</span> <kbd>Shift + N</kbd></div>
+        <div class="shortcut-item"><span>上一講</span> <kbd>Shift + P</kbd></div>
+        <div class="shortcut-item"><span>全螢幕</span> <kbd>F</kbd></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // State Management
+    let ALL_COURSES = [];
+    let currentDeptFilter = 'ALL';
+    let courseSearchQuery = '';
+    let lectureSearchQuery = '';
+
+    let activeCourse = null;
+    let activeLectureIndex = -1;
+    let hls = null;
+
+    const video = document.getElementById('videoPlayer');
+    const streamInput = document.getElementById('streamUrlInput');
+    const overlayMsg = document.getElementById('overlayMsg');
+
+    function getDeptClass(dept) {
+      if (!dept) return 'dept-管資';
+      if (dept.includes('管理') || dept.includes('資訊')) return 'dept-管資';
+      if (dept.includes('社會')) return 'dept-社科';
+      if (dept.includes('生活')) return 'dept-生科';
+      if (dept.includes('人文')) return 'dept-人文';
+      if (dept.includes('商學')) return 'dept-商學';
+      if (dept.includes('通識')) return 'dept-通識';
+      if (dept.includes('行政') || dept.includes('公共')) return 'dept-公行';
+      return 'dept-管資';
+    }
+
+    async function initCatalog() {
+      if (window.NOU_CATALOG && window.NOU_CATALOG.courses) {
+        ALL_COURSES = window.NOU_CATALOG.courses;
+        updateDeptCounts(window.NOU_CATALOG.dept_stats);
+        renderCourses();
+        checkResumeProgress();
+        return;
+      }
+
+      try {
+        const res = await fetch('nou_courses_catalog.json?t=' + Date.now());
+        if (res.ok) {
+          const data = await res.json();
+          ALL_COURSES = data.courses || [];
+          updateDeptCounts(data.dept_stats);
+          renderCourses();
+          checkResumeProgress();
+          return;
+        }
+      } catch (e) {
+        console.warn('Local JSON load fallback:', e);
+      }
+
+      if (ALL_COURSES.length === 0) {
+        document.getElementById('coursesGrid').innerHTML = `
+          <div style="text-align:center; padding: 40px 10px; color: var(--text-muted);">
+            ⏳ 正在載入全校課程資料庫... 若未顯示請確認 <code>nou_courses_catalog.js</code> 與本網頁在同一資料夾。
+          </div>
+        `;
+      }
+    }
+
+    function updateDeptCounts(stats) {
+      if (!stats) return;
+      document.getElementById('totalCoursesBadge').textContent = `${ALL_COURSES.length} 門課`;
+      document.getElementById('countAll').textContent = ALL_COURSES.length;
+      document.getElementById('countMgmt').textContent = stats['管理與資訊學系'] || 0;
+      document.getElementById('countSoc').textContent = stats['社會科學系'] || 0;
+      document.getElementById('countLife').textContent = stats['生活科學系'] || 0;
+      document.getElementById('countHuman').textContent = stats['人文學系'] || 0;
+      document.getElementById('countBiz').textContent = stats['商學系'] || 0;
+      document.getElementById('countGen').textContent = stats['通識教育中心'] || 0;
+      document.getElementById('countPub').textContent = stats['公共行政學系'] || 0;
+    }
+
+    // Render Courses in View A
+    function renderCourses() {
+      const grid = document.getElementById('coursesGrid');
+      grid.innerHTML = '';
+
+      const filtered = ALL_COURSES.filter(c => {
+        if (currentDeptFilter !== 'ALL' && c.dept !== currentDeptFilter) {
+          return false;
+        }
+        if (courseSearchQuery) {
+          const q = courseSearchQuery.toLowerCase();
+          const matchName = c.title.toLowerCase().includes(q) || c.raw_name.toLowerCase().includes(q);
+          const matchDept = c.dept.toLowerCase().includes(q);
+          return matchName || matchDept;
+        }
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div style="text-align:center; padding: 40px 10px; color: var(--text-muted);">無符合條件的課程</div>`;
+        return;
+      }
+
+      filtered.forEach(c => {
+        const card = document.createElement('div');
+        card.className = 'course-item-card' + (activeCourse && activeCourse.id === c.id ? ' active-course' : '');
+        card.onclick = () => openCourseDrawer(c);
+
+        const deptClass = getDeptClass(c.dept);
+        const semTag = c.semester ? `<span style="font-size: 0.72rem; color: #94a3b8; font-weight: normal;">[${c.semester}]</span> ` : '';
+
+        card.innerHTML = `
+          <div class="card-meta-row">
+            <span class="dept-tag ${deptClass}">${c.dept}</span>
+            <span style="font-size: 0.75rem; color: #94a3b8;">${c.total_lectures} 講</span>
+          </div>
+          <div class="card-course-title">
+            ${semTag}${c.title}
+          </div>
+          <div class="card-bottom-row">
+            <span>官方串流：<strong style="color: #34d399;">${c.video_count > 0 ? c.video_count + ' 講直連' : '隨選解鎖'}</strong></span>
+            <span class="btn-enter-course">進入課程 ▶</span>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function setDepartmentFilter(dept, el) {
+      currentDeptFilter = dept;
+      document.querySelectorAll('.dept-pill').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      renderCourses();
+    }
+
+    function handleCourseSearch() {
+      courseSearchQuery = document.getElementById('courseSearchInput').value.trim();
+      renderCourses();
+    }
+
+    // Switch to View B: Lecture Drawer on the LEFT
+    function openCourseDrawer(course) {
+      activeCourse = course;
+      document.getElementById('catalogView').style.display = 'none';
+      document.getElementById('lectureView').style.display = 'flex';
+
+      document.getElementById('drawerCourseName').textContent = course.title;
+      document.getElementById('drawerCourseCount').textContent = `共 ${course.total_lectures} 講 · ${course.dept}`;
+      document.getElementById('mobileLecCount').textContent = course.total_lectures;
+
+      // Update mobile segmented tab buttons
+      mobileSwitchTab('lectures', false);
+
+      document.getElementById('lectureSearchInput').value = '';
+      lectureSearchQuery = '';
+
+      renderLectures();
+
+      // Start from the first playable lecture (0-1 / 1-1) at the BEGINNING
+      const firstPlayable = course.lectures.findIndex(l => l.url);
+      const targetIdx = (firstPlayable >= 0) ? firstPlayable : 0;
+      playLecture(targetIdx);
+    }
+
+    function backToCatalog() {
+      document.getElementById('lectureView').style.display = 'none';
+      document.getElementById('catalogView').style.display = 'flex';
+      mobileSwitchTab('catalog', false);
+      renderCourses();
+    }
+
+    // Mobile Segmented Switcher Logic (iPhone 18 Pro)
+    function mobileSwitchTab(tab, triggerViewChange = true) {
+      const tabLec = document.getElementById('tabBtnLectures');
+      const tabCat = document.getElementById('tabBtnCatalog');
+      if (tab === 'lectures') {
+        tabLec.classList.add('active');
+        tabCat.classList.remove('active');
+        if (triggerViewChange) {
+          if (activeCourse) {
+            document.getElementById('catalogView').style.display = 'none';
+            document.getElementById('lectureView').style.display = 'flex';
+          } else if (ALL_COURSES.length > 0) {
+            openCourseDrawer(ALL_COURSES[0]);
+          }
+        }
+      } else {
+        tabCat.classList.add('active');
+        tabLec.classList.remove('active');
+        if (triggerViewChange) {
+          document.getElementById('lectureView').style.display = 'none';
+          document.getElementById('catalogView').style.display = 'flex';
+          renderCourses();
+        }
+      }
+    }
+
+    // Render Lectures in View B
+    function renderLectures() {
+      if (!activeCourse) return;
+      const list = document.getElementById('lecturesList');
+      list.innerHTML = '';
+
+      const lectures = activeCourse.lectures || [];
+      const filtered = lectures.map((l, idx) => ({ ...l, originalIdx: idx })).filter(l => {
+        if (!lectureSearchQuery) return true;
+        const q = lectureSearchQuery.toLowerCase();
+        return l.title.toLowerCase().includes(q) || String(l.originalIdx + 1).includes(q);
+      });
+
+      if (filtered.length === 0) {
+        list.innerHTML = `<div style="text-align:center; padding: 30px; color: var(--text-muted);">無相符講次</div>`;
+        return;
+      }
+
+      filtered.forEach(item => {
+        const row = document.createElement('div');
+        const isCurrent = activeLectureIndex === item.originalIdx;
+        row.className = 'lecture-row' + (isCurrent ? ' active-lecture' : '');
+        row.id = `lec-row-${item.originalIdx}`;
+        row.onclick = () => playLecture(item.originalIdx);
+
+        let badgeHtml = '';
+        if (isCurrent) {
+          badgeHtml = `<span class="lecture-badge badge-playing"><span class="pulse-dot"></span> 播放中</span>`;
+        } else if (item.url) {
+          badgeHtml = `<span class="lecture-badge badge-stream">HD 視訊</span>`;
+        } else {
+          badgeHtml = `<span class="lecture-badge badge-text">文本</span>`;
+        }
+
+        row.innerHTML = `
+          <div class="lecture-row-left">
+            <span class="lecture-num">${String(item.originalIdx + 1).padStart(2, '0')}</span>
+            <span class="lecture-name" title="${item.title}">${item.title}</span>
+          </div>
+          ${badgeHtml}
+        `;
+        list.appendChild(row);
+      });
+
+      // Smooth scroll active lecture into view
+      if (activeLectureIndex >= 0) {
+        setTimeout(() => {
+          const activeEl = document.getElementById(`lec-row-${activeLectureIndex}`);
+          if (activeEl) {
+            activeEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }, 120);
+      }
+    }
+
+    function handleLectureSearch() {
+      lectureSearchQuery = document.getElementById('lectureSearchInput').value.trim();
+      renderLectures();
+    }
+
+    // HLS Player Core (iOS Safari Native & Desktop HLS.js Dual Engine)
+    function playLecture(index) {
+      if (!activeCourse || !activeCourse.lectures || !activeCourse.lectures[index]) return;
+      activeLectureIndex = index;
+      const lecture = activeCourse.lectures[index];
+
+      // Update info displays
+      const deptTag = document.getElementById('currentDeptTag');
+      deptTag.textContent = activeCourse.dept;
+      deptTag.className = 'dept-tag ' + getDeptClass(activeCourse.dept);
+
+      document.getElementById('currentCourseTitle').textContent = `【${activeCourse.title}】`;
+      document.getElementById('currentLectureTitle').textContent = lecture.title;
+      document.getElementById('lectureProgressText').textContent = `講次 ${index + 1} / ${activeCourse.total_lectures}`;
+
+      // Update Prev / Next buttons state
+      document.getElementById('btnPrev').disabled = (index <= 0);
+      document.getElementById('btnNext').disabled = (index >= activeCourse.lectures.length - 1);
+
+      renderLectures();
+
+      let url = lecture.url;
+      if (!url) {
+        url = `https://lodm.nou.edu.tw/vod/_definst_/${activeCourse.id}/${index + 1}.mp4/playlist.m3u8`;
+      }
+
+      streamInput.value = url;
+      loadHlsStream(url);
+
+      // Apple iOS Lock Screen & Dynamic Island Media Session
+      updateMediaSession(lecture.title, activeCourse.title, activeCourse.dept);
+
+      savePlaybackState();
+    }
+
+    function loadHlsStream(url) {
+      if (!url) return;
+      showToast(`正在播放：${activeCourse ? activeCourse.title : ''} (第 ${activeLectureIndex + 1} 講)`);
+
+      // Detect iOS Safari native HLS vs desktop Hls.js
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+      if (isIOS && video.canPlayType('application/vnd.apple.mpegurl')) {
+        // Native Apple AVPlayer on iPhone (Smoothest performance & AirPods / Lock Screen sync)
+        if (hls) {
+          hls.destroy();
+          hls = null;
+        }
+        video.src = url;
+        video.load();
+        video.play().catch(e => console.log('iOS Autoplay waiting for user tap:', e));
+      } else if (Hls.isSupported()) {
+        if (hls) {
+          hls.destroy();
+        }
+        hls = new Hls({
+          enableWorker: true,
+          lowLatencyMode: false,
+          backBufferLength: 90
+        });
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, function () {
+          video.play().catch(e => console.log('Autoplay policy caught:', e));
+        });
+        hls.on(Hls.Events.ERROR, function (event, data) {
+          if (data.fatal) {
+            switch (data.type) {
+              case Hls.ErrorTypes.NETWORK_ERROR:
+                hls.startLoad();
+                break;
+              case Hls.ErrorTypes.MEDIA_ERROR:
+                hls.recoverMediaError();
+                break;
+              default:
+                hls.destroy();
+                break;
+            }
+          }
+        });
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+        video.play().catch(e => console.log('Autoplay caught:', e));
+      }
+    }
+
+    function loadManualUrl() {
+      const url = streamInput.value.trim();
+      if (!url) return;
+      loadHlsStream(url);
+    }
+
+    // Apple Media Session API (iOS Lock Screen, Dynamic Island, Apple Watch, AirPods)
+    function updateMediaSession(title, course, dept) {
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: title,
+          artist: `【${course}】`,
+          album: `國立空中大學 · ${dept}`,
+          artwork: [
+            { src: 'https://uu.nou.edu.tw/base/10001/theme/learn/images/logo.png', sizes: '96x96', type: 'image/png' },
+            { src: 'https://uu.nou.edu.tw/base/10001/theme/learn/images/logo.png', sizes: '192x192', type: 'image/png' }
+          ]
+        });
+
+        navigator.mediaSession.setActionHandler('play', () => video.play());
+        navigator.mediaSession.setActionHandler('pause', () => video.pause());
+        navigator.mediaSession.setActionHandler('seekbackward', () => seekRelative(-10));
+        navigator.mediaSession.setActionHandler('seekforward', () => seekRelative(10));
+        navigator.mediaSession.setActionHandler('previoustrack', () => playPrevLecture());
+        navigator.mediaSession.setActionHandler('nexttrack', () => playNextLecture());
+      }
+    }
+
+    // Playback Controls
+    function togglePlayPause() {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    }
+
+    video.addEventListener('play', () => {
+      document.getElementById('btnPlayPause').textContent = '⏸️ 暫停';
+    });
+    video.addEventListener('pause', () => {
+      document.getElementById('btnPlayPause').textContent = '▶️ 播放';
+    });
+
+    function playPrevLecture() {
+      if (activeLectureIndex > 0) {
+        playLecture(activeLectureIndex - 1);
+      }
+    }
+
+    function playNextLecture() {
+      if (activeCourse && activeLectureIndex < activeCourse.lectures.length - 1) {
+        playLecture(activeLectureIndex + 1);
+      }
+    }
+
+    function seekRelative(sec) {
+      video.currentTime = Math.max(0, Math.min(video.duration || 9999, video.currentTime + sec));
+      showToast(`${sec > 0 ? '+' : ''}${sec} 秒`);
+    }
+
+    function changeSpeed(speed) {
+      video.playbackRate = parseFloat(speed);
+      showToast(`播放速度：${speed}x`);
+      localStorage.setItem('nou_speed', speed);
+    }
+
+    // iOS Fullscreen & PiP Handlers
+    function toggleFullScreen() {
+      if (video.webkitEnterFullscreen) {
+        // Native iOS Safari Fullscreen (Mandatory for iPhone)
+        video.webkitEnterFullscreen();
+      } else if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else {
+        video.requestFullscreen().catch(e => {
+          if (video.webkitEnterFullscreen) video.webkitEnterFullscreen();
+        });
+      }
+    }
+
+    async function togglePiP() {
+      try {
+        if (video.webkitSupportsPresentationMode && typeof video.webkitSetPresentationMode === 'function') {
+          // Native Apple WebKit PiP API for iPhone / iPad
+          const nextMode = (video.webkitPresentationMode === 'picture-in-picture') ? 'inline' : 'picture-in-picture';
+          video.webkitSetPresentationMode(nextMode);
+          showToast(nextMode === 'picture-in-picture' ? '已開啟畫中畫' : '關閉畫中畫');
+        } else if (document.pictureInPictureElement) {
+          await document.exitPictureInPicture();
+        } else if (video.requestPictureInPicture) {
+          await video.requestPictureInPicture();
+        }
+      } catch (e) {
+        console.warn('PiP error:', e);
+      }
+    }
+
+    // Auto Play Next on Video Ended
+    video.addEventListener('ended', () => {
+      const autoPlay = document.getElementById('autoPlayNext').checked;
+      if (autoPlay && activeCourse && activeLectureIndex < activeCourse.lectures.length - 1) {
+        showToast('講次結束，自動播放下一講...');
+        setTimeout(() => {
+          playNextLecture();
+        }, 1200);
+      }
+    });
+
+    // Touch Double-Tap to Seek (YouTube / Netflix Gesture on iPhone)
+    const videoCard = document.getElementById('videoCard');
+    const rippleLeft = document.getElementById('seekRippleLeft');
+    const rippleRight = document.getElementById('seekRippleRight');
+    let lastTapTime = 0;
+    let lastTapX = 0;
+
+    videoCard.addEventListener('touchend', (e) => {
+      const now = Date.now();
+      const touch = e.changedTouches[0];
+      const rect = videoCard.getBoundingClientRect();
+      const x = touch.clientX - rect.left;
+      const isRightSide = x > (rect.width / 2);
+
+      if (now - lastTapTime < 300) {
+        // Double tap confirmed
+        e.preventDefault();
+        if (isRightSide) {
+          seekRelative(10);
+          showRipple(rippleRight);
+        } else {
+          seekRelative(-10);
+          showRipple(rippleLeft);
+        }
+        lastTapTime = 0;
+      } else {
+        lastTapTime = now;
+        lastTapX = x;
+      }
+    });
+
+    function showRipple(el) {
+      el.classList.add('active');
+      setTimeout(() => {
+        el.classList.remove('active');
+      }, 400);
+    }
+
+    function openRandomCourse() {
+      if (ALL_COURSES.length === 0) return;
+      const rnd = ALL_COURSES[Math.floor(Math.random() * ALL_COURSES.length)];
+      openCourseDrawer(rnd);
+      showToast(`已隨機選取：【${rnd.title}】`);
+    }
+
+    let toastTimeout = null;
+    function showToast(msg) {
+      overlayMsg.textContent = msg;
+      overlayMsg.classList.add('show');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        overlayMsg.classList.remove('show');
+      }, 1800);
+    }
+
+    function savePlaybackState() {
+      if (!activeCourse) return;
+      const state = {
+        courseId: activeCourse.id,
+        rawName: activeCourse.raw_name,
+        courseTitle: activeCourse.title,
+        dept: activeCourse.dept,
+        lectureIdx: activeLectureIndex,
+        lectureTitle: activeCourse.lectures[activeLectureIndex]?.title || '',
+        streamUrl: streamInput.value,
+        timestamp: Date.now()
+      };
+      localStorage.setItem('nou_last_watch', JSON.stringify(state));
+    }
+
+    function checkResumeProgress() {
+      const saved = localStorage.getItem('nou_last_watch');
+      if (!saved) return;
+      try {
+        const state = JSON.parse(saved);
+        if (state.courseTitle && state.lectureTitle) {
+          document.getElementById('resumeCourseName').textContent = `【${state.courseTitle}】`;
+          document.getElementById('resumeLectureName').textContent = state.lectureTitle;
+          document.getElementById('resumeBanner').style.display = 'flex';
+        }
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+
+    function resumeLastWatch() {
+      const saved = localStorage.getItem('nou_last_watch');
+      if (!saved) return;
+      try {
+        const state = JSON.parse(saved);
+        const course = ALL_COURSES.find(c => c.id === state.courseId || c.raw_name === state.rawName || c.title === state.courseTitle);
+        if (course) {
+          openCourseDrawer(course);
+          playLecture(state.lectureIdx || 0);
+          document.getElementById('resumeBanner').style.display = 'none';
+        }
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+
+    function toggleShortcuts() {
+      const modal = document.getElementById('shortcutsModal');
+      modal.style.display = (modal.style.display === 'flex' ? 'none' : 'flex');
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        togglePlayPause();
+      } else if (e.code === 'ArrowRight') {
+        e.preventDefault();
+        seekRelative(10);
+      } else if (e.code === 'ArrowLeft') {
+        e.preventDefault();
+        seekRelative(-10);
+      } else if (e.code === 'ArrowUp') {
+        e.preventDefault();
+        video.volume = Math.min(1, video.volume + 0.1);
+        showToast(`音量：${Math.round(video.volume * 100)}%`);
+      } else if (e.code === 'ArrowDown') {
+        e.preventDefault();
+        video.volume = Math.max(0, video.volume - 0.1);
+        showToast(`音量：${Math.round(video.volume * 100)}%`);
+      } else if (e.key === 'f' || e.key === 'F') {
+        e.preventDefault();
+        toggleFullScreen();
+      } else if (e.shiftKey && (e.key === 'N' || e.key === 'n')) {
+        e.preventDefault();
+        playNextLecture();
+      } else if (e.shiftKey && (e.key === 'P' || e.key === 'p')) {
+        e.preventDefault();
+        playPrevLecture();
+      }
+    });
+
+    window.onload = function () {
+      const savedSpeed = localStorage.getItem('nou_speed');
+      if (savedSpeed) {
+        document.getElementById('speedSelect').value = savedSpeed;
+        video.playbackRate = parseFloat(savedSpeed);
+      }
+      initCatalog();
+    };
+  </script>
+</body>
+</html>
