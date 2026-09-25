@@ -2571,6 +2571,13 @@
 
     // Apple Media Session API (iOS Lock Screen, Dynamic Island, Apple Watch, AirPods)
     function updateMediaSession(title, course, dept) {
+      // Configure iOS audioSession to playback category (bypasses silent switch and maintains background audio)
+      if ('audioSession' in navigator) {
+        try {
+          navigator.audioSession.type = 'playback';
+        } catch (e) {}
+      }
+
       if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: title,
@@ -2582,8 +2589,21 @@
           ]
         });
 
-        navigator.mediaSession.setActionHandler('play', () => video.play());
-        navigator.mediaSession.setActionHandler('pause', () => video.pause());
+        navigator.mediaSession.setActionHandler('play', async () => {
+          try {
+            if ('audioSession' in navigator) {
+              try { navigator.audioSession.type = 'playback'; } catch(e) {}
+            }
+            await video.play();
+            navigator.mediaSession.playbackState = 'playing';
+          } catch(e) {
+            console.warn('Lockscreen play error:', e);
+          }
+        });
+        navigator.mediaSession.setActionHandler('pause', () => {
+          video.pause();
+          navigator.mediaSession.playbackState = 'paused';
+        });
         navigator.mediaSession.setActionHandler('seekbackward', () => seekRelative(-10));
         navigator.mediaSession.setActionHandler('seekforward', () => seekRelative(10));
         navigator.mediaSession.setActionHandler('previoustrack', () => playPrevLecture());
@@ -2700,6 +2720,16 @@
       if (Math.abs(video.playbackRate - currentSpeed) > 0.01 && !video.paused) {
         setTimeout(applyCurrentSpeed, 60);
       }
+    });
+
+    video.addEventListener('play', () => {
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
+      if ('audioSession' in navigator) {
+        try { navigator.audioSession.type = 'playback'; } catch(e) {}
+      }
+    });
+    video.addEventListener('pause', () => {
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
     });
 
     // iOS Fullscreen & PiP (子母畫面) Handlers
