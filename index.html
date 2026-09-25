@@ -778,6 +778,146 @@
       color: #38bdf8 !important;
     }
 
+    /* In-Page Mini Floating Window (100% Reliable on iPhone & Desktop) */
+    .video-card.mini-floating {
+      position: fixed !important;
+      bottom: calc(20px + env(safe-area-inset-bottom, 0px)) !important;
+      right: 14px !important;
+      width: 260px !important;
+      max-width: 68vw !important;
+      aspect-ratio: 16 / 9 !important;
+      z-index: 999999 !important;
+      border-radius: 12px !important;
+      border: 2px solid #38bdf8 !important;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255,255,255,0.15) !important;
+      overflow: hidden !important;
+      touch-action: none;
+      transition: box-shadow 0.2s;
+    }
+
+    .mini-pip-header {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 32px;
+      background: linear-gradient(180deg, rgba(11, 15, 25, 0.94) 0%, rgba(11, 15, 25, 0.5) 75%, transparent 100%);
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 8px;
+      z-index: 40;
+      pointer-events: auto;
+      cursor: grab;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .video-card.mini-floating .mini-pip-header {
+      display: flex;
+    }
+    .mini-pip-drag-handle {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow: hidden;
+      flex: 1;
+      padding-right: 6px;
+    }
+    .mini-pip-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 6px #10b981;
+      flex-shrink: 0;
+    }
+    .mini-pip-title {
+      font-size: 0.68rem;
+      color: #e2e8f0;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .mini-pip-btns {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      flex-shrink: 0;
+    }
+    .mini-pip-btn {
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #38bdf8;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: bold;
+      padding: 2px 7px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+    .mini-pip-btn:hover, .mini-pip-btn:active {
+      background: #0284c7;
+      color: #ffffff;
+      border-color: #38bdf8;
+    }
+
+    /* Video Placeholder when Card is Floating */
+    .video-placeholder {
+      display: none;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px dashed rgba(56, 189, 248, 0.4);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 8px;
+    }
+    .placeholder-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      width: 100%;
+    }
+    .placeholder-text-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #38bdf8;
+      box-shadow: 0 0 8px #38bdf8;
+      animation: pulseMini 1.5s infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulseMini {
+      0% { transform: scale(0.85); opacity: 0.6; }
+      50% { transform: scale(1.25); opacity: 1; }
+      100% { transform: scale(0.85); opacity: 0.6; }
+    }
+    .btn-restore-main {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 12px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      flex-shrink: 0;
+      white-space: nowrap;
+      box-shadow: 0 2px 8px rgba(2, 132, 199, 0.4);
+    }
+    .btn-restore-main:active {
+      transform: scale(0.96);
+    }
+
     /* Now Playing Info Bar */
     .now-playing-box {
       background: var(--bg-card);
@@ -1288,6 +1428,18 @@
       
       <!-- Video Screen with Touch Double-Tap Zones -->
       <div class="video-card" id="videoCard">
+        <!-- In-Page Mini Floating Window Header / Controls -->
+        <div class="mini-pip-header" id="miniPipHeader">
+          <div class="mini-pip-drag-handle" title="按住可拖動位置">
+            <span class="mini-pip-dot"></span>
+            <span class="mini-pip-title" id="miniPipTitle">懸浮小窗播放中</span>
+          </div>
+          <div class="mini-pip-btns">
+            <button class="mini-pip-btn" onclick="toggleMiniPlayer(false)" title="放大還原回大畫面">⤢ 還原</button>
+            <button class="mini-pip-btn" onclick="toggleMiniPlayer(false)" title="收回大視窗">✕</button>
+          </div>
+        </div>
+
         <video id="videoPlayer" playsinline webkit-playsinline x5-playsinline x-webkit-airplay="allow" preload="auto" controls></video>
         <div class="seek-ripple left" id="seekRippleLeft">⏪ -10秒</div>
         <div class="seek-ripple right" id="seekRippleRight">+10秒 ⏩</div>
@@ -1297,6 +1449,17 @@
         <div class="pip-active-banner" id="pipActiveBanner" onclick="exitPiPExplicitly()">
           <span>📺 影片正在子母畫面小視窗中播放</span>
           <button class="btn-pip-restore" onclick="event.stopPropagation(); exitPiPExplicitly();">↩️ 點此收回主畫面播放</button>
+        </div>
+      </div>
+
+      <!-- Placeholder when Video Card is Floating -->
+      <div class="video-placeholder" id="videoPlaceholder">
+        <div class="placeholder-content">
+          <div class="placeholder-text-wrap">
+            <span class="pulse-dot"></span>
+            <span style="font-size:0.78rem; color:#94a3b8;">影片正在右下角懸浮播放 (可自由滑動選課/讀講義)</span>
+          </div>
+          <button class="btn-restore-main" onclick="toggleMiniPlayer(false)">↩️ 還原大畫面</button>
         </div>
       </div>
 
@@ -1366,7 +1529,7 @@
             <span>自動連播</span>
           </label>
 
-          <button class="btn-ctrl" id="btnTogglePiP" onclick="togglePiP()" title="子母畫面 (縮小成懸浮小視窗，可邊滑手機邊聽課)">🔲 子母畫面</button>
+          <button class="btn-ctrl" id="btnTogglePiP" onclick="handlePiPClick()" title="懸浮小窗 (可縮小至角落，邊選課/讀講義邊聽課)">🔲 懸浮小窗</button>
           <button class="btn-ctrl" onclick="toggleFullScreen()" title="全螢幕劇院模式">⛶ 全螢幕</button>
         </div>
       </div>
@@ -1393,10 +1556,11 @@
       </div>
       <div style="font-size:0.8rem; color:#cbd5e1; margin-top:10px; line-height:1.6;">
         💡 <b>iPhone 實戰專屬技巧：</b><br>
-        • <b>雙擊快進快退</b>：點擊影片左邊兩下倒退 10 秒，右邊兩下快進 10 秒。<br>
-        • <b>邊回 LINE 邊看課</b>：點「全螢幕」後直接「由螢幕底部向上滑出」，影片即化為懸浮小窗，打開 LINE 繼續邊聊邊看！<br>
-        • <b>鎖定螢幕背景聽課</b>：關閉螢幕後若聲音暫停，點亮螢幕在「鎖定畫面卡片」或「控制中心」按一下「播放 ▶」，即可黑屏省電聽課！<br>
-        • <b>防螢幕休眠</b>：播放中已全面啟動螢幕常亮防護，上課不再突然黑屏休眠！
+        • <b>🔲 網頁內懸浮小窗</b>：點擊控制列「🔲 懸浮小窗」，影片立即縮小浮在右下角，可任意拖曳位置，整面螢幕自由選課或閱讀講義！<br>
+        • <b>💬 浮在 LINE 上面看課（iOS 系統小窗）</b>：點「⛶ 全螢幕」後直接「由螢幕底部向上滑出回到桌面」，影片即化為系統懸浮小窗，打開 LINE 繼續邊聊邊看！（注意：若由桌面圖示開啟受 Apple 沙盒限制，請使用 Safari 瀏覽器開啟）<br>
+        • <b>🎧 鎖定螢幕黑屏聽課</b>：關閉螢幕後若聲音暫停，點亮螢幕在「鎖定畫面卡片」或「控制中心」按一下「播放 ▶」，即可完全黑屏省電聽課！<br>
+        • <b>⚡ 防螢幕休眠</b>：播放中已全面啟動螢幕常亮防護，上課不再突然暗掉休眠！<br>
+        • <b>雙擊快進快退</b>：點擊影片左邊兩下倒退 10 秒，右邊兩下快進 10 秒。
       </div>
       <div class="shortcuts-grid">
         <div class="shortcut-item"><span>播放 / 暫停</span> <kbd>Space</kbd></div>
@@ -1737,6 +1901,7 @@
       const readerCard = document.getElementById('academicReaderCard');
       const tabModeVideo = document.getElementById('tabModeVideo');
       const tabModeReader = document.getElementById('tabModeReader');
+      const placeholder = document.getElementById('videoPlaceholder');
 
       const lecture = (activeCourse && activeCourse.lectures) ? activeCourse.lectures[activeLectureIndex] : null;
       const hasUrl = !!(lecture && lecture.url);
@@ -1749,18 +1914,27 @@
         }
         videoCard.style.display = 'flex';
         if (video) video.style.display = 'block';
+        if (placeholder) {
+          placeholder.style.display = isMiniFloating ? 'flex' : 'none';
+        }
         readerCard.style.display = 'none';
         tabModeVideo.classList.add('active');
         tabModeReader.classList.remove('active');
       } else {
         // Reader Mode
-        videoCard.style.display = 'none';
+        if (placeholder) placeholder.style.display = 'none';
+        if (!isMiniFloating) {
+          videoCard.style.display = 'none';
+          if (video && !video.paused) {
+            video.pause();
+          }
+        } else {
+          // Keep floating video window visible while reading lecture notes!
+          videoCard.style.display = 'flex';
+        }
         readerCard.style.display = 'flex';
         tabModeReader.classList.add('active');
         tabModeVideo.classList.remove('active');
-        if (video && !video.paused) {
-          video.pause();
-        }
         if (activeCourse && lecture) {
           renderLectureTextContent(activeCourse, lecture, activeLectureIndex);
         }
@@ -2231,6 +2405,8 @@
 
       document.getElementById('currentCourseTitle').textContent = `【${activeCourse.title}】`;
       document.getElementById('currentLectureTitle').textContent = lecture.title;
+      const miniPipTitle = document.getElementById('miniPipTitle');
+      if (miniPipTitle) miniPipTitle.textContent = lecture.title;
       document.getElementById('lectureProgressText').textContent = `講次 ${index + 1} / ${activeCourse.total_lectures}`;
 
       // Update Prev / Next buttons state
@@ -2540,27 +2716,176 @@
       }
     }
 
-    async function togglePiP() {
-      try {
-        if (video.paused && video.src) {
-          await video.play().catch(() => {});
+    // =========================================================
+    // 🔲 DUAL-MODE PiP & IN-PAGE MINI FLOATING PLAYER ENGINE
+    // =========================================================
+    let isMiniFloating = false;
+
+    function toggleMiniPlayer(forceState) {
+      const card = document.getElementById('videoCard');
+      const placeholder = document.getElementById('videoPlaceholder');
+      const btn = document.getElementById('btnTogglePiP');
+      const miniTitle = document.getElementById('miniPipTitle');
+      const nowPlayingTitle = document.getElementById('currentLectureTitle');
+
+      const targetState = (forceState !== undefined) ? forceState : !isMiniFloating;
+      isMiniFloating = targetState;
+
+      if (isMiniFloating) {
+        if (miniTitle && nowPlayingTitle) {
+          miniTitle.textContent = nowPlayingTitle.textContent || '懸浮小窗播放中';
         }
-        if (video.webkitSupportsPresentationMode && typeof video.webkitSetPresentationMode === 'function') {
-          // Native Apple WebKit PiP API for iPhone / iPad
-          const nextMode = (video.webkitPresentationMode === 'picture-in-picture') ? 'inline' : 'picture-in-picture';
-          video.webkitSetPresentationMode(nextMode);
-          showToast(nextMode === 'picture-in-picture' ? '已開啟子母畫面（懸浮小視窗）' : '已關閉子母畫面');
-        } else if (document.pictureInPictureElement) {
-          await document.exitPictureInPicture();
-        } else if (video.requestPictureInPicture) {
-          await video.requestPictureInPicture();
+        card.classList.add('mini-floating');
+        card.style.display = 'flex';
+        if (placeholder && currentViewMode === 'video') {
+          placeholder.style.display = 'flex';
         }
-      } catch (e) {
-        console.warn('PiP error:', e);
+        if (btn) {
+          btn.textContent = '↩️ 收回大視窗';
+          btn.classList.add('pip-active');
+        }
+        showToast('已開啟懸浮小窗（可拖動位置，整面螢幕自由選課）');
+      } else {
+        card.classList.remove('mini-floating');
+        card.style.top = '';
+        card.style.left = '';
+        card.style.bottom = '';
+        card.style.right = '';
+        card.style.transform = '';
+        if (placeholder) placeholder.style.display = 'none';
+        if (currentViewMode === 'reader') {
+          card.style.display = 'none';
+        } else {
+          card.style.display = 'flex';
+        }
+        if (btn) {
+          btn.textContent = '🔲 懸浮小窗';
+          btn.classList.remove('pip-active');
+        }
+        showToast('已還原大畫面播放');
       }
     }
 
+    function initMiniPlayerDraggable() {
+      const card = document.getElementById('videoCard');
+      const header = document.getElementById('miniPipHeader');
+      if (!card || !header) return;
+
+      let startX = 0, startY = 0;
+      let initialLeft = 0, initialTop = 0;
+      let isDragging = false;
+
+      header.addEventListener('touchstart', (e) => {
+        if (!card.classList.contains('mini-floating')) return;
+        if (e.target.closest('.mini-pip-btn')) return;
+        const touch = e.touches[0];
+        startX = touch.clientX;
+        startY = touch.clientY;
+        const rect = card.getBoundingClientRect();
+        initialLeft = rect.left;
+        initialTop = rect.top;
+        isDragging = true;
+      }, { passive: true });
+
+      window.addEventListener('touchmove', (e) => {
+        if (!isDragging || !card.classList.contains('mini-floating')) return;
+        const touch = e.touches[0];
+        const dx = touch.clientX - startX;
+        const dy = touch.clientY - startY;
+
+        let newLeft = initialLeft + dx;
+        let newTop = initialTop + dy;
+
+        const maxLeft = window.innerWidth - card.offsetWidth - 6;
+        const maxTop = window.innerHeight - card.offsetHeight - 6;
+        newLeft = Math.max(6, Math.min(newLeft, maxLeft));
+        newTop = Math.max(6, Math.min(newTop, maxTop));
+
+        card.style.right = 'auto';
+        card.style.bottom = 'auto';
+        card.style.left = `${newLeft}px`;
+        card.style.top = `${newTop}px`;
+      }, { passive: true });
+
+      window.addEventListener('touchend', () => {
+        isDragging = false;
+      });
+
+      // Mouse drag for PC / tablet testing
+      header.addEventListener('mousedown', (e) => {
+        if (!card.classList.contains('mini-floating')) return;
+        if (e.target.closest('.mini-pip-btn')) return;
+        startX = e.clientX;
+        startY = e.clientY;
+        const rect = card.getBoundingClientRect();
+        initialLeft = rect.left;
+        initialTop = rect.top;
+        isDragging = true;
+
+        const onMouseMove = (ev) => {
+          if (!isDragging) return;
+          const dx = ev.clientX - startX;
+          const dy = ev.clientY - startY;
+          let newLeft = initialLeft + dx;
+          let newTop = initialTop + dy;
+          const maxLeft = window.innerWidth - card.offsetWidth - 6;
+          const maxTop = window.innerHeight - card.offsetHeight - 6;
+          newLeft = Math.max(6, Math.min(newLeft, maxLeft));
+          newTop = Math.max(6, Math.min(newTop, maxTop));
+          card.style.right = 'auto';
+          card.style.bottom = 'auto';
+          card.style.left = `${newLeft}px`;
+          card.style.top = `${newTop}px`;
+        };
+
+        const onMouseUp = () => {
+          isDragging = false;
+          window.removeEventListener('mousemove', onMouseMove);
+          window.removeEventListener('mouseup', onMouseUp);
+        };
+
+        window.addEventListener('mousemove', onMouseMove);
+        window.addEventListener('mouseup', onMouseUp);
+      });
+    }
+
+    async function handlePiPClick() {
+      // 1. If currently in mini-floating mode, restore it
+      if (isMiniFloating) {
+        toggleMiniPlayer(false);
+        return;
+      }
+      
+      // 2. If native PiP is currently active, exit native PiP
+      if (document.pictureInPictureElement) {
+        await document.exitPictureInPicture().catch(() => {});
+        return;
+      }
+      if (video && video.webkitPresentationMode === 'picture-in-picture') {
+        video.webkitSetPresentationMode('inline');
+        return;
+      }
+
+      // 3. For Desktop browsers that fully support standard Picture-in-Picture:
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (!isMobile && document.pictureInPictureEnabled && typeof video.requestPictureInPicture === 'function') {
+        try {
+          await video.requestPictureInPicture();
+          return;
+        } catch (err) {
+          console.warn('Native PiP failed on desktop, fallback to mini floating:', err);
+        }
+      }
+
+      // 4. On Mobile (iPhone/iPad/Android) or when native PiP is unsupported:
+      // Always launch the In-Page Mini Floating Window! 100% visible, draggable, zero failure rate!
+      toggleMiniPlayer(true);
+    }
+
     function exitPiPExplicitly() {
+      if (isMiniFloating) {
+        toggleMiniPlayer(false);
+      }
       if (document.pictureInPictureElement) {
         document.exitPictureInPicture().catch(() => {});
       } else if (video && video.webkitPresentationMode === 'picture-in-picture') {
@@ -2579,12 +2904,15 @@
         }
       } else {
         if (banner) banner.style.display = 'none';
-        if (btn) {
-          btn.textContent = '🔲 子母畫面';
+        if (btn && !isMiniFloating) {
+          btn.textContent = '🔲 懸浮小窗';
           btn.classList.remove('pip-active');
         }
       }
     }
+
+    // Initialize draggable floating mini player
+    initMiniPlayerDraggable();
 
     // Keep PiP playback active and UI synchronized
     if (video) {
