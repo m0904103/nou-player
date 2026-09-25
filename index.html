@@ -16,7 +16,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260925_v12_wakelock"></script>
+  <script src="nou_courses_catalog.js?v=20260925_v13_speedfixed"></script>
   
   <style>
     :root {
@@ -874,6 +874,8 @@
       font-weight: 700;
       cursor: pointer;
       min-height: 38px;
+      min-width: 72px;
+      text-align: center;
       outline: none;
     }
     .speed-select:focus { border-color: #38bdf8; }
@@ -2488,8 +2490,16 @@
           video.defaultPlaybackRate = currentSpeed;
         }
         const select = document.getElementById('speedSelect');
-        if (select && select.value !== String(currentSpeed)) {
-          select.value = String(currentSpeed);
+        if (select) {
+          for (let i = 0; i < select.options.length; i++) {
+            const optVal = parseFloat(select.options[i].value);
+            if (Math.abs(optVal - currentSpeed) < 0.01) {
+              if (select.selectedIndex !== i) {
+                select.selectedIndex = i;
+              }
+              break;
+            }
+          }
         }
       } catch (e) {
         console.warn('Playback rate error:', e);
