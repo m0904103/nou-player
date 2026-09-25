@@ -16,7 +16,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260925_v11_pipevents"></script>
+  <script src="nou_courses_catalog.js?v=20260925_v12_wakelock"></script>
   
   <style>
     :root {
@@ -1390,12 +1390,11 @@
         <button onclick="toggleShortcuts()" style="background:none; border:none; color:#94a3b8; font-size:1.2rem; cursor:pointer;">✕</button>
       </div>
       <div style="font-size:0.8rem; color:#cbd5e1; margin-top:10px; line-height:1.6;">
-        💡 <b>iPhone 18 Pro 專屬手勢：</b><br>
-        • 點擊影片左半邊兩下：倒退 10 秒<br>
-        • 點擊影片右半邊兩下：快進 10 秒<br>
-        • 鎖定畫面 / 動態島：直接支援播放/暫停與選單切換<br>
-        • 向上滑動清單時，影片將置頂保持播放！<br>
-        • 子母畫面（懸浮小窗）：點擊「🔲 子母畫面」可縮成懸浮小窗，邊滑手機邊聽課！
+        💡 <b>iPhone 實戰專屬技巧：</b><br>
+        • <b>雙擊快進快退</b>：點擊影片左邊兩下倒退 10 秒，右邊兩下快進 10 秒。<br>
+        • <b>邊回 LINE 邊看課</b>：點「全螢幕」後直接「由螢幕底部向上滑出」，影片即化為懸浮小窗，打開 LINE 繼續邊聊邊看！<br>
+        • <b>鎖定螢幕背景聽課</b>：關閉螢幕後若聲音暫停，點亮螢幕在「鎖定畫面卡片」或「控制中心」按一下「播放 ▶」，即可黑屏省電聽課！<br>
+        • <b>防螢幕休眠</b>：播放中已全面啟動螢幕常亮防護，上課不再突然黑屏休眠！
       </div>
       <div class="shortcuts-grid">
         <div class="shortcut-item"><span>播放 / 暫停</span> <kbd>Space</kbd></div>
@@ -2423,11 +2422,42 @@
       }
     }
 
+    // Screen Wake Lock API (Prevents screen auto-lock / sleep mode during playback)
+    let wakeLock = null;
+
+    async function requestWakeLock() {
+      try {
+        if ('wakeLock' in navigator && !wakeLock && video && !video.paused) {
+          wakeLock = await navigator.wakeLock.request('screen');
+          wakeLock.addEventListener('release', () => {
+            wakeLock = null;
+          });
+        }
+      } catch (err) {
+        // Battery saver or system restriction
+      }
+    }
+
+    function releaseWakeLock() {
+      if (wakeLock) {
+        wakeLock.release().catch(() => {});
+        wakeLock = null;
+      }
+    }
+
     video.addEventListener('play', () => {
       document.getElementById('btnPlayPause').textContent = '⏸️ 暫停';
+      requestWakeLock();
+    });
+    video.addEventListener('playing', () => {
+      requestWakeLock();
     });
     video.addEventListener('pause', () => {
       document.getElementById('btnPlayPause').textContent = '▶️ 播放';
+      releaseWakeLock();
+    });
+    video.addEventListener('ended', () => {
+      releaseWakeLock();
     });
 
     function playPrevLecture() {
@@ -2575,6 +2605,9 @@
         }
       } else {
         applyCurrentSpeed();
+        if (video && !video.paused) {
+          requestWakeLock();
+        }
       }
     });
 
