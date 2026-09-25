@@ -16,7 +16,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260925_v10_pipkeep"></script>
+  <script src="nou_courses_catalog.js?v=20260925_v11_pipevents"></script>
   
   <style>
     :root {
@@ -736,6 +736,48 @@
     }
     .video-overlay-msg.show { opacity: 1; }
 
+    /* Picture-in-Picture Active Banner */
+    .pip-active-banner {
+      display: none;
+      position: absolute;
+      inset: 0;
+      background: rgba(11, 15, 25, 0.94);
+      backdrop-filter: blur(8px);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      z-index: 25;
+      text-align: center;
+      padding: 20px;
+    }
+    .pip-active-banner span {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+    .btn-pip-restore {
+      background: #0284c7;
+      color: #ffffff;
+      border: 1px solid #38bdf8;
+      border-radius: 8px;
+      padding: 10px 22px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(2, 132, 199, 0.5);
+      transition: all 0.2s ease;
+    }
+    .btn-pip-restore:hover, .btn-pip-restore:active {
+      background: #0369a1;
+      transform: scale(1.05);
+    }
+    .btn-ctrl.pip-active {
+      background: rgba(2, 132, 199, 0.3) !important;
+      border-color: #38bdf8 !important;
+      color: #38bdf8 !important;
+    }
+
     /* Now Playing Info Bar */
     .now-playing-box {
       background: var(--bg-card);
@@ -1249,6 +1291,11 @@
         <div class="seek-ripple right" id="seekRippleRight">+10秒 ⏩</div>
         <div class="video-overlay-msg" id="overlayMsg">--</div>
         
+        <!-- PiP Active Floating Bar / Restore Prompt -->
+        <div class="pip-active-banner" id="pipActiveBanner" onclick="exitPiPExplicitly()">
+          <span>📺 影片正在子母畫面小視窗中播放</span>
+          <button class="btn-pip-restore" onclick="event.stopPropagation(); exitPiPExplicitly();">↩️ 點此收回主畫面播放</button>
+        </div>
       </div>
 
       <!-- Academic Reader Stage for Digital Textbooks -->
@@ -1317,7 +1364,7 @@
             <span>自動連播</span>
           </label>
 
-          <button class="btn-ctrl" onclick="togglePiP()" title="子母畫面 (縮小成懸浮小視窗，可邊滑手機邊聽課)">🔲 子母畫面</button>
+          <button class="btn-ctrl" id="btnTogglePiP" onclick="togglePiP()" title="子母畫面 (縮小成懸浮小視窗，可邊滑手機邊聽課)">🔲 子母畫面</button>
           <button class="btn-ctrl" onclick="toggleFullScreen()" title="全螢幕劇院模式">⛶ 全螢幕</button>
         </div>
       </div>
@@ -2473,13 +2520,49 @@
       }
     }
 
-    // Keep PiP playback active and robust
+    function exitPiPExplicitly() {
+      if (document.pictureInPictureElement) {
+        document.exitPictureInPicture().catch(() => {});
+      } else if (video && video.webkitPresentationMode === 'picture-in-picture') {
+        video.webkitSetPresentationMode('inline');
+      }
+    }
+
+    function updatePiPUI(isActive) {
+      const banner = document.getElementById('pipActiveBanner');
+      const btn = document.getElementById('btnTogglePiP');
+      if (isActive) {
+        if (banner) banner.style.display = 'flex';
+        if (btn) {
+          btn.textContent = '↩️ 收回主畫面';
+          btn.classList.add('pip-active');
+        }
+      } else {
+        if (banner) banner.style.display = 'none';
+        if (btn) {
+          btn.textContent = '🔲 子母畫面';
+          btn.classList.remove('pip-active');
+        }
+      }
+    }
+
+    // Keep PiP playback active and UI synchronized
     if (video) {
+      video.addEventListener('enterpictureinpicture', () => {
+        updatePiPUI(true);
+        showToast('已開啟子母畫面（浮動於螢幕角落）');
+      });
+
+      video.addEventListener('leavepictureinpicture', () => {
+        updatePiPUI(false);
+        showToast('已將影片收回主網頁');
+      });
+
       video.addEventListener('webkitpresentationmodechanged', () => {
-        if (video.webkitPresentationMode === 'picture-in-picture') {
-          if (video.paused) {
-            video.play().catch(() => {});
-          }
+        const isPiP = (video.webkitPresentationMode === 'picture-in-picture');
+        updatePiPUI(isPiP);
+        if (isPiP && video.paused) {
+          video.play().catch(() => {});
         }
       });
     }
