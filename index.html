@@ -16,7 +16,7 @@
   <!-- HLS.js for .m3u8 streaming on Windows Chrome / Edge / Firefox -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <!-- Course Catalog Data (Offline & Zero-CORS safe) with cache buster -->
-  <script src="nou_courses_catalog.js?v=20260923_v8_clearbtn"></script>
+  <script src="nou_courses_catalog.js?v=20260925_v9_speedpip"></script>
   
   <style>
     :root {
@@ -1317,7 +1317,7 @@
             <span>自動連播</span>
           </label>
 
-          <button class="btn-ctrl" onclick="togglePiP()" title="畫中畫 (小視窗浮動)">🔲 畫中畫</button>
+          <button class="btn-ctrl" onclick="togglePiP()" title="子母畫面 (縮小成懸浮小視窗，可邊滑手機邊聽課)">🔲 子母畫面</button>
           <button class="btn-ctrl" onclick="toggleFullScreen()" title="全螢幕劇院模式">⛶ 全螢幕</button>
         </div>
       </div>
@@ -1347,7 +1347,8 @@
         • 點擊影片左半邊兩下：倒退 10 秒<br>
         • 點擊影片右半邊兩下：快進 10 秒<br>
         • 鎖定畫面 / 動態島：直接支援播放/暫停與選單切換<br>
-        • 向上滑動清單時，影片將置頂保持播放！
+        • 向上滑動清單時，影片將置頂保持播放！<br>
+        • 子母畫面（懸浮小窗）：點擊「🔲 子母畫面」可縮成懸浮小窗，邊滑手機邊聽課！
       </div>
       <div class="shortcuts-grid">
         <div class="shortcut-item"><span>播放 / 暫停</span> <kbd>Space</kbd></div>
@@ -2229,6 +2230,7 @@
 
         // Auto switch to video theater mode when loading a playable video!
         setViewMode('video');
+        applyCurrentSpeed();
       }
 
       // Apple iOS Lock Screen & Dynamic Island Media Session
@@ -2281,6 +2283,7 @@
         }
         video.src = url;
         video.load();
+        applyCurrentSpeed();
         video.play().catch(e => console.log('iOS Autoplay waiting for user tap:', e));
       } else if (Hls.isSupported()) {
         if (hls) {
@@ -2397,13 +2400,46 @@
       showToast(`${sec > 0 ? '+' : ''}${sec} 秒`);
     }
 
-    function changeSpeed(speed) {
-      video.playbackRate = parseFloat(speed);
-      showToast(`播放速度：${speed}x`);
-      localStorage.setItem('nou_speed', speed);
+    // Robust Playback Speed Guardian (Guarantees speed persistence on iOS Safari)
+    let currentSpeed = parseFloat(localStorage.getItem('nou_speed') || '1.0');
+
+    function applyCurrentSpeed() {
+      if (!video) return;
+      try {
+        if (Math.abs(video.playbackRate - currentSpeed) > 0.01) {
+          video.playbackRate = currentSpeed;
+          video.defaultPlaybackRate = currentSpeed;
+        }
+        const select = document.getElementById('speedSelect');
+        if (select && select.value !== String(currentSpeed)) {
+          select.value = String(currentSpeed);
+        }
+      } catch (e) {
+        console.warn('Playback rate error:', e);
+      }
     }
 
-    // iOS Fullscreen & PiP Handlers
+    function changeSpeed(speed) {
+      currentSpeed = parseFloat(speed);
+      applyCurrentSpeed();
+      showToast(`播放速度：${speed}x`);
+      localStorage.setItem('nou_speed', String(currentSpeed));
+    }
+
+    // Attach listeners to re-apply speed whenever iOS resets it on loading / seeking / resuming
+    ['loadedmetadata', 'canplay', 'play', 'playing', 'seeked', 'webkitendfullscreen'].forEach(evt => {
+      video.addEventListener(evt, () => {
+        applyCurrentSpeed();
+      });
+    });
+
+    video.addEventListener('ratechange', () => {
+      if (Math.abs(video.playbackRate - currentSpeed) > 0.01 && !video.paused) {
+        setTimeout(applyCurrentSpeed, 60);
+      }
+    });
+
+    // iOS Fullscreen & PiP (子母畫面) Handlers
     function toggleFullScreen() {
       if (video.webkitEnterFullscreen) {
         // Native iOS Safari Fullscreen (Mandatory for iPhone)
@@ -2423,7 +2459,7 @@
           // Native Apple WebKit PiP API for iPhone / iPad
           const nextMode = (video.webkitPresentationMode === 'picture-in-picture') ? 'inline' : 'picture-in-picture';
           video.webkitSetPresentationMode(nextMode);
-          showToast(nextMode === 'picture-in-picture' ? '已開啟畫中畫' : '關閉畫中畫');
+          showToast(nextMode === 'picture-in-picture' ? '已開啟子母畫面（懸浮小視窗）' : '已關閉子母畫面');
         } else if (document.pictureInPictureElement) {
           await document.exitPictureInPicture();
         } else if (video.requestPictureInPicture) {
@@ -2601,8 +2637,8 @@
     window.onload = function () {
       const savedSpeed = localStorage.getItem('nou_speed');
       if (savedSpeed) {
-        document.getElementById('speedSelect').value = savedSpeed;
-        video.playbackRate = parseFloat(savedSpeed);
+        currentSpeed = parseFloat(savedSpeed);
+        applyCurrentSpeed();
       }
       initCatalog();
     };
